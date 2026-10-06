@@ -1,0 +1,24 @@
+name: Keep two releases per app
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: thread-release-retention
+  cancel-in-progress: false
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm install --no-save --ignore-scripts semver@7.7.4
+      - run: node maintenance/release-retention.cjs --apply
+        env:
+          GH_TOKEN: ${{ github.token }}
