@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "catalog": {
+    "excludedRepositories": [
+      "xheavy0/ThreadOS",
+      "xheavy0/Threadforge-Rust",
+      "xheavy0/ThreadSpace"
+    ],
+    "schemaVersion": 1,
+    "apps": [
+      {
+        "repository": "xheavy0/Threadforge",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "Threadforge",
+        "description": "Code editor and workspace for AI agents.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/Threadnote",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "Threadnote",
+        "description": "Your notes, ideas, and personal knowledge space.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/Threadshot",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "Threadshot",
+        "description": "Capture your screen and annotate images.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/Threadstorage",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadStorage",
+        "description": "Your files and cloud storage in one place.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/ThreadVoice",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadVoice",
+        "description": "Voice-to-text dictation across Windows apps.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/ThreadAccount",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadAccount",
+        "description": "Track Codex and Claude accounts, usage limits, and token analytics.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/ThreadCalendar",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadCalendar",
+        "description": "Calendar, plans, and reminders connected to Threadnote.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/ThreadAura",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadAura",
+        "description": "Wallpapers, animations, and a scene editor.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/Threadlendar",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "Threadlendar",
+        "description": "A Windows dock for your apps and files.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/ThreadMail",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadMail",
+        "description": "A unified inbox for managing your email.",
+        "category": "web"
+      },
+      {
+        "repository": "xheavy0/Threadplan",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "Threadplan",
+        "description": "Tasks, habits, and plans for Android.",
+        "category": "mobile"
+      },
+      {
+        "repository": "xheavy0/ThreadforgeMobile",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "Threadforge Mobile",
+        "description": "The Threadforge mobile app.",
+        "category": "mobile"
+      },
+      {
+        "repository": "xheavy0/ThreadstorageAndroid",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadStorage Android",
+        "description": "The ThreadStorage app for Android.",
+        "category": "mobile"
+      },
+      {
+        "repository": "xheavy0/ThreadstorageIOS",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadStorage iOS",
+        "description": "The ThreadStorage app for iOS.",
+        "category": "mobile"
+      }
+    ]
+  },
+  "releases": [
+    {
+      "repository": "xheavy0/Threadforge",
+      "tag_name": "threadforge-v1.0.1",
+      "body": "Windows x64 NSIS installer, version **1.0.1**. This release includes the installer only.\r\n\r\n- Paste screenshots with Ctrl+V, drop images, or attach an image in Code/Thread terminals and their Chat view. Preview and remove the attachment before sending. Preserve the image and draft after rejected delivery; support image-only prompts and bounded PNG conversion.\r\n- Open app links, project browser launches that honor `BROWSER`, terminal links and workspace browser tools in Threadforge’s existing Chromium browser. Explicit third-party browser commands retain their own behavior.\r\n- Start workspace Swarms only after an explicit launch request. Deliver tasks and review feedback to ready workers, with acknowledgement after accepted input.\r\n- Improve Dashboard Markdown previews, add Close/Escape and a General settings toggle.\r\n- Refine Chat headers, right-align terminal controls, remove the Ready label, contain tab labels, and add hover descriptions to terminal controls across modes.\r\n- Recognize GitHub-normalized installer names when checking for an update; retain strict size, repository URL and download checksum verification.\n- Maintain the English changelog grouped by date, with every commit listed under its day.\r\n\r\nVerification: all **1,587 tests across 274 files** pass in one fresh full-suite run; TypeScript, strict changed-source lint and fresh main/renderer builds pass. Production-component browser checks cover PNG paste, JPEG conversion, explicit delivery and 400px layouts using synthetic processes. The actual Vite `--open` launcher reaches the internal browser bridge.\r\n\r\nPackaged runtime, source inventory, installer payload, version/icon metadata and update checksums are verified before publication. Live provider image consumption/sign-in, Swarm model execution and interactive installation remain manual acceptance.\r\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-06T17:05:09Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "latest.yml",
+          "size": 351,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.1/latest.yml",
+          "digest": "sha256:adac723443666b1893de544f49910fae8c2199c6fd05b4900a71a7f17e82db3d"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 364,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.1/SHA256SUMS.txt",
+          "digest": "sha256:a4799bd6d7aa61ab1e7d9d4d36cc0f963d47492a5f598097518b99dedbc40f36"
+        },
+        {
+          "name": "Threadforge-1.0.1-win32-x64.zip",
+          "size": 788770519,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.1/Threadforge-1.0.1-win32-x64.zip",
+          "digest": "sha256:b8aae5105df5137388f6a223be73fea1db6f20590c201a227b1af4a9f007bfe8"
+        },
+        {
+          "name": "Threadforge-Setup-1.0.1.exe",
+          "size": 602263954,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.1/Threadforge-Setup-1.0.1.exe",
+          "digest": "sha256:9bc4b22aa1a92d44aa5dacb43549513a3c3c1569edb8b25f53259eda273776c3"
+        },
+        {
+          "name": "Threadforge-Setup-1.0.1.exe.blockmap",
+          "size": 608188,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.1/Threadforge-Setup-1.0.1.exe.blockmap",
+          "digest": "sha256:40b3d73563d14a351884c81efd728e46406714c375136cd9746255da44f23374"
+        },
+        {
+          "name": "threadforge-update.json",
+          "size": 406,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.1/threadforge-update.json",
+          "digest": "sha256:dbf1dc61c00d898efe206211e7ef97997302c9d51df4c55e9ab913d2d9eb49e2"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 329,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.1/toolbox-manifest.json",
+          "digest": "sha256:e771128ab340ae99e98cd4ba47158c964910f9b3df610e4cb7b238ef1ee615d0"
+        }
+      ]
+    },
+    {
+      "repository": "xheavy0/Threadshot",
+      "tag_name": "threadshot-v0.1.10",
+      "body": "## What's new\n\n- New Threadshot logo in the tray, taskbar, windows, notifications, shortcuts and installer\n- Sharper tray icon at every display scaling\n- Non-destructive crop tool in the editor\n- Pixelate now works properly on text\n- Fixed the crop frame getting stuck while it is dragged\n\n## Install\n\nDownload **Threadshot Setup 0.1.10.exe** below and run it. An existing install is replaced in place; your captures and settings are kept.\n\nIf Windows still shows the old icon after updating, it is the icon cache. Restart Explorer or sign out and back in, and re-pin Threadshot to the taskbar if it was pinned.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-06T17:05:51Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadshot-v0.1.10",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Threadshot-0.1.10-win32-x64.zip",
+          "size": 113938296,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadshot-v0.1.10/Threadshot-0.1.10-win32-x64.zip",
+          "digest": "sha256:68611b2f6d44a7c91b7fab5a6e5e047e2eb76767c1f81c1d13043100a9349c99"
+        },
+        {
+          "name": "Threadshot.Setup.0.1.10.exe",
+          "size": 79296214,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadshot-v0.1.10/Threadshot.Setup.0.1.10.exe",
+          "digest": "sha256:f034222ee2b41b0d8f9996cf76c59d7078c8f84ef4e86a0187b2c162eda11612"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 327,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadshot-v0.1.10/toolbox-manifest.json",
+          "digest": "sha256:92e35cc113ef11c467016a1c79564185973816caa0222760f747a774450407c8"
+        }
+      ]
+    },
+    {
+      "repository": "xheavy0/ThreadAccount",
+      "tag_name": "threadaccount-v0.3.0",
+      "body": "ThreadAccount-ის პირველი რელიზი Windows-ისთვის.\n\n## შესაძლებლობები\n\n- რამდენიმე Codex/Claude ანგარიშის დამოუკიდებელი დაკავშირება და ყველა ლიმიტის ნახვა ერთ ცხრილში, CLI ანგარიშის გადართვის გარეშე.\n- თითოეული ანგარიშის ერთხელ დაკავშირება **Add account → Sign in**-ით; საერთო **Refresh all** და პერიოდული ავტომატური განახლება.\n- Codex-ის დარჩენილი ლიმიტი (`left`) და Claude-ის გამოყენებული ლიმიტი (`used`), შესაბამისი პროცენტებითა და ზოლებით.\n- დაშიფრული ავტორიზაციები, ანგარიშის ცალკე განახლება/ხელახლა დაკავშირება და შეცდომისას წინა snapshot-ის შენარჩუნება.\n- CLI ტოკენების ისტორიის დეშბორდი, ხელით შეყვანა, რჩეული ანგარიშები, ძებნა, სარეზერვო export/import და dark/light თემები.\n\n## გაშვება\n\nჩამოტვირთეთ `ThreadAccount-0.3.0-portable.exe` და გაუშვით. ინსტალაცია საჭირო არ არის. ძველი ვერსიის გამოყენების შემთხვევაში ჯერ დახურეთ მისი ფანჯარა.\n\nავტომატური კავშირისთვის საჭიროა შესაბამისი Codex ან Claude Code CLI. თითოეული ანგარიში აპიდან ერთხელ გაივლის ბრაუზერულ ავტორიზაციას; შემდეგ მისი ლიმიტები ცალკე სტრიქონში გამოჩნდება. კლონირებული ლოკალური პროფილის access token-ის ვადის გასვლისას გამოიყენეთ **Reconnect**, რათა აპს დამოუკიდებელი ავტორიზაცია ჰქონდეს.\n\nClaude-ის usage/renewal ინტეგრაცია დამოკიდებულია პროვაიდერის endpoint-ების ხელმისაწვდომობაზე და შესაძლოა ყველა ანგარიშზე არ იყოს ხელმისაწვდომი. დეტალები: [პროვაიდერების კავშირი](https://github.com/xheavy0/ThreadAccount/blob/v0.3.0/docs/provider-research.md).\n\n## შემოწმება\n\nProduction build, 61 Node ტესტი, 19 ბრაუზერის სცენარი და 9 შეფუთული Electron აპის სცენარი წარმატებით დასრულდა. ავტორიზაციისა და quota-ს ავტომატური ტესტები სატესტო ანგარიშებს იყენებს; რეალურ ანგარიშებზე შესვლა მომხმარებლის ნაბიჯია. Windows portable ფაილი აგებულია შემოწმებული შეფუთული აპიდან.\n\nმიბმულია `SHA256SUMS.txt` ჩამოტვირთული ფაილის შემოწმებისთვის.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-06T17:06:48Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.3.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 99,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.0/SHA256SUMS.txt",
+          "digest": "sha256:2254a493ba81aaba82801f977beff5179a7cf99d146daff759867f9ee31a543e"
+        },
+        {
+          "name": "ThreadAccount-0.3.0-portable.exe",
+          "size": 104132038,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.0/ThreadAccount-0.3.0-portable.exe",
+          "digest": "sha256:5ee5252aa40e88dd1d8fb88a4efa829acfe1880943bf1f0578f6250ff6cbef45"
+        },
+        {
+          "name": "ThreadAccount-0.3.0-win32-x64.zip",
+          "size": 168413700,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.0/ThreadAccount-0.3.0-win32-x64.zip",
+          "digest": "sha256:89514201cceb0ba9cb5a34dcfd2ec9ac78422e12d49afeb619faf9f3e2cac8a3"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 362,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.0/toolbox-manifest.json",
+          "digest": "sha256:2918fe701255a5f64a98f022a03623ed74fb52afd418f07066332586ab6b4995"
+        }
+      ]
+    },
+    {
+      "repository": "xheavy0/Threadlendar",
+      "tag_name": "threadlendar-v0.2.0",
+      "body": "Threadlendar Dock 0.2.0 for Windows 10/11 x64 with .NET Framework 4.8.\n\n- Native WPF dock with app/file/folder pinning, window switching and minimize/restore, auto-hide, tray controls and settings.\n- Lightweight hover rendering, background shell icon loading, coalesced window tracking and cached branding.\n- Fix for the monitor API structure/Unicode mismatch and empty monitor lists.\n\nDownload and extract Threadlendar-0.2.0-win-x64.zip, then run Threadlendar.exe with Threadlendar.exe.config beside it. Existing local settings and pins are retained.\n\nValidation: warnings-as-errors build and 256 isolated checks passed. Isolated control-layout benchmark: 78.65 ms to 3.22 ms, with parent measure passes reduced from 4,318 to zero. These measurements do not establish desktop FPS, CPU or memory usage; desktop integration remains untested. See docs/VALIDATION.md and docs/PERFORMANCE.md in the repository.\n\nThe portable executable is unsigned. SHA-256 values and validation details are included in validation.txt.\r\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-06T17:06:58Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadlendar-v0.2.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Threadlendar-0.2.0-win-x64.zip",
+          "size": 1561469,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlendar-v0.2.0/Threadlendar-0.2.0-win-x64.zip",
+          "digest": "sha256:151e6b26a921e5fdbf71a7c8520b4a76295c88b9ad85ebf2a2debc0eb947a491"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 329,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlendar-v0.2.0/toolbox-manifest.json",
+          "digest": "sha256:3e1fae883eb12a026e31fe9e30920400df496c588ef432264066e5d7622e1953"
+        },
+        {
+          "name": "validation.txt",
+          "size": 790,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlendar-v0.2.0/validation.txt",
+          "digest": "sha256:c5a38bcd3bf5e7aa52d1535fde7109ecb3e49a00d02bfbef96227a2d79bf65ba"
+        }
+      ]
+    },
+    {
+      "repository": "xheavy0/ThreadstorageAndroid",
+      "tag_name": "threadstorageandroid-v0.1.0-preview",
+      "body": "Android arm64 development build with the desktop interface adapted for phones, two-column drive dashboard, full-screen file preview and PC-to-phone receiving over LAN or Tailscale.\n\nDebug signed, Android 9+. Real device, USB and cloud account authorization testing remain before production release. APK signature and 16 KB alignment verified.\n\nSHA-256: 1d63adc08eeebd1026a0d9e2d089f9d7da307f04f06e2c19019e6406a6b0cc6e",
+      "published_at": "2026-10-06T17:07:16Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadstorageandroid-v0.1.0-preview",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "ThreadStorage_0.1.0_android_arm64-debug.apk",
+          "size": 76801119,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorageandroid-v0.1.0-preview/ThreadStorage_0.1.0_android_arm64-debug.apk",
+          "digest": "sha256:1d63adc08eeebd1026a0d9e2d089f9d7da307f04f06e2c19019e6406a6b0cc6e"
+        }
+      ]
+    },
+    {
+      "repository": "xheavy0/ThreadstorageIOS",
+      "tag_name": "threadstorageios-v0.1.0-iphone-preview",
+      "body": "Physical iPhone / iPad ARM64 development build, iOS 15+. Built with the iPhoneOS SDK and verified to contain a physical-device Mach-O executable. This IPA is UNSIGNED and must be signed locally with your own Apple ID before installation.\n\nOn Windows or macOS, use Sideloadly (https://sideloadly.io/), connect the iPhone by USB, select this IPA and sign in inside Sideloadly. Enable Developer Mode on iOS 16+. Free-account signing lasts seven days. A paid Apple Developer account is not required for personal testing. See the attached Georgian instructions.\n\nNo Apple credentials or provisioning profiles are bundled. Native compilation is verified; real-device OAuth, Files/USB and LAN/Tailscale testing remain.\n\nSource: a89e090998f530aac87a3acfbbcc3af4e1fbb983\nIPA SHA-256: 82a6b02d817b0d75489eb7ca746c8b46d08c94f04ef425428c9b2879303560a3",
+      "published_at": "2026-10-06T17:07:42Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadstorageios-v0.1.0-iphone-preview",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "IPHONE-TESTING.ka.md",
+          "size": 6309,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorageios-v0.1.0-iphone-preview/IPHONE-TESTING.ka.md",
+          "digest": "sha256:01230e57bd1f00c9d8dd5a267a02a45d309689069d63f9ad17ad7b7dec4050e5"
+        },
+        {
+          "name": "ThreadStorage_0.1.0_iphone-build.zip",
+          "size": 39307901,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorageios-v0.1.0-iphone-preview/ThreadStorage_0.1.0_iphone-build.zip",
+          "digest": "sha256:ff4fbd989296e7235b69616395a12c8de315d03a3ba813378982ffced0a87a81"
+        },
+        {
+          "name": "ThreadStorage_0.1.0_iphone-unsigned.ipa",
+          "size": 39858827,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorageios-v0.1.0-iphone-preview/ThreadStorage_0.1.0_iphone-unsigned.ipa",
+          "digest": "sha256:82a6b02d817b0d75489eb7ca746c8b46d08c94f04ef425428c9b2879303560a3"
+        }
+      ]
+    }
+  ]
+}
