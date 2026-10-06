@@ -335,36 +335,36 @@
     },
     {
       "repository": "xheavy0/ThreadAccount",
-      "tag_name": "threadaccount-v0.3.0",
-      "body": "ThreadAccount-ის პირველი რელიზი Windows-ისთვის.\n\n## შესაძლებლობები\n\n- რამდენიმე Codex/Claude ანგარიშის დამოუკიდებელი დაკავშირება და ყველა ლიმიტის ნახვა ერთ ცხრილში, CLI ანგარიშის გადართვის გარეშე.\n- თითოეული ანგარიშის ერთხელ დაკავშირება **Add account → Sign in**-ით; საერთო **Refresh all** და პერიოდული ავტომატური განახლება.\n- Codex-ის დარჩენილი ლიმიტი (`left`) და Claude-ის გამოყენებული ლიმიტი (`used`), შესაბამისი პროცენტებითა და ზოლებით.\n- დაშიფრული ავტორიზაციები, ანგარიშის ცალკე განახლება/ხელახლა დაკავშირება და შეცდომისას წინა snapshot-ის შენარჩუნება.\n- CLI ტოკენების ისტორიის დეშბორდი, ხელით შეყვანა, რჩეული ანგარიშები, ძებნა, სარეზერვო export/import და dark/light თემები.\n\n## გაშვება\n\nჩამოტვირთეთ `ThreadAccount-0.3.0-portable.exe` და გაუშვით. ინსტალაცია საჭირო არ არის. ძველი ვერსიის გამოყენების შემთხვევაში ჯერ დახურეთ მისი ფანჯარა.\n\nავტომატური კავშირისთვის საჭიროა შესაბამისი Codex ან Claude Code CLI. თითოეული ანგარიში აპიდან ერთხელ გაივლის ბრაუზერულ ავტორიზაციას; შემდეგ მისი ლიმიტები ცალკე სტრიქონში გამოჩნდება. კლონირებული ლოკალური პროფილის access token-ის ვადის გასვლისას გამოიყენეთ **Reconnect**, რათა აპს დამოუკიდებელი ავტორიზაცია ჰქონდეს.\n\nClaude-ის usage/renewal ინტეგრაცია დამოკიდებულია პროვაიდერის endpoint-ების ხელმისაწვდომობაზე და შესაძლოა ყველა ანგარიშზე არ იყოს ხელმისაწვდომი. დეტალები: [პროვაიდერების კავშირი](https://github.com/xheavy0/ThreadAccount/blob/v0.3.0/docs/provider-research.md).\n\n## შემოწმება\n\nProduction build, 61 Node ტესტი, 19 ბრაუზერის სცენარი და 9 შეფუთული Electron აპის სცენარი წარმატებით დასრულდა. ავტორიზაციისა და quota-ს ავტომატური ტესტები სატესტო ანგარიშებს იყენებს; რეალურ ანგარიშებზე შესვლა მომხმარებლის ნაბიჯია. Windows portable ფაილი აგებულია შემოწმებული შეფუთული აპიდან.\n\nმიბმულია `SHA256SUMS.txt` ჩამოტვირთული ფაილის შემოწმებისთვის.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-06T17:06:48Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.3.0",
+      "tag_name": "threadaccount-v0.3.2",
+      "body": "ThreadAccount 0.3.2 ამატებს Windows-ის საინსტალაციო ვერსიას.\n\n## ინსტალაცია\n\nჩამოტვირთეთ `ThreadAccount-0.3.2-Setup.exe` და გაუშვით. ინსტალაციის ოსტატი გაძლევთ საქაღალდის არჩევის საშუალებას, ქმნის Start Menu-ის ჩანაწერსა და Desktop-ის მალსახმობს და ამატებს აპის წაშლის შესაძლებლობას Windows-ის Installed apps-ში.\n\nგანახლებისას ჯერ დახურეთ აპის ძველი ვერსია. ინსტალირებულ ვერსიაში შენარჩუნებულია არსებული ანგარიშებისა და workspace-ის პარამეტრების შენახვის ადგილი.\n\n## ცვლილებები\n\n- Windows installer გახდა სტანდარტული გამოშვების ფორმატი (`npm run dist`).\n- პროექტის გამშვები ხსნის ინსტალირებულ აპს ან ინსტალაციის ოსტატს.\n- ცალკე portable build კვლავ შესაძლებელია `npm run dist:portable` ბრძანებით.\n- შენარჩუნებულია 0.3.1-ის ინტერფეისი: გაზრდილი ფონტი, Thread Toolbox-ის მსგავსი dropdown მენიუები, რედაქტირებადი workspace-ის სახელი, გახსნილი გვერდის სქროლი და Model activity-ში **Provider → Model** რიგი.\n\nმიბმული `SHA256SUMS.txt` შეიცავს საინსტალაციო ფაილის SHA-256 საკონტროლო ჯამს.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-06T21:24:52Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.3.2",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
-          "size": 99,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.0/SHA256SUMS.txt",
-          "digest": "sha256:2254a493ba81aaba82801f977beff5179a7cf99d146daff759867f9ee31a543e"
+          "size": 97,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.2/SHA256SUMS.txt",
+          "digest": "sha256:de76d4fff2aea90b9ac684b2e598937c35af2908ea3baf882b51361e04750ea7"
         },
         {
-          "name": "ThreadAccount-0.3.0-portable.exe",
-          "size": 104132038,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.0/ThreadAccount-0.3.0-portable.exe",
-          "digest": "sha256:5ee5252aa40e88dd1d8fb88a4efa829acfe1880943bf1f0578f6250ff6cbef45"
+          "name": "ThreadAccount-0.3.2-Setup.exe",
+          "size": 117217616,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.2/ThreadAccount-0.3.2-Setup.exe",
+          "digest": "sha256:d8e72e6fcdd77aec051677ccb4e46a5b91ec764505c5bb8a39714a0227dd8226"
         },
         {
-          "name": "ThreadAccount-0.3.0-win32-x64.zip",
-          "size": 168413700,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.0/ThreadAccount-0.3.0-win32-x64.zip",
-          "digest": "sha256:89514201cceb0ba9cb5a34dcfd2ec9ac78422e12d49afeb619faf9f3e2cac8a3"
+          "name": "ThreadAccount-0.3.2-win32-x64.zip",
+          "size": 168416708,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.2/ThreadAccount-0.3.2-win32-x64.zip",
+          "digest": "sha256:fd605ae9136240d755d080a22ecb05d24dd1b3857b2cf151a5fb94303a05d92a"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 362,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.0/toolbox-manifest.json",
-          "digest": "sha256:2918fe701255a5f64a98f022a03623ed74fb52afd418f07066332586ab6b4995"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.2/toolbox-manifest.json",
+          "digest": "sha256:c485e94ef5b23a5596903072582c728949f873abf19505799cd78b5147ca7fa3"
         }
       ]
     },
