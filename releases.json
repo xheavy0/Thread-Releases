@@ -369,6 +369,47 @@
       ]
     },
     {
+      "repository": "xheavy0/Threadplan",
+      "tag_name": "threadplan-v1.0.0",
+      "body": "# Threadplan 1.0.0\n\nFirst GitHub release of Threadplan for Windows x64 and Android: offline tasks, habits, calendar and JSON backups with the shared redesigned interface.\n\n## Downloads\n\n- **Windows installer:** `Threadplan-1.0.0-windows-x64-setup.exe`. Installs for the current user and downloads Microsoft Edge WebView2 if it is missing.\n- **Windows portable:** `Threadplan-1.0.0-windows-x64-portable.zip`. Extract and run `Threadplan.exe`; WebView2 must already be installed.\n- **Android:** `Threadplan-1.0.0-android-preview.apk`. Android 7.0/API 24 or newer; ARM64 and x86_64; package `com.threadplan.app`, version 1.0.0, build 10.\n- **Checksums:** `SHA256SUMS.txt` covers all three packages.\n\nWindows binaries are unsigned development builds. Android is a release-mode build signed with the existing local preview/debug key; it is not a Play Store submission.\n\n## Included\n\n- Tasks with notes, priorities, categories, date/time scheduling, recurrence, search, filters, completion and restore; Today and calendar views.\n- Habits with schedules, quantitative goals, history, streaks and statistics.\n- Local English/Georgian quick-add parsing with an editable review form.\n- Android task/habit reminders, reminder diagnostics and Today/Habits home-screen widgets.\n- Windows Tauri 2/Rust shell with native SQLite and reviewed JSON backup import/export.\n- Shared appearance settings: themes, text size, button/navigation/icon colors, local background images, six background effects, opacity, blur, glass and interface scale.\n- Optional Windows ThreadVoice task dictation using the existing ThreadVoice profile and the user's OpenAI API account. Android voice input uses an installed on-device model.\n\n## Data and upgrades\n\nWindows retains `com.threadplan.desktop` and stores its database at `%APPDATA%\\com.threadplan.desktop\\threadplan.db`. Schema 8 and existing forward migrations are preserved. No database reset or new migration was introduced for this release.\n\nExport a JSON backup before moving between installations. Existing Electron/browser profiles remain in their original storage; transfer through the reviewed JSON import flow. JSON import replaces records after confirmation. Backups are not encrypted. Android OS automatic backup is disabled.\n\n## Validation and limits\n\nSource commit: `1ab097ffd214513bae6d70614dc56c5672cf69bd`.\n\nRelease validation includes TypeScript, ESLint, 121 shared tests, 9 Rust tests, 2 Windows native SQLite integration tests, 2 Android widget JVM tests, web/Android exports, Windows installer build and Android APK build/signature verification.\n\nNative WebView2 launch, installer/dialog interaction, Android launch/widget/reminder delivery, physical-device behavior and real-microphone transcription remain unverified for this release under the project's browser-only UI rule. Windows reminder delivery, notification navigation, background scheduling and offline speech remain pending. Interface labels remain English; there is no cloud sync.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-06T19:02:58Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadplan-v1.0.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 316,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplan-v1.0.0/SHA256SUMS.txt",
+          "digest": "sha256:be87db65363598d153087fd8e83b6a1c78324a4ce8f2da4434619e0eb17979ca"
+        },
+        {
+          "name": "Threadplan-1.0.0-android-preview.apk",
+          "size": 77662179,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplan-v1.0.0/Threadplan-1.0.0-android-preview.apk",
+          "digest": "sha256:ddc0fca8baa982f7f8151b2691a0737e16df2f018a5fd1d2e9161a6544880090"
+        },
+        {
+          "name": "Threadplan-1.0.0-windows-x64-portable.zip",
+          "size": 11699655,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplan-v1.0.0/Threadplan-1.0.0-windows-x64-portable.zip",
+          "digest": "sha256:5b0a9183760c107d00a851666b02434337c34e5781eb18db921163d313a37662"
+        },
+        {
+          "name": "Threadplan-1.0.0-windows-x64-setup.exe",
+          "size": 10378953,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplan-v1.0.0/Threadplan-1.0.0-windows-x64-setup.exe",
+          "digest": "sha256:5f95868f774d90778401272cb11f5f02a3a7f9ae872de8d9ff03177941bcbc5c"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 334,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplan-v1.0.0/toolbox-manifest.json",
+          "digest": "sha256:77301d98b589bd72acdb3b316ec006777bbbf3485179ec64e892067ac006bb97"
+        }
+      ]
+    },
+    {
       "repository": "xheavy0/ThreadstorageAndroid",
       "tag_name": "threadstorageandroid-v0.1.0-preview",
       "body": "Android arm64 development build with the desktop interface adapted for phones, two-column drive dashboard, full-screen file preview and PC-to-phone receiving over LAN or Tailscale.\n\nDebug signed, Android 9+. Real device, USB and cloud account authorization testing remain before production release. APK signature and 16 KB alignment verified.\n\nSHA-256: 1d63adc08eeebd1026a0d9e2d089f9d7da307f04f06e2c19019e6406a6b0cc6e",
