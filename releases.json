@@ -164,6 +164,59 @@
       ]
     },
     {
+      "repository": "xheavy0/Threadnote",
+      "tag_name": "threadnote-v0.1.0",
+      "body": "# Threadnote 0.1.0\n\nFirst GitHub release of Threadnote, a local-first notes app for Windows x64.\n\n## Highlights\n\n- Rich-text notes with blocks, attachments, links, tags and full-text search.\n- Workspaces, folders, tabs, favorites, trash and customizable sidebar navigation.\n- Databases with table, board, gallery, list, calendar, timeline, feed and chart views.\n- Persistent free layouts, canvas and global/local note graphs.\n- My tasks, quick notes, Markdown import/export and local backups.\n- Thread Apps launchers and selected imports, ThreadCalendar integration and scoped ThreadForge MCP access.\n- Meeting notes with system audio and optional microphone capture, local Whisper transcription, retry/recovery and opt-in meeting detection.\n\n## Downloads\n\n- **Threadnote-0.1.0-setup.exe**: Windows x64 installer with an installation-location wizard and shortcuts.\n- **Threadnote-0.1.0-portable.exe**: standalone Windows x64 executable; data is stored in ThreadnoteData beside it.\n- **SHA256SUMS.txt**: SHA-256 checksums for the attached binaries and installer metadata.\n\nInstalled builds store notes under %APPDATA%/threadnote/ by default. Settings > Data can select another folder. Whisper's runtime and multilingual model are set up separately from the meeting panel.\n\nThese Windows builds are unsigned, so Windows SmartScreen may prompt on first run. Automatic meeting detection is best effort; browser calls can require a manual Stop and save.\n\n## Validation\n\n- 528 tests passed across 58 test files.\n- TypeScript checks, ESLint and production builds passed.\n- Packaged bundles, migrations and application icon checked against the release sources.\n\nSource commit: 9b5216779860121470dd2e805cd49ba36b8d32b3.\r\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-06T18:56:59Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadnote-v0.1.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "latest.yml",
+          "size": 349,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.0/latest.yml",
+          "digest": "sha256:1a8c204c85f392ccef144b399e167866614337b6c123f9f118ff834bcb8e5052"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 372,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.0/SHA256SUMS.txt",
+          "digest": "sha256:94b56fc12fe59ec0c6b8585fd0f68aa52bf7128ba827e17e50ce23c8f488ee9f"
+        },
+        {
+          "name": "Threadnote-0.1.0-portable.exe",
+          "size": 118518353,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.0/Threadnote-0.1.0-portable.exe",
+          "digest": "sha256:58724d9cee2fcbd951f5e98f4e13e9417c3f883ac86e31fd4f582d089688c12d"
+        },
+        {
+          "name": "Threadnote-0.1.0-setup.exe",
+          "size": 118864178,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.0/Threadnote-0.1.0-setup.exe",
+          "digest": "sha256:3b7164f480aadb94123308c38cb0a7ac19ae29913b2f0097b11eb280db237101"
+        },
+        {
+          "name": "Threadnote-0.1.0-setup.exe.blockmap",
+          "size": 124512,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.0/Threadnote-0.1.0-setup.exe.blockmap",
+          "digest": "sha256:41208b4c28dbe2b2ce7eeb9465f8672de950cfcab486b69974bba59c20f26b3c"
+        },
+        {
+          "name": "Threadnote-0.1.0-win32-x64.zip",
+          "size": 176483062,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.0/Threadnote-0.1.0-win32-x64.zip",
+          "digest": "sha256:4e961141a12845db7c98fbfee400dedf74b2cedb4d7bb085fd080ed1e16efd2e"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 334,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.0/toolbox-manifest.json",
+          "digest": "sha256:63bcc95b4c6309d2baf3884ad0dcd537887ecf4b17a5c4539ae9cdd6c0955201"
+        }
+      ]
+    },
+    {
       "repository": "xheavy0/Threadshot",
       "tag_name": "threadshot-v0.1.10",
       "body": "## What's new\n\n- New Threadshot logo in the tray, taskbar, windows, notifications, shortcuts and installer\n- Sharper tray icon at every display scaling\n- Non-destructive crop tool in the editor\n- Pixelate now works properly on text\n- Fixed the crop frame getting stuck while it is dragged\n\n## Install\n\nDownload **Threadshot Setup 0.1.10.exe** below and run it. An existing install is replaced in place; your captures and settings are kept.\n\nIf Windows still shows the old icon after updating, it is the icon cache. Restart Explorer or sign out and back in, and re-pin Threadshot to the taskbar if it was pinned.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
