@@ -67,6 +67,7 @@
       {
         "repository": "xheavy0/Threadlendar",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "publishReleases": false,
         "name": "Threadlendar",
         "description": "A Windows dock for your apps and files.",
         "category": "desktop"
@@ -223,35 +224,6 @@
           "size": 362,
           "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.0/toolbox-manifest.json",
           "digest": "sha256:2918fe701255a5f64a98f022a03623ed74fb52afd418f07066332586ab6b4995"
-        }
-      ]
-    },
-    {
-      "repository": "xheavy0/Threadlendar",
-      "tag_name": "threadlendar-v0.2.0",
-      "body": "Threadlendar Dock 0.2.0 for Windows 10/11 x64 with .NET Framework 4.8.\n\n- Native WPF dock with app/file/folder pinning, window switching and minimize/restore, auto-hide, tray controls and settings.\n- Lightweight hover rendering, background shell icon loading, coalesced window tracking and cached branding.\n- Fix for the monitor API structure/Unicode mismatch and empty monitor lists.\n\nDownload and extract Threadlendar-0.2.0-win-x64.zip, then run Threadlendar.exe with Threadlendar.exe.config beside it. Existing local settings and pins are retained.\n\nValidation: warnings-as-errors build and 256 isolated checks passed. Isolated control-layout benchmark: 78.65 ms to 3.22 ms, with parent measure passes reduced from 4,318 to zero. These measurements do not establish desktop FPS, CPU or memory usage; desktop integration remains untested. See docs/VALIDATION.md and docs/PERFORMANCE.md in the repository.\n\nThe portable executable is unsigned. SHA-256 values and validation details are included in validation.txt.\r\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-06T17:06:58Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadlendar-v0.2.0",
-      "draft": false,
-      "prerelease": false,
-      "assets": [
-        {
-          "name": "Threadlendar-0.2.0-win-x64.zip",
-          "size": 1561469,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlendar-v0.2.0/Threadlendar-0.2.0-win-x64.zip",
-          "digest": "sha256:151e6b26a921e5fdbf71a7c8520b4a76295c88b9ad85ebf2a2debc0eb947a491"
-        },
-        {
-          "name": "toolbox-manifest.json",
-          "size": 329,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlendar-v0.2.0/toolbox-manifest.json",
-          "digest": "sha256:3e1fae883eb12a026e31fe9e30920400df496c588ef432264066e5d7622e1953"
-        },
-        {
-          "name": "validation.txt",
-          "size": 790,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlendar-v0.2.0/validation.txt",
-          "digest": "sha256:c5a38bcd3bf5e7aa52d1535fde7109ecb3e49a00d02bfbef96227a2d79bf65ba"
         }
       ]
     },
