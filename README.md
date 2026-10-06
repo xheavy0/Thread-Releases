@@ -20,3 +20,9 @@ Toolbox releases use tags such as `v0.1.5` and retain the repository's Latest de
 [`releases.json`](releases.json) contains the shared catalog and current stable/preview releases. Toolbox reads this public index without a GitHub token or REST API request.
 
 The former ThreadToolbox-Releases repository was renamed to this repository. Its historical releases and repository identity are preserved for existing Toolbox update URLs.
+
+## Release retention
+
+Each application keeps at most two published versions. A current stable version is retained when newer previews exist. Publishing a release automatically runs GitHub Actions to delete older public releases and their assets, refresh releases.json, and reserve Latest for the stable Toolbox updater. Private source history is unaffected. Unknown tags and drafts are left alone.
+
+Threadlendar is not ready for public release. Its downloads are withdrawn and mirroring is disabled until the catalog enables it again.
