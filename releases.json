@@ -246,6 +246,47 @@
       ]
     },
     {
+      "repository": "xheavy0/Threadstorage",
+      "tag_name": "threadstorage-v0.1.2",
+      "body": "First Windows desktop release of ThreadStorage.\n\n## Download\n\nInstall **ThreadStorage_0.1.2_x64-setup.exe** on Windows x64. The current-user installer includes the verified rclone 1.75.1 transfer engine. SHA256 checksums and build metadata are attached.\n\n## Included\n\n- Cloud connections for Google Drive, OneDrive, Dropbox, Box, pCloud, S3, WebDAV/Nextcloud, SFTP and SMB/NAS, plus local folders and computer drives.\n- Storage dashboard, file previews, cached folder listings and managed offline copies.\n- One-way and two-way synchronization, conflict preservation, transfer progress, cancellation and retry.\n- Single-use QR pairing with remembered phones and authenticated HTTPS file transfers over LAN or Tailscale.\n- English and Georgian interfaces, appearance settings, startup animation and tray support.\n\n## Validation\n\n20 UI tests, 40 Rust tests and the transfer-engine smoke test passed. Rust tests include real HTTPS interoperability with the production mobile Go receiver. The Windows production frontend and NSIS installer built successfully.\n\n## Current limits\n\nQR pairing requires compatible device-pairing-v2 builds of [Android](https://github.com/xheavy0/ThreadstorageAndroid) or [iOS](https://github.com/xheavy0/ThreadstorageIOS). Physical Android/iPhone acceptance over LAN and Tailscale remains pending. Fresh OAuth consent and authenticated cloud transfers require provider/account verification; Google Drive requires your own OAuth desktop client credentials. See the README for setup and sync semantics.\r\n\nThe Windows installer is unsigned.\r\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-06T19:02:05Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadstorage-v0.1.2",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "BUILD-INFO.json",
+          "size": 856,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/BUILD-INFO.json",
+          "digest": "sha256:b41f1a98d1ad216f2ca92c77e272fb97ad8cdeaea43c8850642d15a4c6e522aa"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 182,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/SHA256SUMS.txt",
+          "digest": "sha256:0e0a7d2ee14fc301bf81e5901f4e0740257b8947f403eda4e680ad65cd5a9174"
+        },
+        {
+          "name": "ThreadStorage-0.1.2-win32-x64.zip",
+          "size": 39653068,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/ThreadStorage-0.1.2-win32-x64.zip",
+          "digest": "sha256:12224c0c26678b3d5c8621303b2926382207577fd0cd218b5ce7a163bab2788b"
+        },
+        {
+          "name": "ThreadStorage_0.1.2_x64-setup.exe",
+          "size": 28642717,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/ThreadStorage_0.1.2_x64-setup.exe",
+          "digest": "sha256:770cf7b4e04cc41b20e2c014ec98de85ae125a8e5572b0ad45e70dfc13ecbce0"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 337,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/toolbox-manifest.json",
+          "digest": "sha256:6183033cc36ab21a456abb56ff91fdf444c3fd3f3160d18371072a1f7d4ff80e"
+        }
+      ]
+    },
+    {
       "repository": "xheavy0/ThreadAccount",
       "tag_name": "threadaccount-v0.3.0",
       "body": "ThreadAccount-ის პირველი რელიზი Windows-ისთვის.\n\n## შესაძლებლობები\n\n- რამდენიმე Codex/Claude ანგარიშის დამოუკიდებელი დაკავშირება და ყველა ლიმიტის ნახვა ერთ ცხრილში, CLI ანგარიშის გადართვის გარეშე.\n- თითოეული ანგარიშის ერთხელ დაკავშირება **Add account → Sign in**-ით; საერთო **Refresh all** და პერიოდული ავტომატური განახლება.\n- Codex-ის დარჩენილი ლიმიტი (`left`) და Claude-ის გამოყენებული ლიმიტი (`used`), შესაბამისი პროცენტებითა და ზოლებით.\n- დაშიფრული ავტორიზაციები, ანგარიშის ცალკე განახლება/ხელახლა დაკავშირება და შეცდომისას წინა snapshot-ის შენარჩუნება.\n- CLI ტოკენების ისტორიის დეშბორდი, ხელით შეყვანა, რჩეული ანგარიშები, ძებნა, სარეზერვო export/import და dark/light თემები.\n\n## გაშვება\n\nჩამოტვირთეთ `ThreadAccount-0.3.0-portable.exe` და გაუშვით. ინსტალაცია საჭირო არ არის. ძველი ვერსიის გამოყენების შემთხვევაში ჯერ დახურეთ მისი ფანჯარა.\n\nავტომატური კავშირისთვის საჭიროა შესაბამისი Codex ან Claude Code CLI. თითოეული ანგარიში აპიდან ერთხელ გაივლის ბრაუზერულ ავტორიზაციას; შემდეგ მისი ლიმიტები ცალკე სტრიქონში გამოჩნდება. კლონირებული ლოკალური პროფილის access token-ის ვადის გასვლისას გამოიყენეთ **Reconnect**, რათა აპს დამოუკიდებელი ავტორიზაცია ჰქონდეს.\n\nClaude-ის usage/renewal ინტეგრაცია დამოკიდებულია პროვაიდერის endpoint-ების ხელმისაწვდომობაზე და შესაძლოა ყველა ანგარიშზე არ იყოს ხელმისაწვდომი. დეტალები: [პროვაიდერების კავშირი](https://github.com/xheavy0/ThreadAccount/blob/v0.3.0/docs/provider-research.md).\n\n## შემოწმება\n\nProduction build, 61 Node ტესტი, 19 ბრაუზერის სცენარი და 9 შეფუთული Electron აპის სცენარი წარმატებით დასრულდა. ავტორიზაციისა და quota-ს ავტომატური ტესტები სატესტო ანგარიშებს იყენებს; რეალურ ანგარიშებზე შესვლა მომხმარებლის ნაბიჯია. Windows portable ფაილი აგებულია შემოწმებული შეფუთული აპიდან.\n\nმიბმულია `SHA256SUMS.txt` ჩამოტვირთული ფაილის შემოწმებისთვის.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
