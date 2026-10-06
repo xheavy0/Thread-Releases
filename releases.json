@@ -287,6 +287,53 @@
       ]
     },
     {
+      "repository": "xheavy0/ThreadVoice",
+      "tag_name": "threadvoice-v0.1.0",
+      "body": "# ThreadVoice 0.1.0\n\nFirst GitHub release of ThreadVoice for Windows x64.\n\n## Install\n\nDownload **ThreadVoice-Setup-0.1.0.exe** and run the installer. Setup installs for the current user and creates desktop and Start menu shortcuts. Node.js is bundled and does not need to be installed separately.\n\nAdd your own OpenAI API key in **Settings → Connection**. Dictation and voice conversations require an internet connection and paid OpenAI API access.\n\n## Features\n\n- System-wide Georgian and English dictation: hold **Ctrl + Win**, speak, and release to insert text at the cursor. Double-tap for hands-free dictation.\n- Voice commands for rewriting selected text or generating new text with **Ctrl + Win + Alt**.\n- AI formatting, per-app writing styles, a custom dictionary, and spoken snippets.\n- Live voice conversations with an animated audio sphere, selectable voices, transcripts, and separate microphone and reply mute controls.\n- A redesigned control panel and floating widget, dark/light/system themes, custom accents, and smoother dragging across displays.\n- Dictation history, word statistics, retries for failed recordings, and an animated startup with reduced-motion support.\n\n## Notes\n\n- The Windows installer is unsigned.\n- The OpenAI API key is encrypted for the current Windows account. Uninstalling preserves settings and history.\n- Elevated administrator windows do not receive dictation input. Georgian dictation requires the online service.\n\n## Validation\n\n- 152 automated tests passed.\n- TypeScript type checking passed.\n- A fresh Windows x64 NSIS installer was built; emitted and packaged modules passed the build checks.\n- Built from commit `a6be00e528a3429468fcabbc586f0bcda6443775`.\n\n`SHA256SUMS.txt` contains checksums for the installer and its release metadata.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-06T19:02:38Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadvoice-v0.1.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "latest.yml",
+          "size": 350,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.0/latest.yml",
+          "digest": "sha256:8850bb2c87a166c079b2eee03d00e1bc4fa72fe77cdab81186c3a545ad831f40"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 274,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.0/SHA256SUMS.txt",
+          "digest": "sha256:010c9712badf3e4e6e081acfb385d750664b1aec56bd7fc31ea9634328f996c5"
+        },
+        {
+          "name": "ThreadVoice-0.1.0-win32-x64.zip",
+          "size": 113903033,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.0/ThreadVoice-0.1.0-win32-x64.zip",
+          "digest": "sha256:b2318b103b15b59348aa8ad24c18e1e941acc832c692d2f1416a0d54f84286de"
+        },
+        {
+          "name": "ThreadVoice-Setup-0.1.0.exe",
+          "size": 79753284,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.0/ThreadVoice-Setup-0.1.0.exe",
+          "digest": "sha256:ea42b2a7932854fb84293a14f20d1544feb758bc3fc0ac0afb49812f48f8dcf5"
+        },
+        {
+          "name": "ThreadVoice-Setup-0.1.0.exe.blockmap",
+          "size": 85065,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.0/ThreadVoice-Setup-0.1.0.exe.blockmap",
+          "digest": "sha256:04d84e97430864f95689adefadfb375f88656f028dad8033cfa6e633416f67e7"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 333,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.0/toolbox-manifest.json",
+          "digest": "sha256:01abc646f4b0e45b194fee8ac36a2dd636316eceb45c87643fd476f81f177746"
+        }
+      ]
+    },
+    {
       "repository": "xheavy0/ThreadAccount",
       "tag_name": "threadaccount-v0.3.0",
       "body": "ThreadAccount-ის პირველი რელიზი Windows-ისთვის.\n\n## შესაძლებლობები\n\n- რამდენიმე Codex/Claude ანგარიშის დამოუკიდებელი დაკავშირება და ყველა ლიმიტის ნახვა ერთ ცხრილში, CLI ანგარიშის გადართვის გარეშე.\n- თითოეული ანგარიშის ერთხელ დაკავშირება **Add account → Sign in**-ით; საერთო **Refresh all** და პერიოდული ავტომატური განახლება.\n- Codex-ის დარჩენილი ლიმიტი (`left`) და Claude-ის გამოყენებული ლიმიტი (`used`), შესაბამისი პროცენტებითა და ზოლებით.\n- დაშიფრული ავტორიზაციები, ანგარიშის ცალკე განახლება/ხელახლა დაკავშირება და შეცდომისას წინა snapshot-ის შენარჩუნება.\n- CLI ტოკენების ისტორიის დეშბორდი, ხელით შეყვანა, რჩეული ანგარიშები, ძებნა, სარეზერვო export/import და dark/light თემები.\n\n## გაშვება\n\nჩამოტვირთეთ `ThreadAccount-0.3.0-portable.exe` და გაუშვით. ინსტალაცია საჭირო არ არის. ძველი ვერსიის გამოყენების შემთხვევაში ჯერ დახურეთ მისი ფანჯარა.\n\nავტომატური კავშირისთვის საჭიროა შესაბამისი Codex ან Claude Code CLI. თითოეული ანგარიში აპიდან ერთხელ გაივლის ბრაუზერულ ავტორიზაციას; შემდეგ მისი ლიმიტები ცალკე სტრიქონში გამოჩნდება. კლონირებული ლოკალური პროფილის access token-ის ვადის გასვლისას გამოიყენეთ **Reconnect**, რათა აპს დამოუკიდებელი ავტორიზაცია ჰქონდეს.\n\nClaude-ის usage/renewal ინტეგრაცია დამოკიდებულია პროვაიდერის endpoint-ების ხელმისაწვდომობაზე და შესაძლოა ყველა ანგარიშზე არ იყოს ხელმისაწვდომი. დეტალები: [პროვაიდერების კავშირი](https://github.com/xheavy0/ThreadAccount/blob/v0.3.0/docs/provider-research.md).\n\n## შემოწმება\n\nProduction build, 61 Node ტესტი, 19 ბრაუზერის სცენარი და 9 შეფუთული Electron აპის სცენარი წარმატებით დასრულდა. ავტორიზაციისა და quota-ს ავტომატური ტესტები სატესტო ანგარიშებს იყენებს; რეალურ ანგარიშებზე შესვლა მომხმარებლის ნაბიჯია. Windows portable ფაილი აგებულია შემოწმებული შეფუთული აპიდან.\n\nმიბმულია `SHA256SUMS.txt` ჩამოტვირთული ფაილის შემოწმებისთვის.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
