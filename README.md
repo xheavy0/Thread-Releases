@@ -1,23 +1,22 @@
-# Thread Toolbox
+# Thread Releases
 
-Official Windows x64 installers and update files for **Thread Toolbox**, the launcher and update manager for Thread apps.
+Official public downloads for the Thread ecosystem. Application source repositories remain private.
 
-[Download the latest release](https://github.com/xheavy0/ThreadToolbox-Releases/releases/latest)
+Download [Thread Toolbox](https://github.com/xheavy0/Thread-Releases/releases/latest) to install, launch, and update Windows apps.
 
-## Install
+## Applications
 
-Open the latest release, download the `Thread-Toolbox-<version>-setup.exe` asset and run it.
+- [Threadforge](https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.1)
+- [Threadshot](https://github.com/xheavy0/Thread-Releases/releases/tag/threadshot-v0.1.10)
+- [ThreadAccount](https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.3.0)
+- [Threadlendar](https://github.com/xheavy0/Thread-Releases/releases/tag/threadlendar-v0.2.0)
+- [ThreadStorage Android preview](https://github.com/xheavy0/Thread-Releases/releases/tag/threadstorageandroid-v0.1.0-preview)
+- [ThreadStorage iOS preview](https://github.com/xheavy0/Thread-Releases/releases/tag/threadstorageios-v0.1.0-iphone-preview)
 
-## Update from an existing installation
+## Release layout
 
-In **Settings**, set **Toolbox GitHub repository** to `xheavy0/ThreadToolbox-Releases` and save. Check for updates, choose **Download**, then **Update and restart** when the download finishes. Existing 0.1.0 and 0.1.1 installations need this setting once to use the public update feed.
+Toolbox releases use tags such as `v0.1.5` and retain the repository's Latest designation for self-updates. Each other app uses its own tag prefix. Windows packages include a Toolbox manifest with SHA256 checksums. Original release assets and preview flags are preserved.
 
-## Choose where Thread apps are installed
+[`releases.json`](releases.json) contains the shared catalog and current stable/preview releases. Toolbox reads this public index without a GitHub token or REST API request.
 
-Version 0.1.1 adds **Settings → App installation folder**. Enter a folder or choose **Browse**, then save. New app installations use that folder. Existing apps and their updates stay in their current locations.
-
-## What this repository contains
-
-Each stable Toolbox release includes its Windows installer, `.blockmap`, `latest.yml`, ecosystem catalog and release notes. Application source code stays in a private repository.
-
-This is the release feed for **Thread Toolbox itself**. Individual Thread apps use their own release repositories; the ecosystem catalog identifies those sources. Their installers are not published here.
+The former ThreadToolbox-Releases repository was renamed to this repository. Its historical releases and repository identity are preserved for existing Toolbox update URLs.
