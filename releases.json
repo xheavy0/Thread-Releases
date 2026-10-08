@@ -115,7 +115,7 @@
     {
       "repository": "xheavy0/Threadforge",
       "tag_name": "threadforge-v1.0.6",
-      "body": "Threadforge 1.0.6 includes the latest agent account, image and provider UI changes.\n\n- Choose native Claude Code/Codex chat models and independent chat/coding accounts per agent. New conversations retain the selected model and account; removed accounts report an error.\n- Use the Codex Image toggle for native ChatGPT image generation/editing, including Free and paid accounts where available within their Codex allowance. Images have inline previews, download and Show file actions. API-key authentication is refused for this mode; there is no paid API fallback.\n- Accounts rows highlight on hover and keyboard focus and expand without disclosure arrows. CLI model, default, picker visibility and update controls align in one row, with a single-line status.\n- Terminal completion highlights follow the Appearance accent colour, including custom colours.\n\nWindows x64 installer is included with matching updater metadata and SHA-256 checksums. This release preserves the TF application artwork.\n\nImage availability/model version is controlled by Codex and the signed-in account. Claude Code needs an eligible paid account. Automated source/browser/static package checks do not replace installed desktop and real-account acceptance; live image generation/editing and quota/restart behavior remain manual.\n\n",
+      "body": "Threadforge 1.0.6 includes the latest agent account, image and provider UI changes.\n\n- Choose native Claude Code/Codex chat models and independent chat/coding accounts per agent. New conversations retain the selected model and account; removed accounts report an error.\n- Use the Codex Image toggle for native ChatGPT image generation/editing, including Free and paid accounts where available within their Codex allowance. Images have inline previews, download and Show file actions. API-key authentication is refused for this mode; there is no paid API fallback.\n- Accounts rows highlight on hover and keyboard focus and expand without disclosure arrows. CLI model, default, picker visibility and update controls align in one row, with a single-line status.\n- Terminal completion highlights follow the Appearance accent colour, including custom colours.\n\nWindows x64 installer is included with matching updater metadata and SHA-256 checksums. This release preserves the TF application artwork.\n\nImage availability/model version is controlled by Codex and the signed-in account. Claude Code needs an eligible paid account. Automated source/browser/static package checks do not replace installed desktop and real-account acceptance; live image generation/editing and quota/restart behavior remain manual.\n\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
       "published_at": "2026-10-08T19:53:47Z",
       "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.6",
       "draft": false,
@@ -134,6 +134,12 @@
           "digest": "sha256:d426a3c4064ac0f2efd5909eadfb21ba7e8d8e475f93c9b1db72bf65e152ddc9"
         },
         {
+          "name": "Threadforge-1.0.6-win32-x64.zip",
+          "size": 812165540,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.6/Threadforge-1.0.6-win32-x64.zip",
+          "digest": "sha256:f2e90e883a122b0329419f9fe511b789028dfbf7e0398e6237d958fa34b3c409"
+        },
+        {
           "name": "Threadforge-Setup-1.0.6.exe",
           "size": 644535232,
           "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.6/Threadforge-Setup-1.0.6.exe",
@@ -150,6 +156,12 @@
           "size": 406,
           "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.6/threadforge-update.json",
           "digest": "sha256:084a206d699031fa9a17616737620b302cb7fd933ef573248fc9eb85872f5b17"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 329,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.6/toolbox-manifest.json",
+          "digest": "sha256:6369bafd4116f32ac592d782719b0181a5c5493fa7047302c5e5fb0eea8df8e0"
         }
       ]
     },
