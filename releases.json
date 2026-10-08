@@ -114,60 +114,42 @@
   "releases": [
     {
       "repository": "xheavy0/Threadforge",
-      "tag_name": "threadforge-v1.0.5",
-      "body": "Threadforge 1.0.5 adds a broader MCP and skills catalogue, configurable terminal choices and compact connection management.\n\n### Changes\n\n- 68 connection entries and authored workflows in ten skill categories, with vendor-sourced artwork and category-preserving migration/import/export.\n- Bundled Nano Banana `generate_image` and `edit_image` tools through the official Gemini SDK. Includes encrypted API-key storage, reviewed reference-image uploads, configurable output folders, new-file results and image previews. Gemini API billing is separate from manual Gemini website access. Google's banana emoji symbol is used for this entry.\n- 29 saved visibility switches in Settings → Terminal for system shells, agent CLIs, cloud CLIs and developer tools. Adds explicit PowerShell, CMD and Git Bash choices; Cursor Agent and the other CLI entries open in workspace terminal panes. WSL is not installed or required.\n- Working Manage connection and Disconnect actions, plus saved agent-access editing without reconnecting or changing credentials. Account and removal actions remain in management. Endpoint editing is available after disconnecting.\n- Matching compact catalogue/connected cards, equal-width actions, compact dialog buttons and clearer connection-note spacing.\n- Follow-up terminal/account-picker controls, sidebar and floating agent-question improvements included since 1.0.4.\n\n### Validation\n\nOne complete source run passes 1,912 tests across 310 files. One Windows file-symlink case is skipped; the remaining reference-boundary checks run normally. TypeScript, main/host/renderer builds and lint pass with zero lint errors and 122 existing warnings. The synthetic 48,000-chunk terminal workload retains exact bounded output and releases the tested listeners and sessions.\n\nBoth Windows x64 packages are checked statically for current compiled files, native dependencies, TF artwork, host version, connection/terminal contracts, embedded payload integrity and matching update metadata. Source/browser/static package verification does not represent installed desktop UI, physical audio or real provider/MCP account testing. Nano Banana tests use a mocked Gemini SDK and do not make a billable request.\n\nDownload the installer or portable below. Close an existing Threadforge instance before testing this build so the single-instance lock does not route the launch to the older application. `SHA256SUMS.txt` covers the published filenames; the remaining assets support automatic updates.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-08T14:09:34Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.5",
+      "tag_name": "threadforge-v1.0.6",
+      "body": "Threadforge 1.0.6 includes the latest agent account, image and provider UI changes.\n\n- Choose native Claude Code/Codex chat models and independent chat/coding accounts per agent. New conversations retain the selected model and account; removed accounts report an error.\n- Use the Codex Image toggle for native ChatGPT image generation/editing, including Free and paid accounts where available within their Codex allowance. Images have inline previews, download and Show file actions. API-key authentication is refused for this mode; there is no paid API fallback.\n- Accounts rows highlight on hover and keyboard focus and expand without disclosure arrows. CLI model, default, picker visibility and update controls align in one row, with a single-line status.\n- Terminal completion highlights follow the Appearance accent colour, including custom colours.\n\nWindows x64 installer is included with matching updater metadata and SHA-256 checksums. This release preserves the TF application artwork.\n\nImage availability/model version is controlled by Codex and the signed-in account. Claude Code needs an eligible paid account. Automated source/browser/static package checks do not replace installed desktop and real-account acceptance; live image generation/editing and quota/restart behavior remain manual.\n\n",
+      "published_at": "2026-10-08T19:53:47Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.6",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 351,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/latest.yml",
-          "digest": "sha256:939001609cf2d60e221296b0c7b62a080b9875630d8dd6a61b46fe583f193f8c"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.6/latest.yml",
+          "digest": "sha256:adeff76110233cabebc940c81ff4c3d1f86635de3695bd9e3072ccb325e8aa19"
         },
         {
           "name": "SHA256SUMS.txt",
-          "size": 452,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/SHA256SUMS.txt",
-          "digest": "sha256:b3a23ef10fc79921684a23c2caf775bd52979df3f109462f6488244b2fd07607"
+          "size": 364,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.6/SHA256SUMS.txt",
+          "digest": "sha256:d426a3c4064ac0f2efd5909eadfb21ba7e8d8e475f93c9b1db72bf65e152ddc9"
         },
         {
-          "name": "Threadforge-1.0.5-win32-x64.zip",
-          "size": 810792968,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/Threadforge-1.0.5-win32-x64.zip",
-          "digest": "sha256:45aff8ac45bb74799db281724a19c610ad8dad10d26ccdc70591a64132008049"
+          "name": "Threadforge-Setup-1.0.6.exe",
+          "size": 644535232,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.6/Threadforge-Setup-1.0.6.exe",
+          "digest": "sha256:b265d3e1c518312c8dd8a288e3c720211b9a5004a58fdbfaec0932911eb84cb4"
         },
         {
-          "name": "Threadforge-1.0.5.exe",
-          "size": 642634190,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/Threadforge-1.0.5.exe",
-          "digest": "sha256:1533637edf3a95e0716f55cca1884ac73c6c1a9d19dd869733ce3853c089d832"
-        },
-        {
-          "name": "Threadforge-Setup-1.0.5.exe",
-          "size": 643236777,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/Threadforge-Setup-1.0.5.exe",
-          "digest": "sha256:c7b8e8129bd994ebf457eba5ca2ab08b28ac95d09e9adbd6181239e8ccf81ebe"
-        },
-        {
-          "name": "Threadforge-Setup-1.0.5.exe.blockmap",
-          "size": 671068,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/Threadforge-Setup-1.0.5.exe.blockmap",
-          "digest": "sha256:3c7de59eff868ce20eefa3724d3d6054af2e5f7d82bca34404e3d493b72048d4"
+          "name": "Threadforge-Setup-1.0.6.exe.blockmap",
+          "size": 672545,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.6/Threadforge-Setup-1.0.6.exe.blockmap",
+          "digest": "sha256:b06285d7c7316ef989ed1805cff84a8e89ca8aec360159a715b3ca4f11ff2493"
         },
         {
           "name": "threadforge-update.json",
           "size": 406,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/threadforge-update.json",
-          "digest": "sha256:b3707672fbd07dad82dfe1fda037cc3581f5c3af74c8ae0652d20c1ab3e4a2e1"
-        },
-        {
-          "name": "toolbox-manifest.json",
-          "size": 329,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/toolbox-manifest.json",
-          "digest": "sha256:22bdeb0f573e749f5d64f50f1bc9d75fc363034ec259243f7dab82f2f2f58f7e"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.6/threadforge-update.json",
+          "digest": "sha256:084a206d699031fa9a17616737620b302cb7fd933ef573248fc9eb85872f5b17"
         }
       ]
     },
