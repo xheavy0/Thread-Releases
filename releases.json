@@ -11,6 +11,8 @@
       {
         "repository": "xheavy0/Threadforge",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "appUserModelId": "com.threadforge.app",
+        "shortcutIcon": "resources/icon.ico",
         "name": "Threadforge",
         "description": "Code editor and workspace for AI agents.",
         "category": "desktop"
