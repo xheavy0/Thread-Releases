@@ -112,60 +112,60 @@
   "releases": [
     {
       "repository": "xheavy0/Threadforge",
-      "tag_name": "threadforge-v1.0.4",
-      "body": "Threadforge 1.0.4 includes the completed ThreadAgent, account and sidebar follow-ups from October 7–8.\n\n- 56 robot appearances, including six HD character/specialist plates with 512px cells. Shared head/eye animation, smiling Zen, rotating Chrono hands and Quanta symbol, and Innovation's original galaxy.\n- Cleaner agent cards, Back to agents, larger sidebar avatars and corrected appearance frames. Assigned skills use three columns and message skill choices live in each agent's Settings.\n- Codex/ChatGPT and Claude Code subscription choices per bot through their installed CLIs. Compact provider account menus retain Add account and registration-only Remove account.\n- Choose an account independently for each new terminal. Running terminals keep their selected account; global defaults stay independent. The former parallel-terminal Settings block is removed.\n- Fully collapse the Agent, Code, Thread and Chat left rails while keeping the restore control reachable. Retain open panes and unsent drafts, fix scrolling and separate the New subagent button from its list.\n- Reduce repeated directory/history work during agent streaming, batch terminal output and retain bounded history. Fix dropdown placement in the floating voice panel while preserving terminal-picker modal navigation.\n\nDownloads: use **Threadforge-Setup-1.0.4.exe** to install, or **Threadforge-1.0.4.exe** for the portable build. Matching updater metadata, installer blockmap and SHA-256 checksums are included.\n\nValidation includes source tests, TypeScript, lint, production builds, synthetic performance checks and static comparison of compiled files, HD artwork, native addons, host/version contracts, TF icons and executable payloads. Desktop applications were not launched during validation; installed UI, microphone playback and full live-provider acceptance remain manual checks. The repository's existing private visibility is unchanged.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-07T21:08:54Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.4",
+      "tag_name": "threadforge-v1.0.5",
+      "body": "Threadforge 1.0.5 adds a broader MCP and skills catalogue, configurable terminal choices and compact connection management.\n\n### Changes\n\n- 68 connection entries and authored workflows in ten skill categories, with vendor-sourced artwork and category-preserving migration/import/export.\n- Bundled Nano Banana `generate_image` and `edit_image` tools through the official Gemini SDK. Includes encrypted API-key storage, reviewed reference-image uploads, configurable output folders, new-file results and image previews. Gemini API billing is separate from manual Gemini website access. Google's banana emoji symbol is used for this entry.\n- 29 saved visibility switches in Settings → Terminal for system shells, agent CLIs, cloud CLIs and developer tools. Adds explicit PowerShell, CMD and Git Bash choices; Cursor Agent and the other CLI entries open in workspace terminal panes. WSL is not installed or required.\n- Working Manage connection and Disconnect actions, plus saved agent-access editing without reconnecting or changing credentials. Account and removal actions remain in management. Endpoint editing is available after disconnecting.\n- Matching compact catalogue/connected cards, equal-width actions, compact dialog buttons and clearer connection-note spacing.\n- Follow-up terminal/account-picker controls, sidebar and floating agent-question improvements included since 1.0.4.\n\n### Validation\n\nOne complete source run passes 1,912 tests across 310 files. One Windows file-symlink case is skipped; the remaining reference-boundary checks run normally. TypeScript, main/host/renderer builds and lint pass with zero lint errors and 122 existing warnings. The synthetic 48,000-chunk terminal workload retains exact bounded output and releases the tested listeners and sessions.\n\nBoth Windows x64 packages are checked statically for current compiled files, native dependencies, TF artwork, host version, connection/terminal contracts, embedded payload integrity and matching update metadata. Source/browser/static package verification does not represent installed desktop UI, physical audio or real provider/MCP account testing. Nano Banana tests use a mocked Gemini SDK and do not make a billable request.\n\nDownload the installer or portable below. Close an existing Threadforge instance before testing this build so the single-instance lock does not route the launch to the older application. `SHA256SUMS.txt` covers the published filenames; the remaining assets support automatic updates.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-08T14:09:34Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.5",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 351,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.4/latest.yml",
-          "digest": "sha256:76a29f1fedb8979a0ee2e2f0007cc9c249b117dd20701f28583e6c9babbe9e85"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/latest.yml",
+          "digest": "sha256:939001609cf2d60e221296b0c7b62a080b9875630d8dd6a61b46fe583f193f8c"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 452,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.4/SHA256SUMS.txt",
-          "digest": "sha256:3815cb507b0cf014f9ea25d1055f6db89f798a36cd5f4ef710802bf734a411e8"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/SHA256SUMS.txt",
+          "digest": "sha256:b3a23ef10fc79921684a23c2caf775bd52979df3f109462f6488244b2fd07607"
         },
         {
-          "name": "Threadforge-1.0.4-win32-x64.zip",
-          "size": 811784547,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.4/Threadforge-1.0.4-win32-x64.zip",
-          "digest": "sha256:95b266ea3221eaeed2f36de6c148d42dbfeea72ee74dce17be618fadf1cb23f6"
+          "name": "Threadforge-1.0.5-win32-x64.zip",
+          "size": 810792968,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/Threadforge-1.0.5-win32-x64.zip",
+          "digest": "sha256:45aff8ac45bb74799db281724a19c610ad8dad10d26ccdc70591a64132008049"
         },
         {
-          "name": "Threadforge-1.0.4.exe",
-          "size": 643607192,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.4/Threadforge-1.0.4.exe",
-          "digest": "sha256:9e1359d3d1d345548d30aed0ecca04917569479ca4f7553af09c491fa31324d1"
+          "name": "Threadforge-1.0.5.exe",
+          "size": 642634190,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/Threadforge-1.0.5.exe",
+          "digest": "sha256:1533637edf3a95e0716f55cca1884ac73c6c1a9d19dd869733ce3853c089d832"
         },
         {
-          "name": "Threadforge-Setup-1.0.4.exe",
-          "size": 644209783,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.4/Threadforge-Setup-1.0.4.exe",
-          "digest": "sha256:98a485a27979e757a2d0fe1d634dca4f0b5e54d696d81bf98d4f647a5de0e840"
+          "name": "Threadforge-Setup-1.0.5.exe",
+          "size": 643236777,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/Threadforge-Setup-1.0.5.exe",
+          "digest": "sha256:c7b8e8129bd994ebf457eba5ca2ab08b28ac95d09e9adbd6181239e8ccf81ebe"
         },
         {
-          "name": "Threadforge-Setup-1.0.4.exe.blockmap",
-          "size": 671759,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.4/Threadforge-Setup-1.0.4.exe.blockmap",
-          "digest": "sha256:18d2371bcff7b2d44bef0e27205ac57c69ba23ed1d3d6c467372a259821405bf"
+          "name": "Threadforge-Setup-1.0.5.exe.blockmap",
+          "size": 671068,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/Threadforge-Setup-1.0.5.exe.blockmap",
+          "digest": "sha256:3c7de59eff868ce20eefa3724d3d6054af2e5f7d82bca34404e3d493b72048d4"
         },
         {
           "name": "threadforge-update.json",
           "size": 406,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.4/threadforge-update.json",
-          "digest": "sha256:f924b8c643c0ebb50564d5e43e169f0931ac7d32ca439849146f1b4a641ebfaa"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/threadforge-update.json",
+          "digest": "sha256:b3707672fbd07dad82dfe1fda037cc3581f5c3af74c8ae0652d20c1ab3e4a2e1"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 329,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.4/toolbox-manifest.json",
-          "digest": "sha256:d4426c4dcbaa4a098bb2a606fd73852a0f9ed1454bf0496468b2ae06750f74a4"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.5/toolbox-manifest.json",
+          "digest": "sha256:22bdeb0f573e749f5d64f50f1bc9d75fc363034ec259243f7dab82f2f2f58f7e"
         }
       ]
     },
