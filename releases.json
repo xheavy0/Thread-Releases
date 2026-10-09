@@ -114,54 +114,54 @@
   "releases": [
     {
       "repository": "xheavy0/Threadforge",
-      "tag_name": "threadforge-v1.0.8",
-      "body": "Threadforge 1.0.8 fixes the expanded Images, Routines and Prompts layouts and aligns the titlebar controls. It also includes the current Stream Deck control and agent appearance support.\n\n- Center the Images start screen and fill the lower account/history rows; keep New beside the account selector.\n- Fill the expanded Routines and Prompts panels, with routine layouts adapting to the actual sidebar width.\n- Align sidebar, folder, capture, voice, update, notification, settings and window controls in equal 28×28px buttons.\n- Include the authenticated Stream Deck control catalog and agent appearance metadata from the current source.\n\nWindows x64 distribution contains the NSIS installer and its matching blockmap, updater manifests and SHA-256 checksums. Source tests and static package/update inspection are recorded in the repository; installed UI and signed-in provider acceptance remain manual.\n\n[Download installer](https://github.com/xheavy0/Threadforge/releases/download/v1.0.8/Threadforge-Setup-1.0.8.exe) · [Checksums](https://github.com/xheavy0/Threadforge/releases/download/v1.0.8/SHA256SUMS.txt)\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-09T16:42:26Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.8",
+      "tag_name": "threadforge-v1.0.9",
+      "body": "# Threadforge 1.0.9\n\nCodex terminal history now uses real scrollback. Mouse scrolling, the scrollbar, new output and resized panes stay synchronized; reading older output preserves its position. Restart or resume an existing Codex terminal to adopt inline history.\n\n- Project displays the live file tree, concurrent agents, file activity and Git states directly. Active filenames use the approved 1.5-second orange animation.\n- Plans captures native active plans. Floating replies and Markdown previews use compact controls; Chat shows human and assistant messages, and Thread opens the selected existing terminal.\n- Local preview instructions ask before starting a frontend test unless already authorized, and route previews through the application browser. Private GitHub updater metadata can use the existing authenticated account.\n- Virtualized file rows, visible-only shared polling and bounded transcript processing reduce rendering and parsing work.\n\nWindows x64: NSIS installer and matching updater/checksum assets only.\n\n[Download Windows installer](https://github.com/xheavy0/Threadforge/releases/download/v1.0.9/Threadforge-Setup-1.0.9.exe) · [Checksums](https://github.com/xheavy0/Threadforge/releases/download/v1.0.9/SHA256SUMS.txt)\n\nValidation: complete consolidated coverage passes 2,021 tests across 330 files, with one existing Windows symlink skip. Two complete suites were rechecked after correcting the Windows temporary-path format. TypeScript, lint (zero errors; 122 existing warnings), main/host/renderer builds and real xterm browser scroll checks pass. Static inspection matches all 781 compiled files, 13,202 installer payload files, native addons, artwork and matching updater/checksum assets. No installer or desktop application was launched. Desktop installation and signed-in provider acceptance are user-run checks.\r\n\r\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-09T21:53:48Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.9",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 351,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.8/latest.yml",
-          "digest": "sha256:e743bd8907211317fe2141907009973dea0b3bd74d9c92c4b618ce67870fcc73"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.9/latest.yml",
+          "digest": "sha256:a45ae9ed1f3adf179f9d7699a30f7e59acec3f8359a01ef2d908a16e7be3f105"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 364,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.8/SHA256SUMS.txt",
-          "digest": "sha256:87171aadb1be71d5a4368bb2e02cd84873aea735761604a344704deabdbd848d"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.9/SHA256SUMS.txt",
+          "digest": "sha256:ba651e6fec363d82aa885a9da10e882e87c893b5c3d75f266d2119cc31b10f52"
         },
         {
-          "name": "Threadforge-1.0.8-win32-x64.zip",
-          "size": 812752126,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.8/Threadforge-1.0.8-win32-x64.zip",
-          "digest": "sha256:a9895ef1bdf0f97a0838f0afc8c245dea7322853d011b0055d4a9d3232d768a0"
+          "name": "Threadforge-1.0.9-win32-x64.zip",
+          "size": 812775060,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.9/Threadforge-1.0.9-win32-x64.zip",
+          "digest": "sha256:b6ccf7e78d7574eea2b8cf68b867e1d05ab8407c010fd4a7fdd21984d766e84b"
         },
         {
-          "name": "Threadforge-Setup-1.0.8.exe",
-          "size": 625651280,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.8/Threadforge-Setup-1.0.8.exe",
-          "digest": "sha256:21a74c4cab05b3a6fc4ae2fc6472340ff0d4c23197903143653947ff9db75488"
+          "name": "Threadforge-Setup-1.0.9.exe",
+          "size": 625689135,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.9/Threadforge-Setup-1.0.9.exe",
+          "digest": "sha256:1f6bdf55547a489c8c98a420c1ed6abb2f85a1659053706bd4155c6092255b02"
         },
         {
-          "name": "Threadforge-Setup-1.0.8.exe.blockmap",
-          "size": 633157,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.8/Threadforge-Setup-1.0.8.exe.blockmap",
-          "digest": "sha256:5a29cf678d5108fa16804697a49d258628f1e33931a18e2f5246fc3dc7e45a6f"
+          "name": "Threadforge-Setup-1.0.9.exe.blockmap",
+          "size": 633852,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.9/Threadforge-Setup-1.0.9.exe.blockmap",
+          "digest": "sha256:2cec0029ec19b1cfaad85b1f3cdd46c44987befc9632b56a03477a1dfb0098d1"
         },
         {
           "name": "threadforge-update.json",
           "size": 406,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.8/threadforge-update.json",
-          "digest": "sha256:ba0a8b3508ea63b256561f2e35664950dc3412c36f0709d67e7737c59c46af79"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.9/threadforge-update.json",
+          "digest": "sha256:1f77cbfe1c2dc6e0d419f4a9a2b5822c784a8e62d4f020c855d3b6a972153f25"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 329,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.8/toolbox-manifest.json",
-          "digest": "sha256:b3f5606eae4aae5ff6bd2169ea3807748e26dec06b7211325fb8867dd553db6a"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.9/toolbox-manifest.json",
+          "digest": "sha256:f6dd5b22940d804332150fb83bfdffda08460cfc6b68a884df54ca4e824cfcca"
         }
       ]
     },
