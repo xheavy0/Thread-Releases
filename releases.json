@@ -220,30 +220,30 @@
     },
     {
       "repository": "xheavy0/Threadshot",
-      "tag_name": "threadshot-v0.1.10",
-      "body": "## What's new\n\n- New Threadshot logo in the tray, taskbar, windows, notifications, shortcuts and installer\n- Sharper tray icon at every display scaling\n- Non-destructive crop tool in the editor\n- Pixelate now works properly on text\n- Fixed the crop frame getting stuck while it is dragged\n\n## Install\n\nDownload **Threadshot Setup 0.1.10.exe** below and run it. An existing install is replaced in place; your captures and settings are kept.\n\nIf Windows still shows the old icon after updating, it is the icon cache. Restart Explorer or sign out and back in, and re-pin Threadshot to the taskbar if it was pinned.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-06T17:05:51Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadshot-v0.1.10",
+      "tag_name": "threadshot-v0.1.11",
+      "body": "## What's new\n\n- The captures shelf is always exactly as tall as its thumbnails: from five captures on, they are no longer squeezed and the last one is no longer cut off\n- The shelf stays on the screen when it grows, even after it has been dragged low\n- \"Threadshot captures\" is centred, and the hide button is back in view\n- The shelf no longer flickers or briefly freezes after a capture; it appears once, already showing the new capture\n\n## Install\n\nDownload **Threadshot Setup 0.1.11.exe** below and run it. An existing install is replaced in place; your captures and settings are kept.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-09T08:20:40Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadshot-v0.1.11",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
-          "name": "Threadshot-0.1.10-win32-x64.zip",
-          "size": 113938296,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadshot-v0.1.10/Threadshot-0.1.10-win32-x64.zip",
-          "digest": "sha256:68611b2f6d44a7c91b7fab5a6e5e047e2eb76767c1f81c1d13043100a9349c99"
+          "name": "Threadshot-0.1.11-win32-x64.zip",
+          "size": 113939672,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadshot-v0.1.11/Threadshot-0.1.11-win32-x64.zip",
+          "digest": "sha256:aeb683219957a8291fcef18c1630f2dbeb4f4eb80a8d684c0852f623b0e307a0"
         },
         {
-          "name": "Threadshot.Setup.0.1.10.exe",
-          "size": 79296214,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadshot-v0.1.10/Threadshot.Setup.0.1.10.exe",
-          "digest": "sha256:f034222ee2b41b0d8f9996cf76c59d7078c8f84ef4e86a0187b2c162eda11612"
+          "name": "Threadshot.Setup.0.1.11.exe",
+          "size": 79297345,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadshot-v0.1.11/Threadshot.Setup.0.1.11.exe",
+          "digest": "sha256:27f723e5a8a58553956ea07c76b5b694c8aea3cbb62a632fe7e8eeceaa2c5e2e"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 327,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadshot-v0.1.10/toolbox-manifest.json",
-          "digest": "sha256:92e35cc113ef11c467016a1c79564185973816caa0222760f747a774450407c8"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadshot-v0.1.11/toolbox-manifest.json",
+          "digest": "sha256:5a3102b4f156fc4c451cc6da20d0906684c2108f43648663c16ccd8da201e8bf"
         }
       ]
     },
