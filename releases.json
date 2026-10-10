@@ -18,6 +18,14 @@
         "category": "desktop"
       },
       {
+        "repository": "xheavy0/Threadmap",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "appUserModelId": "dev.threadmap.desktop",
+        "name": "ThreadMap",
+        "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
+        "category": "desktop"
+      },
+      {
         "repository": "xheavy0/Threadnote",
         "releaseRepository": "xheavy0/Thread-Releases",
         "name": "Threadnote",
@@ -162,6 +170,35 @@
           "size": 329,
           "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.9/toolbox-manifest.json",
           "digest": "sha256:f6dd5b22940d804332150fb83bfdffda08460cfc6b68a884df54ca4e824cfcca"
+        }
+      ]
+    },
+    {
+      "repository": "xheavy0/Threadmap",
+      "tag_name": "threadmap-v1.0.0",
+      "body": "The first release of the Threadmap desktop app for Windows: interactive architecture maps of your repositories, drawn from the files, by hand, or by your coding agent, and tracked over time. Everything stays on your machine.\n\n## Install\n\nDownload **Threadmap-Setup-1.0.0.exe** below and run it. You can choose the install folder; it adds Desktop and Start menu shortcuts.\n\nThe installer is not code-signed yet, so Windows SmartScreen warns the first time: click **More info → Run anyway**.\n\n## What's in 1.0.0\n\n- **Dashboard of every map** on this computer: a thumbnail of each map, who drew it (AI, by hand, from files), components, connections and flows, and whether it is up to date or has parts to review since the code changed.\n- **Add a repository** with the Windows folder picker (`Ctrl+O`), by dropping a folder on the window, or from Explorer: right-click a folder → **Open with Threadmap** (on Windows 11 under *Show more options*).\n- **Find existing maps** in a folder, such as your projects folder.\n- **Build a map** from the files in seconds, **draw it by hand** (components, connections, flows, planned parts), or let your agent write it with the `/threadmap` skill. Agents read it back with `threadmap context`.\n- **Track it**: save versions, compare them, and see which components changed since the map was written.\n- Scans run in a background process, so the window never freezes on a large repository.\n\nMaps live inside each repository in `.threadmap/`, so your coding agents see the same map you do.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-10T13:36:29Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadmap-v1.0.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "ThreadMap-1.0.0-win32-x64.zip",
+          "size": 162521821,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadmap-v1.0.0/ThreadMap-1.0.0-win32-x64.zip",
+          "digest": "sha256:1d5f9584d70e866115903c76ef0f7f8f1e97cfb29d4b8829e2b1d26281178e94"
+        },
+        {
+          "name": "Threadmap-Setup-1.0.0.exe",
+          "size": 112387156,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadmap-v1.0.0/Threadmap-Setup-1.0.0.exe",
+          "digest": "sha256:8d9751d5034926cff3f3650172ccc0fdd799f4e98608829df9e6b56a79f9ae85"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 366,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadmap-v1.0.0/toolbox-manifest.json",
+          "digest": "sha256:c708c0d0b7db17876a9e8128b8463af42f20cb63c8d05da0625337936a4da352"
         }
       ]
     },
