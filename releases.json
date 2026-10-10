@@ -286,42 +286,42 @@
     },
     {
       "repository": "xheavy0/Threadstorage",
-      "tag_name": "threadstorage-v0.1.2",
-      "body": "First Windows desktop release of ThreadStorage.\n\n## Download\n\nInstall **ThreadStorage_0.1.2_x64-setup.exe** on Windows x64. The current-user installer includes the verified rclone 1.75.1 transfer engine. SHA256 checksums and build metadata are attached.\n\n## Included\n\n- Cloud connections for Google Drive, OneDrive, Dropbox, Box, pCloud, S3, WebDAV/Nextcloud, SFTP and SMB/NAS, plus local folders and computer drives.\n- Storage dashboard, file previews, cached folder listings and managed offline copies.\n- One-way and two-way synchronization, conflict preservation, transfer progress, cancellation and retry.\n- Single-use QR pairing with remembered phones and authenticated HTTPS file transfers over LAN or Tailscale.\n- English and Georgian interfaces, appearance settings, startup animation and tray support.\n\n## Validation\n\n20 UI tests, 40 Rust tests and the transfer-engine smoke test passed. Rust tests include real HTTPS interoperability with the production mobile Go receiver. The Windows production frontend and NSIS installer built successfully.\n\n## Current limits\n\nQR pairing requires compatible device-pairing-v2 builds of [Android](https://github.com/xheavy0/ThreadstorageAndroid) or [iOS](https://github.com/xheavy0/ThreadstorageIOS). Physical Android/iPhone acceptance over LAN and Tailscale remains pending. Fresh OAuth consent and authenticated cloud transfers require provider/account verification; Google Drive requires your own OAuth desktop client credentials. See the README for setup and sync semantics.\r\n\nThe Windows installer is unsigned.\r\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-06T19:02:05Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadstorage-v0.1.2",
+      "tag_name": "threadstorage-v0.1.3",
+      "body": "ThreadStorage now uses the approved Thread Space v1.0 brand: cyan **TS**, a dark inset and the geometric folded frame.\n\n## Download\n\nInstall **ThreadStorage_0.1.3_x64-setup.exe** on Windows x64. The installer includes the verified rclone 1.75.1 engine. **SHA256SUMS.txt** and **BUILD-INFO.json** provide checksums and the exact source commit.\n\n## Changes\n\n- Updated startup/sidebar logo, Windows executable/taskbar/tray and installer icons, browser favicon and platform exports.\n- Added the SVG master and reproducible icon generation/resource checks; opaque RGB iOS exports retain the approved design.\n- Preserved all functionality from the published v0.1.2 release, including remembered-device QR pairing and authenticated transfers.\n\n## Validation\n\n20 UI tests, 40 Rust tests and the transfer-engine smoke check passed. The production frontend and Windows NSIS installer built from clean committed v0.1.3 source. All 56 PNG exports passed resource checks; the executable and installer each contain six matching new icon frames. Package and executable version metadata match v0.1.3.\n\n## Current limits\n\nThe Windows installer is unsigned. Native Windows UI and physical Android/iPhone pairing were not exercised for this release; the optional mobile Go interoperability harness was not configured for this build run. Cloud-provider setup and sync behavior remain described in the README.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-10T18:44:27Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadstorage-v0.1.3",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "BUILD-INFO.json",
-          "size": 856,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/BUILD-INFO.json",
-          "digest": "sha256:b41f1a98d1ad216f2ca92c77e272fb97ad8cdeaea43c8850642d15a4c6e522aa"
+          "size": 1292,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.3/BUILD-INFO.json",
+          "digest": "sha256:22c29488a87314f927240e9a9d7551908b4b809c23d75f16f030e59a0663b651"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 182,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/SHA256SUMS.txt",
-          "digest": "sha256:0e0a7d2ee14fc301bf81e5901f4e0740257b8947f403eda4e680ad65cd5a9174"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.3/SHA256SUMS.txt",
+          "digest": "sha256:b9dfb1a4357c59e65a8b1370d84c152f4f9585dce3f7d6393d2f3ad299ba4f30"
         },
         {
-          "name": "ThreadStorage-0.1.2-win32-x64.zip",
-          "size": 39653068,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/ThreadStorage-0.1.2-win32-x64.zip",
-          "digest": "sha256:12224c0c26678b3d5c8621303b2926382207577fd0cd218b5ce7a163bab2788b"
+          "name": "ThreadStorage-0.1.3-win32-x64.zip",
+          "size": 39472730,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.3/ThreadStorage-0.1.3-win32-x64.zip",
+          "digest": "sha256:b93c80503b85f6e74496c55302ea3c0b8a6c79edd6ff69ce6a11e4244a382567"
         },
         {
-          "name": "ThreadStorage_0.1.2_x64-setup.exe",
-          "size": 28642717,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/ThreadStorage_0.1.2_x64-setup.exe",
-          "digest": "sha256:770cf7b4e04cc41b20e2c014ec98de85ae125a8e5572b0ad45e70dfc13ecbce0"
+          "name": "ThreadStorage_0.1.3_x64-setup.exe",
+          "size": 28449334,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.3/ThreadStorage_0.1.3_x64-setup.exe",
+          "digest": "sha256:bbb6be775c071bf9084a899075e8c74e350de68e0675a7e4256914160321622f"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 337,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.2/toolbox-manifest.json",
-          "digest": "sha256:6183033cc36ab21a456abb56ff91fdf444c3fd3f3160d18371072a1f7d4ff80e"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorage-v0.1.3/toolbox-manifest.json",
+          "digest": "sha256:126f944e6cb6e80749c38a6488fd51cd4a52e4ab80f7c2b39231c98808372000"
         }
       ]
     },
