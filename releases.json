@@ -175,30 +175,30 @@
     },
     {
       "repository": "xheavy0/Threadmap",
-      "tag_name": "threadmap-v1.0.0",
-      "body": "The first release of the Threadmap desktop app for Windows: interactive architecture maps of your repositories, drawn from the files, by hand, or by your coding agent, and tracked over time. Everything stays on your machine.\n\n## Install\n\nDownload **Threadmap-Setup-1.0.0.exe** below and run it. You can choose the install folder; it adds Desktop and Start menu shortcuts.\n\nThe installer is not code-signed yet, so Windows SmartScreen warns the first time: click **More info → Run anyway**.\n\n## What's in 1.0.0\n\n- **Dashboard of every map** on this computer: a thumbnail of each map, who drew it (AI, by hand, from files), components, connections and flows, and whether it is up to date or has parts to review since the code changed.\n- **Add a repository** with the Windows folder picker (`Ctrl+O`), by dropping a folder on the window, or from Explorer: right-click a folder → **Open with Threadmap** (on Windows 11 under *Show more options*).\n- **Find existing maps** in a folder, such as your projects folder.\n- **Build a map** from the files in seconds, **draw it by hand** (components, connections, flows, planned parts), or let your agent write it with the `/threadmap` skill. Agents read it back with `threadmap context`.\n- **Track it**: save versions, compare them, and see which components changed since the map was written.\n- Scans run in a background process, so the window never freezes on a large repository.\n\nMaps live inside each repository in `.threadmap/`, so your coding agents see the same map you do.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-10T13:36:29Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadmap-v1.0.0",
+      "tag_name": "threadmap-v1.0.2",
+      "body": "A small polish release on top of the new logo in 1.0.1.\n\n## Install\n\nDownload **Threadmap-Setup-1.0.2.exe** below and run it. To update, install it over the earlier version into the same folder; your maps live in your repositories and are not touched.\n\nThe installer is not code-signed yet, so Windows SmartScreen warns the first time: click **More info → Run anyway**.\n\n## What's new in 1.0.2\n\n- The sidebars no longer show the \"Local only — nothing leaves this machine\" footer. Exported snapshots still say they are read only.\n- The caption under the logo on the dashboard now reads **Architecture maps of your code**.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-10T21:38:40Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadmap-v1.0.2",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
-          "name": "ThreadMap-1.0.0-win32-x64.zip",
-          "size": 162521821,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadmap-v1.0.0/ThreadMap-1.0.0-win32-x64.zip",
-          "digest": "sha256:1d5f9584d70e866115903c76ef0f7f8f1e97cfb29d4b8829e2b1d26281178e94"
+          "name": "ThreadMap-1.0.2-win32-x64.zip",
+          "size": 162540396,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadmap-v1.0.2/ThreadMap-1.0.2-win32-x64.zip",
+          "digest": "sha256:0b3df6b328f62fd8445214b2a6652c1d89b34bf74b8c7f85299b8502fdc0bcf0"
         },
         {
-          "name": "Threadmap-Setup-1.0.0.exe",
-          "size": 112387156,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadmap-v1.0.0/Threadmap-Setup-1.0.0.exe",
-          "digest": "sha256:8d9751d5034926cff3f3650172ccc0fdd799f4e98608829df9e6b56a79f9ae85"
+          "name": "Threadmap-Setup-1.0.2.exe",
+          "size": 112423472,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadmap-v1.0.2/Threadmap-Setup-1.0.2.exe",
+          "digest": "sha256:76317c24807316f9de7b3f3ab00eb297642c8b7003a082dcabda783264f167e3"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 366,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadmap-v1.0.0/toolbox-manifest.json",
-          "digest": "sha256:c708c0d0b7db17876a9e8128b8463af42f20cb63c8d05da0625337936a4da352"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadmap-v1.0.2/toolbox-manifest.json",
+          "digest": "sha256:338a74b15ac33a701e25d458039c98fecf8ad3da76e172eb1b45102f4287ef25"
         }
       ]
     },
