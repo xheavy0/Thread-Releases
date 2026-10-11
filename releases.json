@@ -122,54 +122,54 @@
   "releases": [
     {
       "repository": "xheavy0/Threadforge",
-      "tag_name": "threadforge-v1.0.13",
-      "body": "Threadforge 1.0.13 adds a shared Agent Chat feed and improves project browsing, worker visibility and temporary cache handling across coding providers.\n\n- Rebuild the Project file tree with expandable directories, whole-project filename search, text/image previews, Git indicators, keyboard navigation and targeted file context. Follow actual file activity from concurrent agents.\n- Add provider-neutral progress, model/effort/usage and cache receipts. Offer optional bounded native cache warm-ups for Claude and Codex, with cold-cache send warnings and stop-on-miss behavior.\n- Add Blast Radius command review through shared tools, exact-command Proceed/Cancel decisions and read-only impact measurement. Finished assignments can be deleted from Recent assignments with Undo.\n- Add a separate OSS Scanner tab in Security. Use any of the 15 supported task-capable providers for a local source review, threat model and evidence/report workflow. Anthropic hosted enrollment remains a separate explicit action.\n- Fix Georgian subagent-launch recognition while keeping executable/tool/flag syntax in documented English. Show observed native subagents and worker terminals under each parent in Dashboard.\n- Fix Canvas zoom for large maps; support anchored 0.5%–250% zoom and Fit map to viewport.\n- Add Agent Chat as the fourth Dashboard tab: one incoming message feed with sender, provider, recipient, project and time. It shows communication shared through Threadforge's peer bus.\n- Replace the floating agent's large input with a compact composer, task selector and rotating working indicator. Preserve targeted messages, question choices, Stop, per-terminal drafts and collapse.\n- Show only reset time in the five-hour usage hover and reset date/time in the weekly hover.\n- Move disposable browser/app/voice/bridge/temp and selected CLI metadata caches beside installation; clean on final quit and retry after crashes or locked files. Preserve accounts, settings, conversations and models. Report installation permission failures and the actual fallback path in Settings. Bound/coalesce chat reads and pause hidden polling.\n\nWindows distribution contains the NSIS installer and four matching updater/checksum assets. No portable executable. Packaged source: `9d0948ba71387a7add4f3441425a0f48e5baf575`.\n\nValidation: one complete clean-checkout run passes 2,269 tests across 363 files, with one existing Windows file-symlink skip and no failed assertions. TypeScript, zero-error lint (122 existing warnings), all source builds and built branding checks pass. Static inspection verifies all 908 compiled files, 49 production dependencies, 50 unpacked native modules and eight official Windows x64 Node-API addons. All 13,189 installer payload files match sizes/CRC and archive integrity; differential blockmap structure covers the entire installer. Application, host, installer and extracted uninstaller versions/branding match, as do updater names/versions/sizes and installer SHA-256/SHA-512. Validation never launches Electron or the installer.\n\nInstalled native UI, cache migration/final shutdown, signed-in provider/MCP/chat/warm-up acceptance and real SSH remain user-run. Native Codex file execution was previously blocked by its underlying Windows helper setup error. Other providers need their own safe isolated warm-up adapters. Provider-internal communication appears only when shared through the common bus; direct full-access terminal commands can bypass cooperative command guards. The OSS Scanner tab provides local source review and does not supply an isolated VM/network sandbox or enroll automatically in Anthropic's hosted service.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-11T11:06:29Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.13",
+      "tag_name": "threadforge-v1.0.14",
+      "body": "Threadforge 1.0.14 updates the Browser and makes orchestrator work easier to follow.\n\n- Replace Thread mode with Browser after Editor, retain the sidebar Browser and pinned sidebar views, and expand Chat to installed coding providers. Add compact browser controls, full/beside and page split views, persistent tabs/groups, private windows, search/home settings, Downloads, history, bookmarks/import, an encrypted local password manager, compatible unpacked extensions and built-in ad/tracking filtering. Open ChatGPT in Browser instead of built-in image generation.\n- Add provider-neutral rendered browser snapshots/actions/screenshots and separately permitted Developer/CDP inspection, plus local element/region annotation and temporary style adjustment. Public-site access is granted per tab/origin; private tabs are excluded.\n- Add project filtering and scoped Clear conversation to Agent Chat. Display actual worker counts, assigned tasks, providers and terminal locations in coordinator terminals, Dashboard and Progression. Fix prefixed Georgian worker requests, Codex long session metadata and historical exact-session resume. Reduce repeated launch probes and use filesystem wakeups with a polling fallback.\n- Switch active Claude/Codex/OpenCode/Pi terminals between saved accounts using a fresh conversation and bounded task handoff after confirmed previous-process exit. Preserve worker/team authorization and budget; reject replay and stale process observations. Show remote monitor/name/status/disclosure/+ and server labels on repositories; select the exact newly registered folder.\n- Add 51 renamed palettes without duplicating existing colors, refine outline icons and Voice close alignment, preserve browser sign-in during disposable-cache cleanup, and prune stale caches asynchronously with final shutdown cleanup.\n\nWindows x64 release contains only the NSIS installer and its matching updater/checksum assets. No portable executable.\n\nValidation: one clean complete suite passes 2,416 assertions across 384 files, with zero failures and one existing Windows symlink skip. TypeScript, zero-error lint, all source builds, compiled payload/native branding and installer/update integrity checks pass. Runtime was built/tested at `8b2655ce77268b87fdcbbfc601610e5ea36755fa`; tag `v1.0.14` includes only a corrected static inspector at `bb179f301cf339c82ae88669577a34d40cf2ae16`, with unchanged application/package/build-hook source and matching compiled files.\n\nNative installed UI, real-account worker/chat/account switching, Google sign-in persistence, extensions/downloads, final Quit cache cleanup and real SSH acceptance remain user-run. Provider-internal conversations require observation or explicit sharing. Safe isolated cache warm-up currently supports Claude/Codex; full Remote Workspace hosting requires Linux, Node.js 20+ and systemd. Embedded sign-in/extension APIs and ad filtering have website/runtime limits. The OSS Scanner tab is a provider audit workflow, not Anthropic's hosted scanner service.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-11T16:17:07Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.14",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 354,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.13/latest.yml",
-          "digest": "sha256:2389697e87757fb60bb339754aef5f429995e521cae7ecaa90ca411b0b5dc97d"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.14/latest.yml",
+          "digest": "sha256:296200ec6dc81e1f302bbf612ee5399426fb85df14c4b315a45732cc42467de8"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 366,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.13/SHA256SUMS.txt",
-          "digest": "sha256:8aabbdcb60c3034b3915a24325039837a7e8c37357bef4f6dd3de935bf07689e"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.14/SHA256SUMS.txt",
+          "digest": "sha256:916a2e5101b3875187da0c6b8082494bfe7f848487d05c487b5820a7e9c5b697"
         },
         {
-          "name": "Threadforge-1.0.13-win32-x64.zip",
-          "size": 811683304,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.13/Threadforge-1.0.13-win32-x64.zip",
-          "digest": "sha256:a4f404668a83cb8385c604443308f41d2e037d31a0687dbfa89d02bbfb10e44e"
+          "name": "Threadforge-1.0.14-win32-x64.zip",
+          "size": 813245387,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.14/Threadforge-1.0.14-win32-x64.zip",
+          "digest": "sha256:f9b898da693daab17d602c5b17c698cf524ae14b9367b67b8ffaaa8de651424e"
         },
         {
-          "name": "Threadforge-Setup-1.0.13.exe",
-          "size": 547361775,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.13/Threadforge-Setup-1.0.13.exe",
-          "digest": "sha256:19d553657aa3611e09b84eeb25f3d021b1af1f791ff30d539d00a6819dd01f2c"
+          "name": "Threadforge-Setup-1.0.14.exe",
+          "size": 547782941,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.14/Threadforge-Setup-1.0.14.exe",
+          "digest": "sha256:763f83aa5711792ee4f5006f018e310246d5c0b438e60c1dbd10ef45c0674e30"
         },
         {
-          "name": "Threadforge-Setup-1.0.13.exe.blockmap",
-          "size": 553021,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.13/Threadforge-Setup-1.0.13.exe.blockmap",
-          "digest": "sha256:de3898fe9d5fc8409ef550c180e1e3191a097b5d67d96c176e4b0454f9606877"
+          "name": "Threadforge-Setup-1.0.14.exe.blockmap",
+          "size": 553903,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.14/Threadforge-Setup-1.0.14.exe.blockmap",
+          "digest": "sha256:c117003fa41e09091d74ccd7902bcc33a15607c6ec25bdccde6a3cdb59672f18"
         },
         {
           "name": "threadforge-update.json",
-          "size": 409,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.13/threadforge-update.json",
-          "digest": "sha256:dafa8f72bc1db8f96679dd88ad54a561a6136d5752f31fc60291be09523d9626"
+          "size": 408,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.14/threadforge-update.json",
+          "digest": "sha256:65baff88e155515282cf83d8652c3de36f620620fa433c1e32c1f185875de46e"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 330,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.13/toolbox-manifest.json",
-          "digest": "sha256:b296601ba25c2962ad5eacab0c3b7f9f0b46d7e5bb6a0c89d1b3ac53b4ca6352"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.14/toolbox-manifest.json",
+          "digest": "sha256:f606dfc4bcf21dd99227bcbf987945963e1fdcbee9d161a7f62913b133f8b4b9"
         }
       ]
     },
