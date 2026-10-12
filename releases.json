@@ -130,54 +130,54 @@
   "releases": [
     {
       "repository": "xheavy0/Threadforge",
-      "tag_name": "threadforge-v1.0.15",
-      "body": "Threadforge 1.0.15 includes the completed source improvements since 1.0.14 and the browser shutdown correction.\n\n- Fix destroyed browser debugger access during tab/application teardown and release captured network listeners. Include bounded local main-process exception diagnostics.\n- Add selected-chat project context, real Changes totals/diffs and Sources attachment/history controls, with saved project/Global ownership and protected-file/read-grant validation.\n- Replace Tasks lists with the shared Kanban and migrate interface/editor navigation glyphs to Phosphor while preserving provider branding.\n- Process routines and pending memory independently of the Agent screen. Archive linked Second Brain memory durably before reset, with receipt deduplication.\n- Add reviewed, scoped cache tasks with persistent operation/recovery history and shared tool/plugin catalogue grants.\n- Restore per-grapheme File Tree activity animation and repair Database dock sizing.\n\nWindows x64 installer only. The five assets are the NSIS installer, blockmap, updater YAML, browser update manifest and SHA256SUMS. Runtime was built at `4905b0e5b4f140024383794088d30b83bc3b5e83`; the release tag includes only subsequent verifier/documentation/changelog changes, with unchanged application/package/build-hook content verified. Existing validated installer bytes are reused without rebuilding.\n\nValidation: 2,682 passing assertions across 424 files, zero failures and one existing Windows symlink skip; TypeScript, lint and all source builds pass. Static inspection verifies 980 compiled files, 13,336 payload files/archive integrity, native branding, updater/blockmap consistency and the packaged browser disposal callback with simulated native objects.\n\nInstalled native close/Quit, account/browser persistence and real provider/service/hardware acceptance remain owner-run. Codex CLI's external Windows sandbox setup/logon-1326 problem is unresolved. Full remote workspace hosting requires a real Linux SSH environment. Tern is cancelled; no portable package is included.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-12T20:28:23Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.15",
+      "tag_name": "threadforge-v1.0.16",
+      "body": "Threadforge 1.0.16 includes the latest interface corrections after 1.0.15.\n\n- Remove the standalone Chat mode and the conversation Changes/Sources summary. Retain saved conversation/account data and route existing conversations to Code/Studio.\n- Use plain Studio, Code, Editor and Browser navigation names.\n- Align terminal account choices in compact rows and enlarge their single provider logos to 18 px. Remove the duplicate black Codex logo.\n- Show each observed delegated task separately in Progression and remove the header subagent-count badge.\n- Read confirmed native Codex/Claude assignment messages and results for Agent Chat. Replace its native project/agent dropdowns with themed pickers.\n- Remove the observed CLI token summary from Usage.\n\nWindows x64 NSIS installer with matching blockmap, updater YAML, browser update manifest and checksums. Thread Toolbox receives a ZIP of the same verified application payload and its manifest in the public Thread-Releases repository.\n\nSource validation: 2,635 passing assertions across 421 files with one existing Windows symlink skip, using full-suite coverage and a complete-file recheck for one initial Database timeout. Root/main TypeScript, lint (zero errors, 114 existing warnings) and main/host/renderer builds pass.\n\nStatic validation: 979 compiled files and all 13,334 embedded payload files match; native application/installer/uninstaller branding, updater metadata, blockmap coverage and archive integrity pass. Every Toolbox ZIP file matches the same application payload by SHA-256. The packaged browser disposal callback also passes with simulated native objects. The immutable runtime source/tag is `5b9cdffadd2e43a65013a3cd1b0b05fadada769f`.\n\nInstalled native behavior and real-account/provider acceptance remain owner-run. Shared structured delegation authorization (DA-01–05) is still pending. No portable executable is included.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-12T22:31:50Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.16",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 368,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.15/latest.yml",
-          "digest": "sha256:ba0a19a986b736c96df1153bbe41229bdb0a326aa37224edd590814a85fff37f"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.16/latest.yml",
+          "digest": "sha256:3eb304163cf89540d6f4a7849e79661cb94a51ee3099d222fffffa379da0502d"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 366,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.15/SHA256SUMS.txt",
-          "digest": "sha256:95aea7fe4590d8ad82c149521d1cda16a6042c4d6266b4e398c25a83b7e2507b"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.16/SHA256SUMS.txt",
+          "digest": "sha256:0bc98bd6a29d436082de5bbb6383753c920fb6c4578425a1a21fe5277fb71252"
         },
         {
-          "name": "Threadforge-1.0.15-win32-x64.zip",
-          "size": 825527617,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.15/Threadforge-1.0.15-win32-x64.zip",
-          "digest": "sha256:513d692373162211a5ea2bfbe68187f85947c85d48b8e3a54ee9b1c66b111f5d"
+          "name": "Threadforge-1.0.16-win32-x64.zip",
+          "size": 824870221,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.16/Threadforge-1.0.16-win32-x64.zip",
+          "digest": "sha256:835b8befc7d58bacc912e2fdc24d295b64ff736fef149c8d528aacdcb0ef13dd"
         },
         {
-          "name": "Threadforge-Setup-1.0.15.exe",
-          "size": 555814929,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.15/Threadforge-Setup-1.0.15.exe",
-          "digest": "sha256:1e1de2ec19afe677a71acd516ffa934ccee4994f062bd66d99d2ecd37c4ed828"
+          "name": "Threadforge-Setup-1.0.16.exe",
+          "size": 555321771,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.16/Threadforge-Setup-1.0.16.exe",
+          "digest": "sha256:b9b41a5e781b65d33b33ba01a7ac5c60f1763528fa275a06762171a507f2b196"
         },
         {
-          "name": "Threadforge-Setup-1.0.15.exe.blockmap",
-          "size": 561656,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.15/Threadforge-Setup-1.0.15.exe.blockmap",
-          "digest": "sha256:8fbd3a381ba1681aafe1862a6d6a8aec24f26338fc4a7fe1b5bee2cfa6f04b4b"
+          "name": "Threadforge-Setup-1.0.16.exe.blockmap",
+          "size": 562509,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.16/Threadforge-Setup-1.0.16.exe.blockmap",
+          "digest": "sha256:8f276049c5ce3cc23ae78a74c3dfc7b07c372ed8b7abfc4d9da314c3497f78bb"
         },
         {
           "name": "threadforge-update.json",
           "size": 409,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.15/threadforge-update.json",
-          "digest": "sha256:9aadeccbb327dc7d07b8956128e1665310a91293d8c35860f631e41a52e8a15b"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.16/threadforge-update.json",
+          "digest": "sha256:81dd1809daa2eb6aa1ec3d280d5c328a30ecc17df6915f2cca4694047e0ced12"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 330,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.15/toolbox-manifest.json",
-          "digest": "sha256:2a32625b74b9afc2d4a67da0c7db82bde0cf524e8b42ef81a761f3301eba9e4d"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.16/toolbox-manifest.json",
+          "digest": "sha256:305bba64a47627caeb123999c2ec136bfe53b07f5960cd5f5988b5d6b4e13193"
         }
       ]
     },
