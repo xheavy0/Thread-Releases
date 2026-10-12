@@ -101,8 +101,8 @@
         "repository": "xheavy0/Threadplan",
         "releaseRepository": "xheavy0/Thread-Releases",
         "name": "Threadplan",
-        "description": "Tasks, habits, and plans for Android.",
-        "category": "mobile"
+        "description": "Tasks, habits, and plans for Windows and Android.",
+        "category": "desktop"
       },
       {
         "repository": "xheavy0/ThreadforgeMobile",
