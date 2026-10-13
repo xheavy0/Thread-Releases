@@ -130,54 +130,54 @@
   "releases": [
     {
       "repository": "xheavy0/Threadforge",
-      "tag_name": "threadforge-v1.0.19",
-      "body": "Terminal agents can now start other coding agents from natural requests in any wording, in English or Georgian. Asking Claude Code to start Codex, or Codex to start Claude Code, Cursor, Antigravity, OpenCode or another supported CLI, launches a real worker terminal with the named provider: for example `start codex`, `run claude`, `ask cursor to review this`, `დაასტარტე კოდექსი`, `გასტარტე ქლოდი`, `გაუშვი ორი კოდექსი და ერთი ქლოდი`. Launch verbs are recognized anywhere in the sentence, Georgian provider names with case endings are understood, and an agent noun is no longer required. Questions, conditions, examples, quoted text, negations and ordinary coding requests such as `run the claude tests` still do not authorize workers. A first `use Codex …` request now grants workers instead of failing.\n\nThe repository now includes a README describing the application, development commands and the open gaps.\n\nWindows x64 NSIS installer with matching updater/checksum assets. Installed provider and UI acceptance follows the owner's manual testing.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-13T15:59:12Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.19",
+      "tag_name": "threadforge-v1.0.20",
+      "body": "Studio agents no longer stop working when a long conversation fills the model's context window. Before each reply, older messages are folded into a saved summary written by the same model, and the request carries that summary, the recent messages and your new message. If a provider still reports that the context is too long, Threadforge compacts harder and retries once. A **Compact** button summarizes a conversation on demand, the progress label shows \"Compacting context\", and an expandable notice marks where the summary replaces earlier messages — the full history stays visible to you. Anthropic models now also receive every system instruction, so project rules no longer displace the agent's own context.\n\nTerminal agents can start each other more reliably:\n- There is no longer a cumulative worker limit: a failed or finished worker never blocks starting another one.\n- Typing a request straight into a worker terminal (for example `დაასტარტე კოდექსი`) can start agents even beyond the nested-depth setting, which now limits only agent-initiated nesting.\n- Cursor workers run with `--trust` under full access and are recognized when their input is ready, so they receive their task instead of failing after two minutes. Antigravity workers receive their task directly at startup.\n- The long launch instructions are no longer typed into Claude Code, Codex or OpenCode; other CLIs get one short line pointing to `threadforge-peer help`.\n\nWindows x64 NSIS installer with matching updater/checksum assets. Installed provider and UI acceptance follows the owner's manual testing.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-13T17:57:30Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.20",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 368,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.19/latest.yml",
-          "digest": "sha256:c92be572f039ff4773c6e89f3a986d34931714628b7b3eb69a63041aee111974"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.20/latest.yml",
+          "digest": "sha256:9bcabd6baf3b10b41da12fb279c1bb35d3fa3354e8f4a053e8d7c8491b164acb"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 366,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.19/SHA256SUMS.txt",
-          "digest": "sha256:361358b9daf6113faa75f4f11cf34edf226bbeb61e8adbf9ce2808368f1ef9c6"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.20/SHA256SUMS.txt",
+          "digest": "sha256:1844c2f87cd43eb1a91b1f0a4d178823bbd8f829d1db6347e335794c4f1bace5"
         },
         {
-          "name": "Threadforge-1.0.19-win32-x64.zip",
-          "size": 824921729,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.19/Threadforge-1.0.19-win32-x64.zip",
-          "digest": "sha256:2c9c0a3587bb8cec7bd995c4f0ba005d01b220f6641ed219f742b6c518182b8f"
+          "name": "Threadforge-1.0.20-win32-x64.zip",
+          "size": 824928021,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.20/Threadforge-1.0.20-win32-x64.zip",
+          "digest": "sha256:7ee3ffe78fa0af7853724fbf08862e2d2f7ce51ba47e815c379ad8a57c6a6b56"
         },
         {
-          "name": "Threadforge-Setup-1.0.19.exe",
-          "size": 555365201,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.19/Threadforge-Setup-1.0.19.exe",
-          "digest": "sha256:7a773c926bf4394e018ed1664420a34f575738382e49d9d4eb98e9f1c80a042f"
+          "name": "Threadforge-Setup-1.0.20.exe",
+          "size": 555371933,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.20/Threadforge-Setup-1.0.20.exe",
+          "digest": "sha256:bc094662a4b830c81b6f6b5ab950b0557670200afc6196ad41880366351e59c6"
         },
         {
-          "name": "Threadforge-Setup-1.0.19.exe.blockmap",
-          "size": 561916,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.19/Threadforge-Setup-1.0.19.exe.blockmap",
-          "digest": "sha256:def7b5a1bdd84fa174d7ca1e0a2d2ff8b715456781dd287bebdc4d6575b92b2b"
+          "name": "Threadforge-Setup-1.0.20.exe.blockmap",
+          "size": 561451,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.20/Threadforge-Setup-1.0.20.exe.blockmap",
+          "digest": "sha256:4cc3f7104ac81d3debdb2b611c0ca12d0ad7abb061e8e8b8323af59b0f00f0c9"
         },
         {
           "name": "threadforge-update.json",
           "size": 409,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.19/threadforge-update.json",
-          "digest": "sha256:70fa35c218e873726be3a72dd6dbf6b1618dc4edce0fa9820ef53157e97166d8"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.20/threadforge-update.json",
+          "digest": "sha256:58b76ad11325d7a3dc4a754db78fffda2ebe6c366786fc495bc3eaa3f61a7b3e"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 330,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.19/toolbox-manifest.json",
-          "digest": "sha256:d3c922bcfb98a0987509e9dc1bd76fdb3ad3f817254ab91b982e54395f345ebb"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.20/toolbox-manifest.json",
+          "digest": "sha256:c7dafa8f8653f4a85d1f06370114e9bec7d6287198f0c47f4a74b46d3a9b0f58"
         }
       ]
     },
