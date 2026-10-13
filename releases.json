@@ -422,6 +422,47 @@
       ]
     },
     {
+      "repository": "xheavy0/ThreadCalendar",
+      "tag_name": "threadcalendar-v1.2.3",
+      "body": "ThreadCalendar 1.2.3 applies the approved Thread Space TC logo consistently across the app and Windows installer.\n\n- Replace the legacy calendar startup artwork with the same TC vector used in the title bar, with a short CSS entrance and a 2.6-second automatic dismissal. Skip, Escape and reduced-motion support remain available.\n- Set explicit installer and uninstaller icons. Window, system tray and reminder notifications continue to use the same multi-resolution TC icon.\n- Remove the unused Lottie player, artwork and associated license files.\n- Add `npm run verify:package`, including entry-point checks for window, tray and notification icons in normal/background startup and development/packaged modes using mocked Electron and isolated databases.\n\nValidation: 52 tests passed; TypeScript and Windows x64 installer build passed; startup and title-bar logos checked in the browser on light and dark themes. All 10 icon sizes matched in the app, installer and extracted uninstaller executables. Native Windows UI was not launched during verification.\n\nDownload `ThreadCalendar-1.2.3-setup.exe` to install or update. SHA-256 checksums are included in `SHA256SUMS.txt`.\n",
+      "published_at": "2026-10-13T15:17:11Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadcalendar-v1.2.3",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 205,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/SHA256SUMS.txt",
+          "digest": "sha256:3a604d6863afb164032d646e515b4d1d394e61bda0f3d50dd0c9836eb268b36c"
+        },
+        {
+          "name": "ThreadCalendar-1.2.3-setup.exe",
+          "size": 113607596,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/ThreadCalendar-1.2.3-setup.exe",
+          "digest": "sha256:cbae0abd49ef3d6daee4eeb4747f90bd87cc48e3306f2a6e2c6eb585a26b13a8"
+        },
+        {
+          "name": "ThreadCalendar-1.2.3-setup.exe.blockmap",
+          "size": 119291,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/ThreadCalendar-1.2.3-setup.exe.blockmap",
+          "digest": "sha256:28fcd949d22a9941f73449633159b7e97cf99fa2dd0ee4412ba8dc21052b08a7"
+        },
+        {
+          "name": "ThreadCalendar-1.2.3-win32-x64.zip",
+          "size": 165006957,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/ThreadCalendar-1.2.3-win32-x64.zip",
+          "digest": "sha256:e78c0c6147dd0817c01a8e7d2f21263d3d9d1db3a4c02b31069ea6be22fda687"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 353,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/toolbox-manifest.json",
+          "digest": "sha256:33e345903fc5f2fb13f4bf495608cd576315a42879935b37261e972b419ff4ee"
+        }
+      ]
+    },
+    {
       "repository": "xheavy0/Threaduninstal",
       "tag_name": "threaduninstal-v0.2.2",
       "body": "Threaduninstal v0.2.2 adds an uninstall wizard with persistent application icons, recovery backups for product registry keys and individual values, deeper leftover scanning, and the requested utility modules.\n\n- Desktop apps: interactive uninstall, batch queues, forced cleanup, Safe/Moderate/Advanced scanning, and CSV export.\n- Windows Apps, Startup Manager, Hunter Mode, and installation monitoring.\n- Compact Claude-style interface with 11px body text, warm selection, Phosphor navigation icons, the supplied app logo, and ThreadForge-style dropdowns.\n- Background icon loading, cached/debounced search, and monitor writes only when the log changes.\n- Registry recovery preserves value types and unrelated/newer data. Oversized recovery manifests are rejected before cleanup.\n\nDownload and extract **Threaduninstal-v0.2.2.zip**, then open `Threaduninstal.exe`. The standalone EXE is also available. Close the older app before opening the new version.\n\nRequires 64-bit Windows 10/11, .NET Framework 4.8, and Windows PowerShell 5.1 for Windows Apps. No installer, subscription, or network connection is required for the app. Verify downloads with `SHA256SUMS.txt`.\n\nValidation: 43 isolated self-tests, source build, headless WPF layout/templates, real read-only app inventories, and browser preview checks. Hunter path matching is tested; real window dragging remains manually unverified. An initial backup test encountered a filesystem replacement error; full subsequent suites passed, and its report is retained.\n\nThis is an independent application, not full Revo Pro parity. Advanced scanning is bounded and reports incomplete coverage; access errors, differently named leftovers, other user accounts, and unsupported registry data may be missed. Recovery restores leftovers/settings, not application binaries. Cross-volume folder moves are refused and leave originals in place. See the README for scope and limits.\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
