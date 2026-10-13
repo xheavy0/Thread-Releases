@@ -463,6 +463,41 @@
       ]
     },
     {
+      "repository": "xheavy0/ThreadAura",
+      "tag_name": "threadaura-v0.1.0",
+      "body": "ThreadAura 0.1.0 is the first Windows x64 release of the local live-wallpaper studio.\n\n### Included\n\n- Image/video library, favorites, portable projects and file-based gallery sharing.\n- Independent displays, span/duplicate, playlists, schedules, tray controls and optional startup/session restore.\n- Scene layers, keyframes, particles, audio response, local depth parallax and silent WebM export.\n- Puppet Warp, OBJ/FBX/GLB, custom GLSL, isolated JavaScript and self-contained HTML wallpapers.\n- Optional now-playing information, Razer Chroma and Corsair iCUE integrations.\n- AI website workflows, saved ChatGPT requests and optional native OpenAI API generation.\n\n### Gaming memory saving\n\n**Settings → Desktop playback → Free wallpaper memory while gaming** defaults on. Fullscreen or configured foreground-app rules close wallpaper renderers on all displays. They return after two stable seconds, preserving playlist position, countdown, Shuffle history and manual Pause. Videos and scene animations restart. Studio and native scene/playlist snapshots remain allocated.\n\n### Downloads\n\n- `ThreadAura_0.1.0_x64-setup.exe`: Windows installer.\n- `ThreadAura-0.1.0-win32-x64.zip`: portable application, also used by ThreadBox.\n- `toolbox-manifest.json`: verified ThreadBox package metadata.\n- `SHA256SUMS`: SHA-256 checksums for the installer, ZIP and manifest.\n\nRequires Windows 10/11 x64 and Microsoft WebView2. Local depth assets are embedded; no model download is required after installation. AI website services and the optional API have their own account requirements and limits.\n\n### Validation and current limits\n\n139 frontend tests, 57 Rust tests, Clippy and production Windows NSIS packaging passed. Browser settings verification passed. The application and installer were not launched during these checks; native Windows playback, hardware integrations and actual gaming RAM/VRAM savings remain manually unverified.\n\nSteam Workshop, Wallpaper Engine scene-package compatibility, Android and screensavers are not included.\n",
+      "published_at": "2026-10-13T15:50:42Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaura-v0.1.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "SHA256SUMS",
+          "size": 282,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.0/SHA256SUMS",
+          "digest": "sha256:56c55427b8b8a95dce467137e666cfdad66595c601090c482fc3a2bec0432e08"
+        },
+        {
+          "name": "ThreadAura-0.1.0-win32-x64.zip",
+          "size": 34658012,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.0/ThreadAura-0.1.0-win32-x64.zip",
+          "digest": "sha256:4019873a399226c09e1648a600a9b67468dbfc138cadd6733dcb7396505ea90b"
+        },
+        {
+          "name": "ThreadAura_0.1.0_x64-setup.exe",
+          "size": 33373439,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.0/ThreadAura_0.1.0_x64-setup.exe",
+          "digest": "sha256:adbd44f05476da65605dc8947f31d9e9fae15661de17968a2112cb8af6f91e01"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 364,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.0/toolbox-manifest.json",
+          "digest": "sha256:5ae15c10a4901e6406dd27f7676dfb245a7c7ea00d612d785fa41a523caebac0"
+        }
+      ]
+    },
+    {
       "repository": "xheavy0/Threaduninstal",
       "tag_name": "threaduninstal-v0.2.2",
       "body": "Threaduninstal v0.2.2 adds an uninstall wizard with persistent application icons, recovery backups for product registry keys and individual values, deeper leftover scanning, and the requested utility modules.\n\n- Desktop apps: interactive uninstall, batch queues, forced cleanup, Safe/Moderate/Advanced scanning, and CSV export.\n- Windows Apps, Startup Manager, Hunter Mode, and installation monitoring.\n- Compact Claude-style interface with 11px body text, warm selection, Phosphor navigation icons, the supplied app logo, and ThreadForge-style dropdowns.\n- Background icon loading, cached/debounced search, and monitor writes only when the log changes.\n- Registry recovery preserves value types and unrelated/newer data. Oversized recovery manifests are rejected before cleanup.\n\nDownload and extract **Threaduninstal-v0.2.2.zip**, then open `Threaduninstal.exe`. The standalone EXE is also available. Close the older app before opening the new version.\n\nRequires 64-bit Windows 10/11, .NET Framework 4.8, and Windows PowerShell 5.1 for Windows Apps. No installer, subscription, or network connection is required for the app. Verify downloads with `SHA256SUMS.txt`.\n\nValidation: 43 isolated self-tests, source build, headless WPF layout/templates, real read-only app inventories, and browser preview checks. Hunter path matching is tested; real window dragging remains manually unverified. An initial backup test encountered a filesystem replacement error; full subsequent suites passed, and its report is retained.\n\nThis is an independent application, not full Revo Pro parity. Advanced scanning is bounded and reports incomplete coverage; access errors, differently named leftovers, other user accounts, and unsupported registry data may be missed. Recovery restores leftovers/settings, not application binaries. Cross-volume folder moves are refused and leave originals in place. See the README for scope and limits.\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
