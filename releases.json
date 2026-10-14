@@ -227,6 +227,53 @@
       ]
     },
     {
+      "repository": "xheavy0/ThreadLibrary",
+      "tag_name": "threadlibrary-v0.1.0",
+      "body": "First Windows release of ThreadLibrary: a local reference library for coding agents.\n\n- 61 design systems, 38 prompts and 915 skills, with complete original sources.\n- Claude-style desktop interface, appearance settings, favorites and starter kits.\n- Copy complete resources, install into projects and connect coding tools through seven MCP tools.\n- Send directly to an existing ThreadForge conversation once ThreadForge includes its companion receiver update.\n\nInstall **ThreadLibrary-Setup-0.1.0.exe**, or install the manifest/ZIP through Thread Toolbox. Node and the catalogue are included. Updates keep your per-user registered projects and transfer history. No standalone portable executable.\n\nValidation: 22 unit assertions, three desktop runtime tests, real HTTP/MCP acceptance, direct sender/receiver integration, packaged backend checks, all 2,652 referenced content hashes, and all 2,891 installer/ZIP payload files pass. The installer was extracted statically; installed native UI and real-provider acceptance remain user-run.\n",
+      "published_at": "2026-10-14T18:37:26Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadlibrary-v0.1.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "latest.yml",
+          "size": 355,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/latest.yml",
+          "digest": "sha256:0e6056c67c9bd6fc3adf8e64a1d07588d016fe81f77d3df294ee3dfae14bb8e4"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 466,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/SHA256SUMS.txt",
+          "digest": "sha256:2af55533eb6725358b142865c2e407ca57b3da253b66d1b869d611f7d3a36c6a"
+        },
+        {
+          "name": "ThreadLibrary-0.1.0-win32-x64.zip",
+          "size": 213592000,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/ThreadLibrary-0.1.0-win32-x64.zip",
+          "digest": "sha256:fe7c9a712b146b9c375dea074cf73e9dcbc937a4b4fc50081943fb111d0624a0"
+        },
+        {
+          "name": "ThreadLibrary-Setup-0.1.0.exe",
+          "size": 147651848,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/ThreadLibrary-Setup-0.1.0.exe",
+          "digest": "sha256:8d9032199f8d1ba9d4742603b302be8d017c677640330118a6690c0983158b21"
+        },
+        {
+          "name": "ThreadLibrary-Setup-0.1.0.exe.blockmap",
+          "size": 154927,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/ThreadLibrary-Setup-0.1.0.exe.blockmap",
+          "digest": "sha256:53ab31625bf802adff87c8265d1c641dcf9d1d1a2dce8ae83e3a9ec2dbe8befc"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 348,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/toolbox-manifest.json",
+          "digest": "sha256:54767a67548f77eec28570f0c602bfd61cb101814326c9aa5e559cd58123b198"
+        }
+      ]
+    },
+    {
       "repository": "xheavy0/Threadnote",
       "tag_name": "threadnote-v0.1.1",
       "body": "# ThreadNote 0.1.1\n\nThreadNote now uses the approved Thread Space v1.0 gold `TN` icon throughout the\napplication and its Windows packages. Startup keeps the existing animation and\n4.4-second timing, with the decorative sparks removed.\n\n## Changes\n\n- Replaced the application/menu/About/empty-state mark, startup logo, favicon,\n  window/tray/shortcut icon, and installer/uninstaller icon resources.\n- Added an outlined SVG master, transparent 16–1024px PNG exports and a multi-size\n  Windows ICO. Builds reject stale icon exports.\n- Restricted Windows packaging to production bundles so old local smoke-test\n  screenshots and logs are excluded.\n- Preserved navigation pictograms, configurable interface themes and user-selected\n  workspace icons. AEGIS assets and code are unchanged.\n\n## Downloads\n\n- **Threadnote-0.1.1-setup.exe**: Windows x64 installer.\n- **Threadnote-0.1.1-portable.exe**: standalone Windows x64 executable.\n- **SHA256SUMS.txt**: SHA-256 checksums for the binaries and installer metadata.\n\nInstalled builds keep notes under `%APPDATA%/threadnote/` by default. Portable\nbuilds use `ThreadnoteData` beside the executable. Settings → Data can select\nanother location. These builds use the project's existing unsigned configuration.\n\n## Validation\n\n- 528 tests passed across 58 test files; ESLint, TypeScript and production builds\n  passed. All generated brand resources match the SVG master.\n- The packaged version is 0.1.1. All 19 production build/migration files and the\n  runtime ICO match their sources; old smoke-test outputs are excluded.\n- Application, installer and portable executable resources contain all seven TN\n  icon frames and report product version 0.1.1.0.\n- Installer metadata sizes/SHA-512 and downloadable SHA-256 checksums are verified.\n\nNative desktop UI checks are excluded by the browser-only verification policy.\n\nSource commit: b2bb2b55564b5fca269a0be62e7fd77511401783.\n\r\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
