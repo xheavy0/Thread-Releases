@@ -13,6 +13,10 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadforge.app",
         "shortcutIcon": "resources/icon.ico",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf.png",
+          "sha256": "cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf"
+        },
         "name": "Threadforge",
         "description": "Code editor and workspace for AI agents.",
         "category": "desktop"
@@ -21,6 +25,10 @@
         "repository": "xheavy0/Threadmap",
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "dev.threadmap.desktop",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0.png",
+          "sha256": "45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0"
+        },
         "name": "ThreadMap",
         "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
         "category": "desktop"
@@ -30,6 +38,10 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadlibrary.app",
         "shortcutIcon": "resources/icon.ico",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/698147181060eaab3c12749cebd6f49a5ce9ad60a169b24abaad9b86f441389a.png",
+          "sha256": "698147181060eaab3c12749cebd6f49a5ce9ad60a169b24abaad9b86f441389a"
+        },
         "name": "ThreadLibrary",
         "description": "Design systems, prompts and skills for your coding agents.",
         "category": "desktop"
@@ -44,6 +56,10 @@
       {
         "repository": "xheavy0/Threadnote",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4.png",
+          "sha256": "242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4"
+        },
         "name": "Threadnote",
         "description": "Your notes, ideas, and personal knowledge space.",
         "category": "desktop"
@@ -51,6 +67,10 @@
       {
         "repository": "xheavy0/Threadshot",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775.png",
+          "sha256": "ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775"
+        },
         "name": "Threadshot",
         "description": "Capture your screen and annotate images.",
         "category": "desktop"
@@ -58,6 +78,10 @@
       {
         "repository": "xheavy0/Threadstorage",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789.png",
+          "sha256": "baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789"
+        },
         "name": "ThreadStorage",
         "description": "Your files and cloud storage in one place.",
         "category": "desktop"
@@ -65,6 +89,10 @@
       {
         "repository": "xheavy0/ThreadVoice",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a.png",
+          "sha256": "5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a"
+        },
         "name": "ThreadVoice",
         "description": "Voice-to-text dictation across Windows apps.",
         "category": "desktop"
@@ -72,6 +100,10 @@
       {
         "repository": "xheavy0/ThreadAccount",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/f2ae1f1741de5d61d09470847b4fd1e2d09a916273f55b0dab8476d0d6443a1d.png",
+          "sha256": "f2ae1f1741de5d61d09470847b4fd1e2d09a916273f55b0dab8476d0d6443a1d"
+        },
         "name": "ThreadAccount",
         "description": "Track Codex and Claude accounts, usage limits, and token analytics.",
         "category": "desktop"
@@ -79,6 +111,10 @@
       {
         "repository": "xheavy0/ThreadCalendar",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/cb499034df335e235fe9e5ed9dd1759bba726e99e8761dcc253106074b3d49f6.png",
+          "sha256": "cb499034df335e235fe9e5ed9dd1759bba726e99e8761dcc253106074b3d49f6"
+        },
         "name": "ThreadCalendar",
         "description": "Calendar, plans, and reminders connected to Threadnote.",
         "category": "desktop"
@@ -86,6 +122,10 @@
       {
         "repository": "xheavy0/ThreadAura",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179.png",
+          "sha256": "aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179"
+        },
         "name": "ThreadAura",
         "description": "Wallpapers, animations, and a scene editor.",
         "category": "desktop"
@@ -94,6 +134,10 @@
         "repository": "xheavy0/Threadlendar",
         "releaseRepository": "xheavy0/Thread-Releases",
         "publishReleases": false,
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/97c23135e4ca3b83107fabfcb75f2647bc085af301bd9fc4210d4f3a2d6fb64c.png",
+          "sha256": "97c23135e4ca3b83107fabfcb75f2647bc085af301bd9fc4210d4f3a2d6fb64c"
+        },
         "name": "Threadlendar",
         "description": "A Windows dock for your apps and files.",
         "category": "desktop"
@@ -102,6 +146,10 @@
         "repository": "xheavy0/Threaduninstal",
         "releaseRepository": "xheavy0/Thread-Releases",
         "shortcutIcon": "assets/app.ico",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545.png",
+          "sha256": "60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545"
+        },
         "name": "Threaduninstal",
         "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
         "category": "desktop"
@@ -109,6 +157,10 @@
       {
         "repository": "xheavy0/ThreadMail",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34.png",
+          "sha256": "84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34"
+        },
         "name": "ThreadMail",
         "description": "A unified inbox for managing your email.",
         "category": "web"
@@ -116,6 +168,10 @@
       {
         "repository": "xheavy0/Threadplan",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b.png",
+          "sha256": "f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b"
+        },
         "name": "Threadplan",
         "description": "Tasks, habits, and plans for Windows and Android.",
         "category": "desktop"
@@ -123,6 +179,10 @@
       {
         "repository": "xheavy0/ThreadforgeMobile",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/1882f7ee44267eecaf52e765e4d80e42e921e7de97b67fc8a4f38fe54043b9af.png",
+          "sha256": "1882f7ee44267eecaf52e765e4d80e42e921e7de97b67fc8a4f38fe54043b9af"
+        },
         "name": "Threadforge Mobile",
         "description": "The Threadforge mobile app.",
         "category": "mobile"
