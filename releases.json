@@ -545,42 +545,42 @@
     },
     {
       "repository": "xheavy0/ThreadAccount",
-      "tag_name": "threadaccount-v0.4.4",
-      "body": "ThreadAccount 0.4.4 აახლებს გვერდით მენიუს და ამატებს ორ პროვაიდერს.\n\n- ახალი Usage ტაბი: quota-ის ისტორია, heatmap, ანგარიშების შედარება, სპარკლაინები და ანგარიშის დეტალების პანელი.\n- Runtime დეტალები და მოწყობილობის CPU/Memory/Disk გრაფიკები; CLI სესიები პროვაიდერის დონეზე აღირიცხება.\n- ThreadBoard-ის მუქი ფონები, Inter/JetBrains Mono შრიფტები, Lucide-ის აიქონები და Windows-ის ზედა ღილაკები.\n- შეკეცილი მენიუ მაუსის მიტანისას დროებით იშლება, მოშორებისას კვლავ იკეცება; ღილაკი მუდმივ რეჟიმს მართავს.\n- აპის ლოგო ზედა ზოლშია. Workspace, შეკეცვის ღილაკი და Settings-ის ერთადერთი აიქონი ქვედა რიგშია; დუბლირებული პროფილის ტექსტი მოხსნილია.\n- Cursor და Antigravity: ანგარიშების დამატება/რედაქტირება, ფილტრები, რჩეულები, გამოყენების ისტორია, იმპორტი/ექსპორტი და პროვაიდერის ბმულები.\n- Cursor-ის usage იწერება გამოყენებული პროცენტით; Antigravity-ის — დარჩენილით. ორივე ამ ეტაპზე ხელით იმართება; ავტომატური კავშირები გამორთულია და backend-შიც უარყოფილია.\n\nCursor-ის ოფიციალური [Admin API](https://cursor.com/docs/account/teams/admin-api) გუნდის მონაცემებისთვისაა. Antigravity-ის ოფიციალური [usage ინსტრუქცია](https://antigravity.google/docs/cli/commands/usage/) აღწერს ინტერაქტიულ quota პანელს. ამ რელიზში პირადი ანგარიშების ავტომატური API ინტეგრაცია არ ხორციელდება. არსებული Codex/Claude ავტორიზაცია და CLI ანალიტიკა შენარჩუნებულია.\n\n\n## ჩამოტვირთვა\n\nWindows ინსტალერი: `ThreadAccount-0.4.4-Setup.exe`. Toolbox-ისთვის: `ThreadAccount-0.4.4-win32-x64.zip` და `toolbox-manifest.json`. საკონტროლო ჯამები: `SHA256SUMS.txt`.\n\n## შემოწმება\n\n79 ტესტი წარმატებით დასრულდა. TypeScript/Vite build, Windows NSIS შეფუთვა, ASAR-ის ვერსია/რესურსები და ბრაუზერის ვიზუალური შემოწმება გავლილია. Desktop აპი და ინსტალერი ავტომატურად არ გაშვებულა.\n",
-      "published_at": "2026-10-14T19:01:56Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.4.4",
+      "tag_name": "threadaccount-v0.4.5",
+      "body": "ThreadAccount 0.4.5 ამატებს ლოკალური CLI ანგარიშების დაკავშირებას და აახლებს usage-ის განლაგებას.\n\n- Cursor და Antigravity ემატება Local CLI profile-დან: მეილი და გეგმა იკითხება ავტომატურად, ავტორიზაცია ინახება დაშიფრულად და მოწმდება ანგარიშის იდენტობა. საწყისი CLI პროფილი არ იცვლება.\n- თითოეულ ანგარიშზე დაკლიკებით იხსნება მისი პროვაიდერის ცალკე, ორივე მიმართულებით ზომაშეცვლადი usage ფანჯარა: quota-ის წრეები/ზოლები, აქტივობა, კავშირი და მოწყობილობის რესურსები.\n- Codex/Claude ტოკენების ანალიტიკა აჩვენებს მხოლოდ შესაბამისი პროვაიდერის ლოკალურ ისტორიას; მონაცემები მოწყობილობის დონეზეა და კონკრეტულ მეილს არ მიეწერება. Cursor/Antigravity აჩვენებს ანგარიშის quota-ის ისტორიას.\n- quota-ის წრეებში ციფრები ცენტრირებულია, პროცენტის ნიშანი გამიჯნულია და ათწილადებისთვის ზომა მორგებულია.\n- დამატებულია GitHub-ის სტილის წლიური quota კალენდარი, აპის თემაზე მორგებული თარიღის/დროის არჩევა და dropdown მენიუები.\n\nCursor-ის quota რეალურ ლოკალურ პროფილზე შემოწმებულია. Antigravity-ის ანგარიშის ამოცნობა და ავტორიზაციის განახლება მუშაობს, თუმცა შემოწმებულ ანგარიშზე სერვერმა quota-ზე წვდომა ლიცენზიის შეცდომით უარყო. ასეთი შეცდომა ინარჩუნებს წინა მონაცემებს და არ აჩვენებს გამოგონილ პროცენტებს. ამ ორი პროვაიდერის quota ინტეგრაციები არადოკუმენტირებულ სერვისებს ეყრდნობა და შეიძლება შეიცვალოს.\n\nWindows ინსტალერი: `ThreadAccount-0.4.5-Setup.exe`. Toolbox პაკეტი: `ThreadAccount-0.4.5-win32-x64.zip` და `toolbox-manifest.json`. საკონტროლო ჯამები: `SHA256SUMS.txt`.\n\nშემოწმება: 94 ტესტი, TypeScript/Vite build, Windows NSIS შეფუთვა, ASAR-ის ფაილების შესაბამისობა და Codex-ის ბრაუზერში ოთხივე პროვაიდერის ფანჯარა. Desktop აპი და ინსტალერი ავტომატურად არ გაშვებულა.\n",
+      "published_at": "2026-10-14T20:15:33Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.4.5",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
-          "size": 389,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/SHA256SUMS.txt",
-          "digest": "sha256:36f4332c71c6186f157777ec7cb8d1bb6c30f626d98a22358b727f4a67436875"
+          "size": 393,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.5/SHA256SUMS.txt",
+          "digest": "sha256:2af33380eb458aba90ece7bce2f3be010c8c239e25449fb9c0147da0b542c122"
         },
         {
-          "name": "ThreadAccount-0.4.4-Setup.exe",
-          "size": 117060850,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/ThreadAccount-0.4.4-Setup.exe",
-          "digest": "sha256:9c7e26e164dfefa13617fe625a4798eb622e5a7199cf256a1a7940aa989ed96b"
+          "name": "ThreadAccount-0.4.5-Setup.exe",
+          "size": 117072065,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.5/ThreadAccount-0.4.5-Setup.exe",
+          "digest": "sha256:2dce73e85c35545c73b195c6baeac79997fd5b6d0429df2c8903dd7cb4cb52a1"
         },
         {
-          "name": "ThreadAccount-0.4.4-Setup.exe.blockmap",
-          "size": 122017,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/ThreadAccount-0.4.4-Setup.exe.blockmap",
-          "digest": "sha256:de215690b2ade4478346fe591a66b731b6b1f7ea43f43d8f9b6851047c078c63"
+          "name": "ThreadAccount-0.4.5-Setup.exe.blockmap",
+          "size": 122260,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.5/ThreadAccount-0.4.5-Setup.exe.blockmap",
+          "digest": "sha256:e72cff755809bc3c69b948bb731f62f4ef75a2e3d692bca4110eb24df2aea213"
         },
         {
-          "name": "ThreadAccount-0.4.4-win32-x64.zip",
-          "size": 169235513,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/ThreadAccount-0.4.4-win32-x64.zip",
-          "digest": "sha256:119372c37e7b4457e954457c9203845ac6aa082d46d8c6bd43a32e4dc552ef3e"
+          "name": "ThreadAccount-0.4.5-win32-x64.zip",
+          "size": 169248599,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.5/ThreadAccount-0.4.5-win32-x64.zip",
+          "digest": "sha256:0cf9753f6eb694807e63903abee286e97ebc52b61d248374699a5d1290531922"
         },
         {
           "name": "toolbox-manifest.json",
-          "size": 361,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/toolbox-manifest.json",
-          "digest": "sha256:8ee228b31541f8c7b1058545f92394c1db310bce283707624b755db1fcaf3883"
+          "size": 374,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.5/toolbox-manifest.json",
+          "digest": "sha256:d6cd326e704df26c7abbd08f5398887e6bf8293032787bf0993a29504f1d1036"
         }
       ]
     },
