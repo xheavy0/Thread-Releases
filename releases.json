@@ -49,8 +49,13 @@
       {
         "repository": "xheavy0/ThreadBoard",
         "releaseRepository": "xheavy0/Thread-Releases",
+        "appUserModelId": "com.threadboard.app",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62.png",
+          "sha256": "51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62"
+        },
         "name": "ThreadBoard",
-        "description": "",
+        "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
         "category": "desktop"
       },
       {
@@ -330,6 +335,41 @@
           "size": 348,
           "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/toolbox-manifest.json",
           "digest": "sha256:54767a67548f77eec28570f0c602bfd61cb101814326c9aa5e559cd58123b198"
+        }
+      ]
+    },
+    {
+      "repository": "xheavy0/ThreadBoard",
+      "tag_name": "threadboard-v0.1.0",
+      "body": "First release of Threadboard, the Thread desktop client for GitHub.\n\n## Highlights\n\n- **Repositories:** overview with CI, releases and stars; code browser with README; issues with detail view; Actions with logs and manual runs; Projects, Insights, Security and quality, Copilot agent tasks, and repository Settings.\n- **Pull requests:** create, review inline, approve or request changes, and merge (merge, squash, rebase, auto-merge) without leaving the app.\n- **Home:** contribution calendar, popular repositories, review queue, inbox, and a releases feed across your repositories.\n- **Accounts:** several accounts side by side with GitHub, GitLab, Bitbucket and Azure DevOps sign-in. Tokens are kept in Windows Credential Manager.\n- **Desktop:** native notifications, tray icon, and a Ctrl+K command palette.\n\n## Downloads\n\n- `Threadboard_0.1.0_x64-setup.exe`: Windows installer (recommended)\n- `Threadboard_0.1.0_x64_en-US.msi`: MSI installer\n- `Threadboard-0.1.0-win-x64.zip`: portable build for Thread Toolbox\n\nThe installers aren't code-signed yet, so Windows SmartScreen may warn on first run: choose **More info → Run anyway**.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-14T19:37:21Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadboard-v0.1.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Threadboard-0.1.0-win-x64.zip",
+          "size": 5754754,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.1.0/Threadboard-0.1.0-win-x64.zip",
+          "digest": "sha256:c62bb1ac22fdf87c11dc1d4c151b48ff9c6535da668320e1b216986a8ea90f8d"
+        },
+        {
+          "name": "Threadboard_0.1.0_x64-setup.exe",
+          "size": 4295220,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.1.0/Threadboard_0.1.0_x64-setup.exe",
+          "digest": "sha256:6b7ac96c2a27fce1eb94016c16a452f96e4a8a7bb2ec21b545c082b07dacd961"
+        },
+        {
+          "name": "Threadboard_0.1.0_x64_en-US.msi",
+          "size": 6057984,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.1.0/Threadboard_0.1.0_x64_en-US.msi",
+          "digest": "sha256:c0fef9460393e8da33b3e7b8ece6c9df1be39b50c1d9b36ae76fac12d8cbbe77"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 387,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.1.0/toolbox-manifest.json",
+          "digest": "sha256:6bea815897dcbd5e3f2e08603642f7f39e0af37f6ab74a6e47286f0726ac9b5f"
         }
       ]
     },
