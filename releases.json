@@ -545,42 +545,42 @@
     },
     {
       "repository": "xheavy0/ThreadAccount",
-      "tag_name": "threadaccount-v0.4.6",
-      "body": "ThreadAccount 0.4.6 ასწორებს Antigravity-ის პირადი ანგარიშის quota-ს და ამატებს მოდელების ინტერაქტიულ აქტივობას.\n\n- Antigravity-ის legacy API-ის `SUBSCRIPTION_REQUIRED` პასუხზე quota იკითხება ოფიციალური CLI-ის `agy -p /usage --output-format json` ბრძანებით. რეალურ პროფილზე Gemini Models და Claude/GPT ჯგუფების პროცენტები და reset დროები წარმატებით შემოწმდა.\n- CLI-ის აქტიური ანგარიშის იდენტობა მოწმდება quota-ის წაკითხვამდე და შემდეგ. სხვა ანგარიშის მონაცემები არ აირევა. პირადი ანგარიშის ამ გზით განახლებისთვის agy-ში იგივე ანგარიში უნდა იყოს შესული.\n- Token activity გრაფიკში მოდელები სხვადასხვა ფერით ჩანს. მაუსის გადატარება აჩვენებს თარიღს, გაგზავნილ/მიღებულ/ქეშიდან წაკითხულ ტოკენებს და თითოეული მოდელის მოხმარებას. ლეგენდაზე დაჭერა მოდელს აჩენს ან მალავს; დღეების არჩევა კლავიატურითაც მუშაობს.\n- მოდელის დღიური ანალიტიკა ითვალისწინებს პროვაიდერს, არჩეულ დროის სარტყელსა და დუბლიკატების გამორიცხვას. Codex/Claude ისტორია მოწყობილობის დონეზეა და კონკრეტულ ანგარიშის მეილს არ მიეწერება.\n- Quota activity კალენდარს დაემატა აქტიური დღეების, ანგარიშების, პიკური გამოყენებისა და ბოლო ჩანაწერის მეტრიკები. ისინი არჩეულ ანგარიშსა და პერიოდს მიჰყვება. 0–100% სკალა მარცხნივ, აქტივობის ქვემოთაა.\n- ზედა ზოლიდან მოხსნილია Local/Preview ნიშნული. Usage ფანჯრის შრიფტები აპთან შეთავსებულია; პროცენტები შემცირებულია და წრის ცენტრშია გასწორებული, ქვედა წარწერები კი ზემოთაა აწეული.\n\nWindows ინსტალერი: `ThreadAccount-0.4.6-Setup.exe`. Toolbox პაკეტი: `ThreadAccount-0.4.6-win32-x64.zip` და `toolbox-manifest.json`. საკონტროლო ჯამები: `SHA256SUMS.txt`.\n\nშემოწმება: 100 ტესტი, TypeScript/Vite build, Windows NSIS შეფუთვა, ASAR-ის შესაბამისობა წყაროსა და renderer-თან, CLI-ის რეალური quota და Codex-ის ბრაუზერში ვიზუალური/ინტერაქტიული შემოწმება. Native CLI-ის quota ანგარიში არ ასრულებს agent turn-ს და არ ხარჯავს მოდელის ტოკენებს; პროცესის დრო და პასუხის ზომა შეზღუდულია. Desktop აპი და ინსტალერის UI ავტომატურად არ გაშვებულა.\n",
-      "published_at": "2026-10-14T21:14:30Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.4.6",
+      "tag_name": "threadaccount-v0.4.7",
+      "body": "Usage-ის ფანჯარა ეკრანის ზომას ერგება: ლიმიტები და მოდელების სია გვერდიგვერდ ლაგდება, კომპაქტური დაშორებები კი ყველა ბარათს სრულად აჩენს ჩვეულებრივ desktop ზომებზე. ქვედა მარჯვენა კუთხიდან ზომის შეცვლა კვლავ მუშაობს; პატარა ფანჯარაში შიგთავსი სქროლით ხელმისაწვდომია.\n\nRuntime-ის CPU, Memory, Disk და Sessions გრაფიკებს დაემატა დროისა და მნიშვნელობის მინიშნებები, კურსორი და კლავიატურით დათვალიერება (ისრები, Home/End, Escape). ფერები, შრიფტები და quota-ის რგოლების გასწორება შენარჩუნებულია.\n\nმთავარი Usage ცხრილის Last 24h გრაფიკიც ინტერაქტიულია: მაუსის გადატარებით ჩანს 10-წუთიანი შუალედი, მაქსიმალური გამოყენება და თითოეული ლიმიტი. ცარიელი შუალედი უცნობად რჩება. გრაფიკის ფოკუსი ხაზს უსვამს მონაცემს ზედმეტი მართკუთხა ჩარჩოს გარეშე.\n\nშემოწმება: 100 Node ტესტი, TypeScript/Vite production build და Codex-ის ბრაუზერში ოთხივე პროვაიდერის ფანჯარა. სქროლის გარეშე განლაგება შემოწმებულია 1366×768, 1164×795, 1155×884 და 1920×1080 ზომებზე. Windows NSIS და Toolbox ZIP შეიცავს ერთსა და იმავე production აპს; SHA256SUMS.txt შეიცავს ფაილების საკონტროლო ჯამებს. Desktop აპი და ინსტალატორის UI შემოწმებისას არ გაშვებულა.\n",
+      "published_at": "2026-10-14T21:33:39Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.4.7",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 393,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.6/SHA256SUMS.txt",
-          "digest": "sha256:43d4b1e354be6ee8cc3d0f229a279830d7eb7b7afc559bda8c99980703cbdb1e"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.7/SHA256SUMS.txt",
+          "digest": "sha256:92bf3dfdcef5c0bd18b9ff3df92368251a34837b2402f41715776c9bab4ade79"
         },
         {
-          "name": "ThreadAccount-0.4.6-Setup.exe",
-          "size": 117075438,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.6/ThreadAccount-0.4.6-Setup.exe",
-          "digest": "sha256:9fb9a6309bb3559ec30b17d874b0e8626db8234429b830773752e4050dc077aa"
+          "name": "ThreadAccount-0.4.7-Setup.exe",
+          "size": 117076815,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.7/ThreadAccount-0.4.7-Setup.exe",
+          "digest": "sha256:d69638d5719f8405e3a4eb5ee4f6810834ca723fb4693868733122942f138204"
         },
         {
-          "name": "ThreadAccount-0.4.6-Setup.exe.blockmap",
-          "size": 122352,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.6/ThreadAccount-0.4.6-Setup.exe.blockmap",
-          "digest": "sha256:351de21da35b0b97c11281f05596c27db6ef4bb185ea554196c80e5dacdb74d3"
+          "name": "ThreadAccount-0.4.7-Setup.exe.blockmap",
+          "size": 122315,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.7/ThreadAccount-0.4.7-Setup.exe.blockmap",
+          "digest": "sha256:23894d03c762ee5e852dc5656cab4520fce09d08e31d148479c16b73e5ee3a78"
         },
         {
-          "name": "ThreadAccount-0.4.6-win32-x64.zip",
-          "size": 169253145,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.6/ThreadAccount-0.4.6-win32-x64.zip",
-          "digest": "sha256:c4a5662d68fd0cd5ced119ae89aec7f682f665cb67458a6fef355a86eb9e4a1d"
+          "name": "ThreadAccount-0.4.7-win32-x64.zip",
+          "size": 169254935,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.7/ThreadAccount-0.4.7-win32-x64.zip",
+          "digest": "sha256:8b3670596c8b7cc90815188bdc86b0c6fe0ee10f91ba6797b15099226722a6d2"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 374,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.6/toolbox-manifest.json",
-          "digest": "sha256:b4a8f99e569a0a5e2de21866f867c8262ba25998a4f76734d05a0d3d2ed2538a"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.7/toolbox-manifest.json",
+          "digest": "sha256:a3ec66f5aed08d6bb3458a14a482796cc05222442d91cc0ebdf4c4bafd9b689c"
         }
       ]
     },
