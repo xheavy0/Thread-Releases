@@ -130,54 +130,54 @@
   "releases": [
     {
       "repository": "xheavy0/Threadforge",
-      "tag_name": "threadforge-v1.0.22",
-      "body": "When a provider's safety filter blocks a request, Threadforge now says so clearly instead of showing an empty or cut-off answer as a success. Anthropic refusals, OpenAI-compatible refusals and content filters (OpenAI, OpenRouter, Ollama, DeepSeek and custom endpoints) and Gemini prompt or answer blocks all end the turn with one shared message that includes the provider's own explanation — in plain, streamed and tool-using conversations.\n\nA blocked request is never retried on another provider automatically. A blocked OpenCode answer runs none of its file writes, and when a Claude Code worker is finally refused, its Inbox report is marked failed and the lead agent sees the reason in its agent chat.\n\nThe README has a new Safety section describing provider blocks, secret redaction, approvals and agent homes.\n\nWindows x64 NSIS installer with matching updater/checksum assets. Installed provider and UI acceptance follows the owner's manual testing.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-14T14:40:28Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.22",
+      "tag_name": "threadforge-v1.0.23",
+      "body": "ThreadLibrary can now send a design, prompt or skill straight into an existing Threadforge conversation: a Code chat, a running coding-agent terminal or a Studio API chat. No MCP receive request has to be pasted. Threadforge lists its conversations to ThreadLibrary and saves the complete resource after an exact SHA-256 check. It confirms only once the conversation has accepted the message, then opens that conversation. A retried transfer is never submitted twice.\n\nExisting conversation permissions still apply. When a conversation needs cold-context confirmation, Threadforge comes to the front. If the confirmation is not given in time, the warning is withdrawn and ThreadLibrary is told that nothing was sent. Studio API chats accept references up to 100,000 characters; Code chats and terminals receive the complete file. Transferred copies are removed after 30 days.\n\nWindows x64 NSIS installer with matching updater/checksum assets. Installed provider and UI acceptance follows the owner's manual testing.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-14T18:03:48Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.23",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
-          "size": 368,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.22/latest.yml",
-          "digest": "sha256:d0efe9dfe9ac18289653fa430eb5c752d11f07b9496096f9338685c1e7e97981"
+          "size": 354,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.23/latest.yml",
+          "digest": "sha256:b70a4b2e8a2c51e1436fe7617d4556af3cc399f4be25a622ebcb75c0035619c8"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 366,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.22/SHA256SUMS.txt",
-          "digest": "sha256:db268fa45a0610cb3ad6c10a6f8571ad521d4ad162b8cb8470b62227500c69b0"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.23/SHA256SUMS.txt",
+          "digest": "sha256:e428e3934129b52bdf37474945fc559fcbccaf91a030f025e75719b7c98f1554"
         },
         {
-          "name": "Threadforge-1.0.22-win32-x64.zip",
-          "size": 824932651,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.22/Threadforge-1.0.22-win32-x64.zip",
-          "digest": "sha256:bc977a99643fcc8546ef486eb0c3c63c8bf136310ec224bde48b1ee76edbe975"
+          "name": "Threadforge-1.0.23-win32-x64.zip",
+          "size": 824919542,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.23/Threadforge-1.0.23-win32-x64.zip",
+          "digest": "sha256:996b25fa4ccbfd93fb24437e7977327a36480e08f24426c5833056e2d9c1c941"
         },
         {
-          "name": "Threadforge-Setup-1.0.22.exe",
-          "size": 555374643,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.22/Threadforge-Setup-1.0.22.exe",
-          "digest": "sha256:ec569097abf62f941b12f4dbd163bbad4f368502af81814536a60f7bc74169e6"
+          "name": "Threadforge-Setup-1.0.23.exe",
+          "size": 555359647,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.23/Threadforge-Setup-1.0.23.exe",
+          "digest": "sha256:f57a0636bd6d4f734e9c27a2db6f9d5aa030c59e68db2f4d01a5b8e5bd488f61"
         },
         {
-          "name": "Threadforge-Setup-1.0.22.exe.blockmap",
-          "size": 562456,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.22/Threadforge-Setup-1.0.22.exe.blockmap",
-          "digest": "sha256:c39a18cdb9171c2a796a3f0601951bc6467552c6124bb073d61631418e214594"
+          "name": "Threadforge-Setup-1.0.23.exe.blockmap",
+          "size": 561492,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.23/Threadforge-Setup-1.0.23.exe.blockmap",
+          "digest": "sha256:575f7f582985baedb9c8149f24c9d0cad8142eefe3649edb5f869ddb40528e94"
         },
         {
           "name": "threadforge-update.json",
           "size": 409,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.22/threadforge-update.json",
-          "digest": "sha256:f6d48eda5bad96c8c5d076c17c078de6fddb5e7b69178b7e3ac8251aa7acf70e"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.23/threadforge-update.json",
+          "digest": "sha256:ab2282f65ee3d679fd38761ec4ffa12e7bb430bc378018dc2be066140bdf7075"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 330,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.22/toolbox-manifest.json",
-          "digest": "sha256:af814368ea8e01c02a536b27d309cdbb111952a3358bf352431e8380489a1103"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.23/toolbox-manifest.json",
+          "digest": "sha256:a6e0ecb52c39154b4ecaad70a5048f1d9f8d80afa0454d5fac0a660d1c0db902"
         }
       ]
     },
