@@ -445,42 +445,42 @@
     },
     {
       "repository": "xheavy0/ThreadAccount",
-      "tag_name": "threadaccount-v0.3.3",
-      "body": "ThreadAccount 0.3.3 განაახლებს აპის ბრენდულ აიქონს დამტკიცებული Thread Space Icon Design System v1.0-ის მიხედვით.\n\n## ცვლილებები\n\n- ახალი **TA / #E7315A** ბრენდი: დაკეცილი გეომეტრიული ჩარჩო, #090B10 შიდა ბლოკი და თეთრი მონოგრამა.\n- ვექტორული SVG მასტერი, ცხრა გამჭვირვალე PNG ზომა და შვიდი ზომის Windows ICO.\n- განახლებული სათაურის ზოლისა და workspace-ის ლოგოები, favicon, Windows executable-ისა და installer/uninstaller-ის აიქონები.\n- ყველა PNG/ICO ექსპორტი build-ის წინ ავტომატურად იქმნება SVG მასტერიდან.\n\n## ჩამოტვირთვა\n\nWindows-ისთვის გამოიყენეთ `ThreadAccount-0.3.3-Setup.exe`. ინსტალაციის გარეშე გაშვებისთვის ხელმისაწვდომია `ThreadAccount-0.3.3-portable.exe`.\n\nგანახლებისას ჯერ დახურეთ ძველი აპი. ფაილების SHA-256 საკონტროლო ჯამები მოცემულია `SHA256SUMS.txt`-ში.\n\n## შემოწმება\n\nTypeScript/Vite build, Node ტესტები, გამჭვირვალე PNG/ICO ექსპორტები და შეფუთული Windows EXE/ASAR ბრენდული რესურსები შემოწმებულია. 32/64px წაკითხვადობა და UI-ის მუქი/ღია თემები შემოწმებულია ბრენდინგის სამუშაოს ფარგლებში. Desktop UI არ გაშვებულა.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-10T18:43:51Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.3.3",
+      "tag_name": "threadaccount-v0.4.4",
+      "body": "ThreadAccount 0.4.4 აახლებს გვერდით მენიუს და ამატებს ორ პროვაიდერს.\n\n- ახალი Usage ტაბი: quota-ის ისტორია, heatmap, ანგარიშების შედარება, სპარკლაინები და ანგარიშის დეტალების პანელი.\n- Runtime დეტალები და მოწყობილობის CPU/Memory/Disk გრაფიკები; CLI სესიები პროვაიდერის დონეზე აღირიცხება.\n- ThreadBoard-ის მუქი ფონები, Inter/JetBrains Mono შრიფტები, Lucide-ის აიქონები და Windows-ის ზედა ღილაკები.\n- შეკეცილი მენიუ მაუსის მიტანისას დროებით იშლება, მოშორებისას კვლავ იკეცება; ღილაკი მუდმივ რეჟიმს მართავს.\n- აპის ლოგო ზედა ზოლშია. Workspace, შეკეცვის ღილაკი და Settings-ის ერთადერთი აიქონი ქვედა რიგშია; დუბლირებული პროფილის ტექსტი მოხსნილია.\n- Cursor და Antigravity: ანგარიშების დამატება/რედაქტირება, ფილტრები, რჩეულები, გამოყენების ისტორია, იმპორტი/ექსპორტი და პროვაიდერის ბმულები.\n- Cursor-ის usage იწერება გამოყენებული პროცენტით; Antigravity-ის — დარჩენილით. ორივე ამ ეტაპზე ხელით იმართება; ავტომატური კავშირები გამორთულია და backend-შიც უარყოფილია.\n\nCursor-ის ოფიციალური [Admin API](https://cursor.com/docs/account/teams/admin-api) გუნდის მონაცემებისთვისაა. Antigravity-ის ოფიციალური [usage ინსტრუქცია](https://antigravity.google/docs/cli/commands/usage/) აღწერს ინტერაქტიულ quota პანელს. ამ რელიზში პირადი ანგარიშების ავტომატური API ინტეგრაცია არ ხორციელდება. არსებული Codex/Claude ავტორიზაცია და CLI ანალიტიკა შენარჩუნებულია.\n\n\n## ჩამოტვირთვა\n\nWindows ინსტალერი: `ThreadAccount-0.4.4-Setup.exe`. Toolbox-ისთვის: `ThreadAccount-0.4.4-win32-x64.zip` და `toolbox-manifest.json`. საკონტროლო ჯამები: `SHA256SUMS.txt`.\n\n## შემოწმება\n\n79 ტესტი წარმატებით დასრულდა. TypeScript/Vite build, Windows NSIS შეფუთვა, ASAR-ის ვერსია/რესურსები და ბრაუზერის ვიზუალური შემოწმება გავლილია. Desktop აპი და ინსტალერი ავტომატურად არ გაშვებულა.\n",
+      "published_at": "2026-10-14T19:01:56Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.4.4",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
-          "size": 197,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.3/SHA256SUMS.txt",
-          "digest": "sha256:d86f930b9204b5f823518df4427188c33684ddd4305a38d755c8653f8ef5bfbf"
+          "size": 389,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/SHA256SUMS.txt",
+          "digest": "sha256:36f4332c71c6186f157777ec7cb8d1bb6c30f626d98a22358b727f4a67436875"
         },
         {
-          "name": "ThreadAccount-0.3.3-portable.exe",
-          "size": 102422465,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.3/ThreadAccount-0.3.3-portable.exe",
-          "digest": "sha256:5fcaa1bc7442c25c918e3a38889421273463031ecbea18059631bd0380159cf4"
+          "name": "ThreadAccount-0.4.4-Setup.exe",
+          "size": 117060850,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/ThreadAccount-0.4.4-Setup.exe",
+          "digest": "sha256:9c7e26e164dfefa13617fe625a4798eb622e5a7199cf256a1a7940aa989ed96b"
         },
         {
-          "name": "ThreadAccount-0.3.3-Setup.exe",
-          "size": 115369491,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.3/ThreadAccount-0.3.3-Setup.exe",
-          "digest": "sha256:87f3e89478a68286267eb8f3305612166b7735470a9d303d4daad00cc2902250"
+          "name": "ThreadAccount-0.4.4-Setup.exe.blockmap",
+          "size": 122017,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/ThreadAccount-0.4.4-Setup.exe.blockmap",
+          "digest": "sha256:de215690b2ade4478346fe591a66b731b6b1f7ea43f43d8f9b6851047c078c63"
         },
         {
-          "name": "ThreadAccount-0.3.3-win32-x64.zip",
-          "size": 166868829,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.3/ThreadAccount-0.3.3-win32-x64.zip",
-          "digest": "sha256:5a8aa96c15e224ccbb3b87d2f03338605cd988c8e2ede2c916cc1a3094d3e561"
+          "name": "ThreadAccount-0.4.4-win32-x64.zip",
+          "size": 169235513,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/ThreadAccount-0.4.4-win32-x64.zip",
+          "digest": "sha256:119372c37e7b4457e954457c9203845ac6aa082d46d8c6bd43a32e4dc552ef3e"
         },
         {
           "name": "toolbox-manifest.json",
-          "size": 362,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.3.3/toolbox-manifest.json",
-          "digest": "sha256:0018a38c79dbb2a60dddc2da8d311083bf5f5c359d3e8fdb989528fe0ce3fe88"
+          "size": 361,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.4.4/toolbox-manifest.json",
+          "digest": "sha256:8ee228b31541f8c7b1058545f92394c1db310bce283707624b755db1fcaf3883"
         }
       ]
     },
