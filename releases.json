@@ -26,6 +26,22 @@
         "category": "desktop"
       },
       {
+        "repository": "xheavy0/ThreadLibrary",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "appUserModelId": "com.threadlibrary.app",
+        "shortcutIcon": "resources/icon.ico",
+        "name": "ThreadLibrary",
+        "description": "Design systems, prompts and skills for your coding agents.",
+        "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/ThreadBoard",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadBoard",
+        "description": "",
+        "category": "desktop"
+      },
+      {
         "repository": "xheavy0/Threadnote",
         "releaseRepository": "xheavy0/Thread-Releases",
         "name": "Threadnote",
