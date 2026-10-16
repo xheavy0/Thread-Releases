@@ -382,36 +382,36 @@
     },
     {
       "repository": "xheavy0/ThreadAccount",
-      "tag_name": "threadaccount-v0.5.0",
-      "body": "ThreadAccount 0.5.0 Electron-იდან Tauri 2-ზე (Rust) გადადის და ამატებს quota-ის პროგნოზს, კვირების ტრენდსა და მოდელის კონტექსტის ჩაშლას.\n\n- Tauri 2 + Rust backend: ანგარიშები, ვალიდაცია, Codex App Server, Claude OAuth, Cursor/Antigravity, CLI ისტორიის ანალიტიკა და runtime მეტრიკები Rust-შია გადატანილი იგივე ქცევითა და შეცდომის ტექსტებით. ინტერფეისი იგივე React აპია.\n- მონაცემები იგივე საქაღალდიდან იკითხება (`%APPDATA%\\ThreadAccount` ან ძველი `%APPDATA%\\threadaccounts`). დაშიფვრა Electron safeStorage-ის ფორმატს იყენებს (DPAPI-ით დაცული AES-256-GCM გასაღები `Local State`-ში), ამიტომ შენახული ავტორიზაციები ხელახლა მიბმას არ საჭიროებს. Node-ის მიერ ჩაწერილი არასრული unicode escape-ები აღარ აბლოკავს ფაილის წაკითხვას.\n- Usage → **Forecast**: 7-დღიანი ბადე 6-საათიანი უჯრებით — ვინ ამოიწურება reset-მდე, როდის და რამდენ ხანს დარჩება დაბლოკილი; Table რეჟიმი ყველა ფანჯრისთვის; დეტალებში გამოყენების მრუდი, მიმდინარე/თანაბარი ტემპი და დღიური ბარები დასაშვებ ლიმიტთან.\n- Usage → **Weeks**: კვირის ლიმიტის ამოწურვის დრო ბოლო 5 კვირაში, ზრდის ტემპი და 4 კვირის პროექცია; Accounts რეჟიმი ყველა ანგარიშის ტრენდისთვის.\n- Dashboard → Model activity → **Context**: უახლესი მოთხოვნის კონტექსტის ჩაშლა (cached, დამატებული, fresh input, პასუხი, თავისუფალი ადგილი) და ბოლო სესიის დიაგრამა.\n- ყველა ბარი ინტერაქტიულია (hover/ფოკუსის tooltip, ისრები, არჩევა); ანგარიშის დეტალების ფანჯარა და Dashboard-ის გრაფიკები ახალ ერთიან სტილზეა.\n- Usage-ის ისტორია 42 დღე (6 კვირა) ინახება; კვირაზე ძველი ჩანაწერები 2-საათიან პიკებად იკუმშება.\n\nინსტალერი: `npm.cmd run dist` → `release/ThreadAccount-0.5.0-Setup.exe` (მიმდინარე მომხმარებლისთვის, `%LOCALAPPDATA%\\ThreadAccount`). Build-ისთვის საჭიროა Rust stable (MSVC) და WebView2 Runtime.\n\nშემოწმება: 55 JavaScript და 28 Rust ტესტი, 11 desktop სცენარი release `ThreadAccount.exe`-ზე იზოლირებული მონაცემებით (მათ შორის Electron-ის ძველი საქაღალდისა და დაშიფრული credential-ის მიგრაცია) და 15 dashboard სცენარი. Windows NSIS და Toolbox ZIP ერთსა და იმავე production აპს შეიცავს; SHA256SUMS.txt ფაილების საკონტროლო ჯამებია. ინსტალატორის UI შემოწმებისას არ გაშვებულა.\n",
-      "published_at": "2026-10-16T10:00:07Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.5.0",
+      "tag_name": "threadaccount-v0.5.1",
+      "body": "ThreadAccount 0.5.1 აპს Dashboard-ით ხსნის, Context-ს Usage-ის ტაბად აქცევს და ამატებს ანალიტიკას, თუ რაზე იხარჯება ტოკენები.\n\n- ნავიგაცია: აპი **Dashboard**-ით იხსნება; რიგი Dashboard → All accounts → Usage → პროვაიდერები, Favorites ბოლოში. პირდაპირი მისამართები: `#dashboard`, `#accounts`, `#usage`, `#forecast`, `#weeks`, `#context`.\n- Usage-ზე გადასვლა ბოლოს გახსნილი ანგარიშის ფანჯარას აღარ ხსნის ავტომატურად: ფანჯარა მხოლოდ პირდაპირი მოქმედებით იხსნება (ანგარიშის ბმული, Ctrl K, Open details).\n- Usage → **Context** (`#context`): მოდელების სია უახლესი და პიკური დატვირთვით (7/30/90 დღე) და არჩეული მოდელის კონტექსტის ჩაშლა. Dashboard-ის „% ctx“ ღილაკი ამ ტაბს შესაბამისი მოდელით ხსნის.\n- Dashboard: Total tokens, Active days და Tokens per request წინა იმავე პერიოდთან შედარებით; Cache reuse; **Quota outlook** ყველა ანგარიშის პროგნოზით; **Weekly rhythm** — კვირის დღე × საათის heatmap.\n- Dashboard → **Where tokens go**: ტოკენები ქმედებების მიხედვით (პასუხები და reasoning, ფაილების კითხვა/რედაქტირება, ბრძანებები, ძებნა, web, planning, sub-agents, MCP) სულ და თითო მოდელზე, სტატისტიკით. იკითხება მხოლოდ ხელსაწყოს სახელი; არგუმენტები, ფაილები და ბრძანებები არ იკითხება.\n- Forecast-ის გამოყენების გრაფიკი და Weeks-ის ამოწურვის გრაფიკი ინტერაქტიულია: მაუსით ან ისრებით კურსორი, tooltip (Used/Projected, Even pace, სხვაობა თანაბარ ტემპთან), Home/End/Escape.\n- Add account Usage-დან მოიხსნა; რჩება All accounts-ზე და გვერდით მენიუში (Dashboard-ზე მხოლოდ ცარიელ მდგომარეობაში).\n- შესწორება: ფანჯრების autofocus ფოკუსს აღარ გადაიტანს, თუ აკრეფა უკვე დაიწყო — ადრე სწრაფად აკრეფილი ტექსტი შეიძლებოდა email ველში მოხვედრილიყო.\n\nინსტალერი: `npm.cmd run dist` → `release/ThreadAccount-0.5.1-Setup.exe` (მიმდინარე მომხმარებლისთვის, `%LOCALAPPDATA%\\ThreadAccount`).\n\nშემოწმება: 56 JavaScript და 29 Rust ტესტი, 35 ბრაუზერის და 15 Dashboard სცენარი, 11 desktop სცენარი release `ThreadAccount.exe`-ზე იზოლირებული მონაცემებით.\n",
+      "published_at": "2026-10-16T12:46:30Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.5.1",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 284,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.0/SHA256SUMS.txt",
-          "digest": "sha256:6b3c6182cabf1faab13e805a97e4689262853940d582755aac29532679c028e4"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.1/SHA256SUMS.txt",
+          "digest": "sha256:b4dad44c790bcb151111020f7194329ad72f5f85f6572172ffdf1456e9740d83"
         },
         {
-          "name": "ThreadAccount-0.5.0-Setup.exe",
-          "size": 3704172,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.0/ThreadAccount-0.5.0-Setup.exe",
-          "digest": "sha256:f0f653a38fa3350be06f2c967d85bd9c1938643a89ec4868f9cfd6803ff74fd6"
+          "name": "ThreadAccount-0.5.1-Setup.exe",
+          "size": 3732452,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.1/ThreadAccount-0.5.1-Setup.exe",
+          "digest": "sha256:fc225889684567ae8c4d93cc30ee9598a4d42989086fb1f80b14970ccd593e94"
         },
         {
-          "name": "ThreadAccount-0.5.0-win32-x64.zip",
-          "size": 4791986,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.0/ThreadAccount-0.5.0-win32-x64.zip",
-          "digest": "sha256:fb8409f40fd94ff9d74b450243e2edb7f8fc7c74cd7bddf8a6f09b673393a871"
+          "name": "ThreadAccount-0.5.1-win32-x64.zip",
+          "size": 4827035,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.1/ThreadAccount-0.5.1-win32-x64.zip",
+          "digest": "sha256:d4526cf126b6d9b5983bb656bc8ff642f1cb7ef32bee5d9e718a9f13b14e52a4"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 383,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.0/toolbox-manifest.json",
-          "digest": "sha256:1a65a6a276121c3f5d5503418e7e7cefb4257662baed56fd224131ed7ee2fc0c"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.1/toolbox-manifest.json",
+          "digest": "sha256:4d8c4050a3b40e7a2fb46b47a9612521ee678764a602f786b810d38ffdce9857"
         }
       ]
     },
