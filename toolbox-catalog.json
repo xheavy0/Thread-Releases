@@ -6,213 +6,213 @@
       "releaseRepository": "xheavy0/Thread-Releases",
       "appUserModelId": "com.threadforge.app",
       "shortcutIcon": "resources/icon.ico",
-      "name": "Threadforge",
-      "description": "Code editor and workspace for AI agents.",
-      "category": "desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974.png",
         "sha256": "caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974"
-      }
+      },
+      "name": "Threadforge",
+      "description": "Code editor and workspace for AI agents.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/Threadmap",
       "releaseRepository": "xheavy0/Thread-Releases",
       "appUserModelId": "dev.threadmap.desktop",
-      "name": "ThreadMap",
-      "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
-      "category": "desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891.png",
         "sha256": "9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891"
-      }
+      },
+      "name": "ThreadMap",
+      "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/Threadnote",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "Threadnote",
-      "description": "Your notes, ideas, and personal knowledge space.",
-      "category": "desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec.png",
         "sha256": "e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec"
-      }
+      },
+      "name": "Threadnote",
+      "description": "Your notes, ideas, and personal knowledge space.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/Threadshot",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "Threadshot",
-      "description": "Capture your screen and annotate images.",
-      "category": "desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16.png",
         "sha256": "688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16"
-      }
+      },
+      "name": "Threadshot",
+      "description": "Capture your screen and annotate images.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/Threadstorage",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "ThreadStorage",
-      "description": "Your files and cloud storage in one place.",
-      "category": "desktop",
       "appUserModelId": "com.threadstorage.desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282.png",
         "sha256": "ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282"
-      }
+      },
+      "name": "ThreadStorage",
+      "description": "Your files and cloud storage in one place.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/ThreadVoice",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "ThreadVoice",
-      "description": "Voice-to-text dictation across Windows apps.",
-      "category": "desktop",
       "appUserModelId": "com.threadforge.threadvoice",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee.png",
         "sha256": "847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee"
-      }
+      },
+      "name": "ThreadVoice",
+      "description": "Voice-to-text dictation across Windows apps.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/ThreadAccount",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "ThreadAccount",
-      "description": "Track Codex and Claude accounts, usage limits, and token analytics.",
-      "category": "desktop",
       "appUserModelId": "com.threadaccount.desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/f2ae1f1741de5d61d09470847b4fd1e2d09a916273f55b0dab8476d0d6443a1d.png",
         "sha256": "f2ae1f1741de5d61d09470847b4fd1e2d09a916273f55b0dab8476d0d6443a1d"
-      }
+      },
+      "name": "ThreadAccount",
+      "description": "Track Codex and Claude accounts, usage limits, and token analytics.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/ThreadCalendar",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "ThreadCalendar",
-      "description": "Calendar, plans, and reminders connected to Threadnote.",
-      "category": "desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a4f626bac878e77b8b814014a38fdb1ca7e66af80ba742ca7bcfef7259f30ac8.png",
         "sha256": "a4f626bac878e77b8b814014a38fdb1ca7e66af80ba742ca7bcfef7259f30ac8"
-      }
+      },
+      "name": "ThreadCalendar",
+      "description": "Calendar, plans, and reminders connected to Threadnote.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/ThreadAura",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "ThreadAura",
-      "description": "Wallpapers, animations, and a scene editor.",
-      "category": "desktop",
       "appUserModelId": "com.threadaura.app",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9.png",
         "sha256": "25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9"
-      }
+      },
+      "name": "ThreadAura",
+      "description": "Wallpapers, animations, and a scene editor.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/Threadlendar",
       "releaseRepository": "xheavy0/Thread-Releases",
       "publishReleases": false,
-      "name": "Threadlendar",
-      "description": "A Windows dock for your apps and files.",
-      "category": "desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/97c23135e4ca3b83107fabfcb75f2647bc085af301bd9fc4210d4f3a2d6fb64c.png",
         "sha256": "97c23135e4ca3b83107fabfcb75f2647bc085af301bd9fc4210d4f3a2d6fb64c"
-      }
+      },
+      "name": "Threadlendar",
+      "description": "A Windows dock for your apps and files.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/Threaduninstal",
       "releaseRepository": "xheavy0/Thread-Releases",
       "shortcutIcon": "assets/app.ico",
-      "name": "Threaduninstal",
-      "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
-      "category": "desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/dddb5497ffce1763fe6c9daeeb1c5ca4c9619f1ba3e61f06faefa2ffa3ecd2a9.png",
         "sha256": "dddb5497ffce1763fe6c9daeeb1c5ca4c9619f1ba3e61f06faefa2ffa3ecd2a9"
-      }
+      },
+      "name": "Threaduninstal",
+      "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/ThreadMail",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "ThreadMail",
-      "description": "A unified inbox for managing your email.",
-      "category": "web",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3.png",
         "sha256": "5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3"
-      }
+      },
+      "name": "ThreadMail",
+      "description": "A unified inbox for managing your email.",
+      "category": "web"
     },
     {
       "repository": "xheavy0/Threadplan",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "Threadplan",
-      "description": "Tasks, habits, and plans for Windows and Android.",
-      "category": "desktop",
       "appUserModelId": "com.threadplan.desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693.png",
         "sha256": "a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693"
-      }
+      },
+      "name": "Threadplan",
+      "description": "Tasks, habits, and plans for Windows and Android.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/ThreadforgeMobile",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "Threadforge Mobile",
-      "description": "The Threadforge mobile app.",
-      "category": "mobile",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/1882f7ee44267eecaf52e765e4d80e42e921e7de97b67fc8a4f38fe54043b9af.png",
         "sha256": "1882f7ee44267eecaf52e765e4d80e42e921e7de97b67fc8a4f38fe54043b9af"
-      }
+      },
+      "name": "Threadforge Mobile",
+      "description": "The Threadforge mobile app.",
+      "category": "mobile"
     },
     {
       "repository": "xheavy0/ThreadstorageAndroid",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "ThreadStorage Android",
-      "description": "The ThreadStorage app for Android.",
-      "category": "mobile",
       "appUserModelId": "com.threadstorage.android",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/28db234725b90dcf31a8caff35e4ba44b3e731f82e13afe25e74cba2756524e7.png",
         "sha256": "28db234725b90dcf31a8caff35e4ba44b3e731f82e13afe25e74cba2756524e7"
-      }
+      },
+      "name": "ThreadStorage Android",
+      "description": "The ThreadStorage app for Android.",
+      "category": "mobile"
     },
     {
       "repository": "xheavy0/ThreadstorageIOS",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "ThreadStorage iOS",
-      "description": "The ThreadStorage app for iOS.",
-      "category": "mobile",
       "appUserModelId": "com.threadstorage.ios",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/196beb278e30068f80682bf0834b726c663b7011a97b3d4f9d7b16bac48032b4.png",
         "sha256": "196beb278e30068f80682bf0834b726c663b7011a97b3d4f9d7b16bac48032b4"
-      }
+      },
+      "name": "ThreadStorage iOS",
+      "description": "The ThreadStorage app for iOS.",
+      "category": "mobile"
     },
     {
       "repository": "xheavy0/ThreadLibrary",
-      "name": "ThreadLibrary",
+      "releaseRepository": "xheavy0/Thread-Releases",
       "appUserModelId": "com.threadlibrary.app",
       "shortcutIcon": "resources/icon.ico",
-      "category": "desktop",
-      "description": "Design systems, prompts and skills for your coding agents.",
-      "releaseRepository": "xheavy0/Thread-Releases",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/698147181060eaab3c12749cebd6f49a5ce9ad60a169b24abaad9b86f441389a.png",
         "sha256": "698147181060eaab3c12749cebd6f49a5ce9ad60a169b24abaad9b86f441389a"
-      }
+      },
+      "name": "ThreadLibrary",
+      "description": "Design systems, prompts and skills for your coding agents.",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/ThreadBoard",
-      "name": "ThreadBoard",
-      "appUserModelId": "com.threadboard.app",
-      "category": "desktop",
-      "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
       "releaseRepository": "xheavy0/Thread-Releases",
+      "appUserModelId": "com.threadboard.app",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38.png",
         "sha256": "6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38"
-      }
+      },
+      "name": "ThreadBoard",
+      "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
+      "category": "desktop"
     }
   ],
   "excludedRepositories": [
