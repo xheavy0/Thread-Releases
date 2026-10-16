@@ -115,7 +115,11 @@
         "publishReleases": false,
         "name": "Threadlendar",
         "description": "A Windows dock for your apps and files.",
-        "category": "desktop"
+        "category": "desktop",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/97c23135e4ca3b83107fabfcb75f2647bc085af301bd9fc4210d4f3a2d6fb64c.png",
+          "sha256": "97c23135e4ca3b83107fabfcb75f2647bc085af301bd9fc4210d4f3a2d6fb64c"
+        }
       },
       {
         "repository": "xheavy0/Threaduninstal",
