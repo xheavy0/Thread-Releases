@@ -14,8 +14,8 @@
         "appUserModelId": "com.threadforge.app",
         "shortcutIcon": "resources/icon.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974.png",
-          "sha256": "caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf.png",
+          "sha256": "cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf"
         },
         "name": "Threadforge",
         "description": "Code editor and workspace for AI agents.",
@@ -26,8 +26,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "dev.threadmap.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891.png",
-          "sha256": "9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0.png",
+          "sha256": "45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0"
         },
         "name": "ThreadMap",
         "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
@@ -37,8 +37,8 @@
         "repository": "xheavy0/Threadnote",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec.png",
-          "sha256": "e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4.png",
+          "sha256": "242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4"
         },
         "name": "Threadnote",
         "description": "Your notes, ideas, and personal knowledge space.",
@@ -48,8 +48,8 @@
         "repository": "xheavy0/Threadshot",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16.png",
-          "sha256": "688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775.png",
+          "sha256": "ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775"
         },
         "name": "Threadshot",
         "description": "Capture your screen and annotate images.",
@@ -60,8 +60,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadstorage.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282.png",
-          "sha256": "ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789.png",
+          "sha256": "baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789"
         },
         "name": "ThreadStorage",
         "description": "Your files and cloud storage in one place.",
@@ -72,8 +72,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadforge.threadvoice",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee.png",
-          "sha256": "847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a.png",
+          "sha256": "5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a"
         },
         "name": "ThreadVoice",
         "description": "Voice-to-text dictation across Windows apps.",
@@ -95,8 +95,8 @@
         "repository": "xheavy0/ThreadCalendar",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a4f626bac878e77b8b814014a38fdb1ca7e66af80ba742ca7bcfef7259f30ac8.png",
-          "sha256": "a4f626bac878e77b8b814014a38fdb1ca7e66af80ba742ca7bcfef7259f30ac8"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/cb499034df335e235fe9e5ed9dd1759bba726e99e8761dcc253106074b3d49f6.png",
+          "sha256": "cb499034df335e235fe9e5ed9dd1759bba726e99e8761dcc253106074b3d49f6"
         },
         "name": "ThreadCalendar",
         "description": "Calendar, plans, and reminders connected to Threadnote.",
@@ -107,8 +107,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadaura.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9.png",
-          "sha256": "25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179.png",
+          "sha256": "aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179"
         },
         "name": "ThreadAura",
         "description": "Wallpapers, animations, and a scene editor.",
@@ -131,8 +131,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "shortcutIcon": "assets/app.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/dddb5497ffce1763fe6c9daeeb1c5ca4c9619f1ba3e61f06faefa2ffa3ecd2a9.png",
-          "sha256": "dddb5497ffce1763fe6c9daeeb1c5ca4c9619f1ba3e61f06faefa2ffa3ecd2a9"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545.png",
+          "sha256": "60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545"
         },
         "name": "Threaduninstal",
         "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
@@ -142,8 +142,8 @@
         "repository": "xheavy0/ThreadMail",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3.png",
-          "sha256": "5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34.png",
+          "sha256": "84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34"
         },
         "name": "ThreadMail",
         "description": "A unified inbox for managing your email.",
@@ -154,8 +154,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadplan.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693.png",
-          "sha256": "a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b.png",
+          "sha256": "f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b"
         },
         "name": "Threadplan",
         "description": "Tasks, habits, and plans for Windows and Android.",
@@ -214,8 +214,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadboard.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38.png",
-          "sha256": "6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62.png",
+          "sha256": "51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62"
         },
         "name": "ThreadBoard",
         "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
@@ -589,36 +589,36 @@
     },
     {
       "repository": "xheavy0/Threaduninstal",
-      "tag_name": "threaduninstal-v0.2.2",
-      "body": "Threaduninstal v0.2.2 adds an uninstall wizard with persistent application icons, recovery backups for product registry keys and individual values, deeper leftover scanning, and the requested utility modules.\n\n- Desktop apps: interactive uninstall, batch queues, forced cleanup, Safe/Moderate/Advanced scanning, and CSV export.\n- Windows Apps, Startup Manager, Hunter Mode, and installation monitoring.\n- Compact Claude-style interface with 11px body text, warm selection, Phosphor navigation icons, the supplied app logo, and ThreadForge-style dropdowns.\n- Background icon loading, cached/debounced search, and monitor writes only when the log changes.\n- Registry recovery preserves value types and unrelated/newer data. Oversized recovery manifests are rejected before cleanup.\n\nDownload and extract **Threaduninstal-v0.2.2.zip**, then open `Threaduninstal.exe`. The standalone EXE is also available. Close the older app before opening the new version.\n\nRequires 64-bit Windows 10/11, .NET Framework 4.8, and Windows PowerShell 5.1 for Windows Apps. No installer, subscription, or network connection is required for the app. Verify downloads with `SHA256SUMS.txt`.\n\nValidation: 43 isolated self-tests, source build, headless WPF layout/templates, real read-only app inventories, and browser preview checks. Hunter path matching is tested; real window dragging remains manually unverified. An initial backup test encountered a filesystem replacement error; full subsequent suites passed, and its report is retained.\n\nThis is an independent application, not full Revo Pro parity. Advanced scanning is bounded and reports incomplete coverage; access errors, differently named leftovers, other user accounts, and unsupported registry data may be missed. Recovery restores leftovers/settings, not application binaries. Cross-volume folder moves are refused and leave originals in place. See the README for scope and limits.\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-12T17:49:38Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threaduninstal-v0.2.2",
+      "tag_name": "threaduninstal-v0.3.0",
+      "body": "Threaduninstal v0.3.0 is a rewrite in Rust (Tauri 2) with a React interface in the ThreadFactory design. It no longer needs .NET Framework or PowerShell.\n\n- **Application icons in the list.** Every row of Applications and Windows Apps shows the program's own icon, extracted at the screen's pixel size from its DisplayIcon, MSI product icon, executable, uninstaller or Start Menu shortcut. 0.2 only loaded the icon of the selected application.\n- **Uninstallers that hand off to a temporary copy** (Inno Setup, NSIS) are followed until every helper process has exited, so the leftover scan no longer starts while the uninstaller is still open.\n- New: optional System Restore point before uninstalling, Junk Files cleaner, Windows Tools, deleting backups and installation logs, HTML export, recent/large filters, sorting, keyboard navigation, system components on request, registry key in Registry Editor, publisher links and web search, measured size when the registry has none, Task Manager startup state, Hunter Mode for Store app windows.\n- Windows Apps are read and removed through the Windows PackageManager API (fast, no PowerShell) and show their logos.\n- Unchanged safety rules: exact product matching, no links or junctions, recovery manifests before the first move, no overwriting of newer data on restore. Backups, installation logs and disabled startup entries from 0.2 are read as before.\n\n## Downloads\n\n- **Threaduninstal-v0.3.0.zip**: portable app (`Threaduninstal.exe`, `assets/app.ico`, README, licences). This is the ThreadBox package.\n- **Threaduninstal-v0.3.0.exe**: the same executable on its own.\n- **SHA256SUMS.txt**: SHA-256 checksums of both.\n\nRequires 64-bit Windows 10/11 with WebView2. Portable; no installer, account or network connection. Close 0.2 before opening 0.3.\n\n## Validation\n\n41 Rust tests (matching, scans, backups and restore, junctions, registry snapshots, startup, monitor, Hunter matching, icon extraction, command parsing), TypeScript typecheck, and a read-only run on a real machine: 120 of 131 desktop programs show their own icon in the window; the rest ship no icon at all. Uninstalling, cleanup and restore were exercised on test fixtures, not on installed programs.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-17T09:36:57Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threaduninstal-v0.3.0",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 186,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threaduninstal-v0.2.2/SHA256SUMS.txt",
-          "digest": "sha256:e02384e462b6e5edd7cd3384083558c43791406811d53a6fb14e7038d9667e9d"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threaduninstal-v0.3.0/SHA256SUMS.txt",
+          "digest": "sha256:dddc2db9f1750a0cdb7a73a1f76a1b6cdbc92a08f0afdce047879d9118973100"
         },
         {
-          "name": "Threaduninstal-v0.2.2.exe",
-          "size": 1395200,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threaduninstal-v0.2.2/Threaduninstal-v0.2.2.exe",
-          "digest": "sha256:8d5d8af7e3046ef95c19f7de2239433dd0ca950eba5ac9e3f5c9d29b50a5fb97"
+          "name": "Threaduninstal-v0.3.0.exe",
+          "size": 11326976,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threaduninstal-v0.3.0/Threaduninstal-v0.3.0.exe",
+          "digest": "sha256:a7f12f8193aa36bc9716449ea27809fc0d16aa4b321a015bc444c8dea7b5e417"
         },
         {
-          "name": "Threaduninstal-v0.2.2.zip",
-          "size": 2032915,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threaduninstal-v0.2.2/Threaduninstal-v0.2.2.zip",
-          "digest": "sha256:f93bc41f0ae076f78bb9bc6eea2ee1f7b88d0bda47d092324b2d95d1b59316ce"
+          "name": "Threaduninstal-v0.3.0.zip",
+          "size": 4731378,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threaduninstal-v0.3.0/Threaduninstal-v0.3.0.zip",
+          "digest": "sha256:f0fbab2cef6dee3a00bf1d239e6e22096fee59fbaca940d63fbca1cafeee4707"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 359,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threaduninstal-v0.2.2/toolbox-manifest.json",
-          "digest": "sha256:4bdc89b1c6fe0a29a8d0484b6c6e562ded61da8b57f3cf3d08fc952a1f4a7152"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threaduninstal-v0.3.0/toolbox-manifest.json",
+          "digest": "sha256:d32f3eff659c8a5982fb7e4d3861ba4637aedd6d971b2b5f27b5b0e65723a058"
         }
       ]
     },
