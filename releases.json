@@ -740,48 +740,48 @@
     },
     {
       "repository": "xheavy0/ThreadLibrary",
-      "tag_name": "threadlibrary-v0.1.0",
-      "body": "First Windows release of ThreadLibrary: a local reference library for coding agents.\n\n- 61 design systems, 38 prompts and 915 skills, with complete original sources.\n- Claude-style desktop interface, appearance settings, favorites and starter kits.\n- Copy complete resources, install into projects and connect coding tools through seven MCP tools.\n- Send directly to an existing ThreadForge conversation once ThreadForge includes its companion receiver update.\n\nInstall **ThreadLibrary-Setup-0.1.0.exe**, or install the manifest/ZIP through Thread Toolbox. Node and the catalogue are included. Updates keep your per-user registered projects and transfer history. No standalone portable executable.\n\nValidation: 22 unit assertions, three desktop runtime tests, real HTTP/MCP acceptance, direct sender/receiver integration, packaged backend checks, all 2,652 referenced content hashes, and all 2,891 installer/ZIP payload files pass. The installer was extracted statically; installed native UI and real-provider acceptance remain user-run.\n",
-      "published_at": "2026-10-14T18:37:26Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadlibrary-v0.1.0",
+      "tag_name": "threadlibrary-v0.1.1",
+      "body": "# ThreadLibrary 0.1.1\n\nFixes the Windows startup failure after installing ThreadLibrary 0.1.0. The installer and Toolbox ZIP now include the local server's required production dependencies, including Express.\n\n- Install or update through Thread Toolbox, or use `ThreadLibrary-Setup-0.1.1.exe`.\n- Existing registered projects and transfer history remain in the per-user profile.\n- The package includes Node and all 1,014 library resources; no source checkout or separate Node installation is required.\n\nValidation: 25 unit/runtime tests, TypeScript and the production build passed. The shipped HTTP service and MCP handshake/search passed outside the source checkout with a fresh profile. All 17,173 installer/ZIP payload files and 2,652 reference blobs were verified. The desktop UI and installer were not executed during verification.\n",
+      "published_at": "2026-10-17T09:40:05Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadlibrary-v0.1.1",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 355,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/latest.yml",
-          "digest": "sha256:0e6056c67c9bd6fc3adf8e64a1d07588d016fe81f77d3df294ee3dfae14bb8e4"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/latest.yml",
+          "digest": "sha256:27729333e243bd22453fed939df6baa16322ccfe3253fc247c17cd3d8f57d321"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 466,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/SHA256SUMS.txt",
-          "digest": "sha256:2af55533eb6725358b142865c2e407ca57b3da253b66d1b869d611f7d3a36c6a"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/SHA256SUMS.txt",
+          "digest": "sha256:aca4dd164018463a103c2d261e563d5cfb211a952a337ff121f5ca9feedd2f7f"
         },
         {
-          "name": "ThreadLibrary-0.1.0-win32-x64.zip",
-          "size": 213592000,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/ThreadLibrary-0.1.0-win32-x64.zip",
-          "digest": "sha256:fe7c9a712b146b9c375dea074cf73e9dcbc937a4b4fc50081943fb111d0624a0"
+          "name": "ThreadLibrary-0.1.1-win32-x64.zip",
+          "size": 224584227,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/ThreadLibrary-0.1.1-win32-x64.zip",
+          "digest": "sha256:37eb3cbe18a806f93d057ac75509ad521d69222914d881f688fd411d825c1511"
         },
         {
-          "name": "ThreadLibrary-Setup-0.1.0.exe",
-          "size": 147651848,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/ThreadLibrary-Setup-0.1.0.exe",
-          "digest": "sha256:8d9032199f8d1ba9d4742603b302be8d017c677640330118a6690c0983158b21"
+          "name": "ThreadLibrary-Setup-0.1.1.exe",
+          "size": 163849698,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/ThreadLibrary-Setup-0.1.1.exe",
+          "digest": "sha256:e9bf02373bdaa3485e9fa39b721ef07f7e4adc9754feeb9ae0b24236459d260b"
         },
         {
-          "name": "ThreadLibrary-Setup-0.1.0.exe.blockmap",
-          "size": 154927,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/ThreadLibrary-Setup-0.1.0.exe.blockmap",
-          "digest": "sha256:53ab31625bf802adff87c8265d1c641dcf9d1d1a2dce8ae83e3a9ec2dbe8befc"
+          "name": "ThreadLibrary-Setup-0.1.1.exe.blockmap",
+          "size": 171505,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/ThreadLibrary-Setup-0.1.1.exe.blockmap",
+          "digest": "sha256:ab1ec7e49776787146f8ebaf394470566278d2c7c28e48aad90a3a975f7c1b92"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 348,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.0/toolbox-manifest.json",
-          "digest": "sha256:54767a67548f77eec28570f0c602bfd61cb101814326c9aa5e559cd58123b198"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/toolbox-manifest.json",
+          "digest": "sha256:d786f1f5020667b3a27ed74f3efb6386c2a4566d15763d37f1014a96707904b5"
         }
       ]
     },
