@@ -1,6 +1,11 @@
 {
   "schemaVersion": 1,
   "catalog": {
+    "excludedRepositories": [
+      "xheavy0/ThreadOS",
+      "xheavy0/Threadforge-Rust",
+      "xheavy0/ThreadSpace"
+    ],
     "schemaVersion": 1,
     "apps": [
       {
@@ -216,11 +221,6 @@
         "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
         "category": "desktop"
       }
-    ],
-    "excludedRepositories": [
-      "xheavy0/ThreadOS",
-      "xheavy0/Threadforge-Rust",
-      "xheavy0/ThreadSpace"
     ]
   },
   "releases": [
@@ -478,36 +478,36 @@
     },
     {
       "repository": "xheavy0/ThreadAccount",
-      "tag_name": "threadaccount-v0.5.1",
-      "body": "ThreadAccount 0.5.1 აპს Dashboard-ით ხსნის, Context-ს Usage-ის ტაბად აქცევს და ამატებს ანალიტიკას, თუ რაზე იხარჯება ტოკენები.\n\n- ნავიგაცია: აპი **Dashboard**-ით იხსნება; რიგი Dashboard → All accounts → Usage → პროვაიდერები, Favorites ბოლოში. პირდაპირი მისამართები: `#dashboard`, `#accounts`, `#usage`, `#forecast`, `#weeks`, `#context`.\n- Usage-ზე გადასვლა ბოლოს გახსნილი ანგარიშის ფანჯარას აღარ ხსნის ავტომატურად: ფანჯარა მხოლოდ პირდაპირი მოქმედებით იხსნება (ანგარიშის ბმული, Ctrl K, Open details).\n- Usage → **Context** (`#context`): მოდელების სია უახლესი და პიკური დატვირთვით (7/30/90 დღე) და არჩეული მოდელის კონტექსტის ჩაშლა. Dashboard-ის „% ctx“ ღილაკი ამ ტაბს შესაბამისი მოდელით ხსნის.\n- Dashboard: Total tokens, Active days და Tokens per request წინა იმავე პერიოდთან შედარებით; Cache reuse; **Quota outlook** ყველა ანგარიშის პროგნოზით; **Weekly rhythm** — კვირის დღე × საათის heatmap.\n- Dashboard → **Where tokens go**: ტოკენები ქმედებების მიხედვით (პასუხები და reasoning, ფაილების კითხვა/რედაქტირება, ბრძანებები, ძებნა, web, planning, sub-agents, MCP) სულ და თითო მოდელზე, სტატისტიკით. იკითხება მხოლოდ ხელსაწყოს სახელი; არგუმენტები, ფაილები და ბრძანებები არ იკითხება.\n- Forecast-ის გამოყენების გრაფიკი და Weeks-ის ამოწურვის გრაფიკი ინტერაქტიულია: მაუსით ან ისრებით კურსორი, tooltip (Used/Projected, Even pace, სხვაობა თანაბარ ტემპთან), Home/End/Escape.\n- Add account Usage-დან მოიხსნა; რჩება All accounts-ზე და გვერდით მენიუში (Dashboard-ზე მხოლოდ ცარიელ მდგომარეობაში).\n- შესწორება: ფანჯრების autofocus ფოკუსს აღარ გადაიტანს, თუ აკრეფა უკვე დაიწყო — ადრე სწრაფად აკრეფილი ტექსტი შეიძლებოდა email ველში მოხვედრილიყო.\n\nინსტალერი: `npm.cmd run dist` → `release/ThreadAccount-0.5.1-Setup.exe` (მიმდინარე მომხმარებლისთვის, `%LOCALAPPDATA%\\ThreadAccount`).\n\nშემოწმება: 56 JavaScript და 29 Rust ტესტი, 35 ბრაუზერის და 15 Dashboard სცენარი, 11 desktop სცენარი release `ThreadAccount.exe`-ზე იზოლირებული მონაცემებით.\n",
-      "published_at": "2026-10-16T12:46:30Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.5.1",
+      "tag_name": "threadaccount-v0.5.2",
+      "body": "ThreadAccount 0.5.2 Usage-ს სამ ახალ ხედს უმატებს — Pace, Spiral და Bursts — და Dashboard-ის Weekly rhythm-ს უფრო კომპაქტურს ხდის.\n\n- Usage → **Pace** (`#pace`): ყველა ანგარიშის მთავარი ფანჯარა ერთ ღერძზე, Window start-იდან Reset-მდე, **Even pace** დიაგონალთან შედარებით. ტემპი = გამოყენებული წილი / გასული დროის წილი (მაგ. 48%-ში 72% = 1.5x). წყვეტილი ხაზი „If the pace holds“: ამოწურვა (წითელი წერტილი, „Runs out Thu 22:58“), დაშტრიხული ბლოკირება ან reset-ზე პროგნოზირებული %. მარჯვნივ: Used now, Even pace by now, Runs out / Locked before reset და „All accounts · fastest first“. **Past windows** არჩეული ანგარიშის წინა ფანჯრებს იმავე ღერძზე ადებს.\n- Usage → Weeks → **Spiral**: ერთი ბრუნი = ერთი კვირის ფანჯარა, ყველაზე ძველი შიგნით. საათობრივი უჯრები დახარჯული pp-ის მიხედვითაა შეფერილი, ჩანს ბლოკირება, reset, ამოწურვები კვირების მიხედვით, პროგნოზი და ჩვეული საათები. ცენტრში წერია, რამდენით ადრე ამოიწურება ლიმიტი. არჩეული კვირის პანელში: მრუდი, Ran out / Locked / Usual hours locked და Use per day.\n- Usage → **Bursts** (`#bursts`): **Drum**-ში ბოლო 29 დღე დღეების მიხედვით ჩანს. Burst არის საათების მიმდევრობა, სადაც თითოეულ საათში 2.4 pp ან მეტი დაიხარჯა. მოინიშნება ბლოკირება, ამოწურვა და reset; სათაური ამბობს, რა წილი მოდის burst-ებზე და ემთხვევა თუ არა ისინი სხვა ანგარიშის ბლოკირებას. **Catalog** burst-ებს ცხრილად აჩვენებს. არჩეული burst-ის პანელში: დღის საათობრივი გრაფიკი, Burst size / Duration / Share of week და Use per week.\n- Dashboard → **Weekly rhythm**: 13px კვადრატული უჯრები, როგორც Usage-ის quota კალენდარში; მწკრივის ბოლოს დღის წილი, ფართო პანელში სტატისტიკა მარჯვნივ (Peak hour, Active slots). Tooltip უჯრას მიჰყვება და ქვედა მწკრივებში ზემოთ იხსნება.\n- ყველა ახალი გრაფიკი ინტერაქტიულია: hover/ფოკუსი, tooltip, ისრები, Enter არჩევისთვის, Escape.\n\nინსტალერი: `npm.cmd run dist` → `release/ThreadAccount-0.5.2-Setup.exe` (მიმდინარე მომხმარებლისთვის, `%LOCALAPPDATA%\\ThreadAccount`).\n\nშემოწმება: 67 JavaScript და 29 Rust ტესტი, 35 ბრაუზერის და 15 Dashboard სცენარი; Pace, Spiral და Bursts ბრაუზერში sample მონაცემებით (მაუსი და კლავიატურა). Desktop smoke ტესტი ამ ვერსიაზე არ გაშვებულა.\n",
+      "published_at": "2026-10-17T08:52:32Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaccount-v0.5.2",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 284,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.1/SHA256SUMS.txt",
-          "digest": "sha256:b4dad44c790bcb151111020f7194329ad72f5f85f6572172ffdf1456e9740d83"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.2/SHA256SUMS.txt",
+          "digest": "sha256:3d2bb0252ed9496d94dd1038d25b96a9d1934ed7c64d34b8cbe6f1ca388b21a1"
         },
         {
-          "name": "ThreadAccount-0.5.1-Setup.exe",
-          "size": 3732452,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.1/ThreadAccount-0.5.1-Setup.exe",
-          "digest": "sha256:fc225889684567ae8c4d93cc30ee9598a4d42989086fb1f80b14970ccd593e94"
+          "name": "ThreadAccount-0.5.2-Setup.exe",
+          "size": 3753910,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.2/ThreadAccount-0.5.2-Setup.exe",
+          "digest": "sha256:aa80b635246d71bd5938eaaf4de34effadbaf62e3cd92c0b36ac09e1e3675ac3"
         },
         {
-          "name": "ThreadAccount-0.5.1-win32-x64.zip",
-          "size": 4827035,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.1/ThreadAccount-0.5.1-win32-x64.zip",
-          "digest": "sha256:d4526cf126b6d9b5983bb656bc8ff642f1cb7ef32bee5d9e718a9f13b14e52a4"
+          "name": "ThreadAccount-0.5.2-win32-x64.zip",
+          "size": 4851198,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.2/ThreadAccount-0.5.2-win32-x64.zip",
+          "digest": "sha256:cb8cabddc03a17d703d9506346a5aae524167abc86fd5c9104821d99151bde36"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 383,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.1/toolbox-manifest.json",
-          "digest": "sha256:4d8c4050a3b40e7a2fb46b47a9612521ee678764a602f786b810d38ffdce9857"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaccount-v0.5.2/toolbox-manifest.json",
+          "digest": "sha256:fb87f3aada2bf2ac36dcff8553ec983e47921f3304e0f89a670338ff88ef8905"
         }
       ]
     },
