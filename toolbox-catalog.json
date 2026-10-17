@@ -122,6 +122,7 @@
     {
       "repository": "xheavy0/Threaduninstal",
       "releaseRepository": "xheavy0/Thread-Releases",
+      "appUserModelId": "com.threaduninstal.desktop",
       "shortcutIcon": "assets/app.ico",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234.png",
@@ -129,8 +130,7 @@
       },
       "name": "Threaduninstal",
       "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
-      "category": "desktop",
-      "appUserModelId": "com.threaduninstal.desktop"
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/ThreadMail",
