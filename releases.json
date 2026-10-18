@@ -1,6 +1,11 @@
 {
   "schemaVersion": 1,
   "catalog": {
+    "excludedRepositories": [
+      "xheavy0/ThreadOS",
+      "xheavy0/Threadforge-Rust",
+      "xheavy0/ThreadSpace"
+    ],
     "schemaVersion": 1,
     "apps": [
       {
@@ -9,8 +14,8 @@
         "appUserModelId": "com.threadforge.app",
         "shortcutIcon": "resources/icon.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974.png",
-          "sha256": "caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf.png",
+          "sha256": "cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf"
         },
         "name": "Threadforge",
         "description": "Code editor and workspace for AI agents.",
@@ -21,8 +26,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "dev.threadmap.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891.png",
-          "sha256": "9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0.png",
+          "sha256": "45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0"
         },
         "name": "ThreadMap",
         "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
@@ -32,8 +37,8 @@
         "repository": "xheavy0/Threadnote",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec.png",
-          "sha256": "e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4.png",
+          "sha256": "242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4"
         },
         "name": "Threadnote",
         "description": "Your notes, ideas, and personal knowledge space.",
@@ -43,8 +48,8 @@
         "repository": "xheavy0/Threadshot",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16.png",
-          "sha256": "688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775.png",
+          "sha256": "ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775"
         },
         "name": "Threadshot",
         "description": "Capture your screen and annotate images.",
@@ -55,8 +60,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadstorage.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282.png",
-          "sha256": "ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789.png",
+          "sha256": "baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789"
         },
         "name": "ThreadStorage",
         "description": "Your files and cloud storage in one place.",
@@ -67,8 +72,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadforge.threadvoice",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee.png",
-          "sha256": "847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a.png",
+          "sha256": "5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a"
         },
         "name": "ThreadVoice",
         "description": "Voice-to-text dictation across Windows apps.",
@@ -90,8 +95,8 @@
         "repository": "xheavy0/ThreadCalendar",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a4f626bac878e77b8b814014a38fdb1ca7e66af80ba742ca7bcfef7259f30ac8.png",
-          "sha256": "a4f626bac878e77b8b814014a38fdb1ca7e66af80ba742ca7bcfef7259f30ac8"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/cb499034df335e235fe9e5ed9dd1759bba726e99e8761dcc253106074b3d49f6.png",
+          "sha256": "cb499034df335e235fe9e5ed9dd1759bba726e99e8761dcc253106074b3d49f6"
         },
         "name": "ThreadCalendar",
         "description": "Calendar, plans, and reminders connected to Threadnote.",
@@ -102,8 +107,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadaura.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9.png",
-          "sha256": "25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179.png",
+          "sha256": "aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179"
         },
         "name": "ThreadAura",
         "description": "Wallpapers, animations, and a scene editor.",
@@ -127,8 +132,8 @@
         "appUserModelId": "com.threaduninstal.desktop",
         "shortcutIcon": "assets/app.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234.png",
-          "sha256": "bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545.png",
+          "sha256": "60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545"
         },
         "name": "Threaduninstal",
         "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
@@ -138,8 +143,8 @@
         "repository": "xheavy0/ThreadMail",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3.png",
-          "sha256": "5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34.png",
+          "sha256": "84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34"
         },
         "name": "ThreadMail",
         "description": "A unified inbox for managing your email.",
@@ -150,8 +155,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadplan.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693.png",
-          "sha256": "a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b.png",
+          "sha256": "f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b"
         },
         "name": "Threadplan",
         "description": "Tasks, habits, and plans for Windows and Android.",
@@ -210,18 +215,13 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadboard.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38.png",
-          "sha256": "6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62.png",
+          "sha256": "51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62"
         },
         "name": "ThreadBoard",
         "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
         "category": "desktop"
       }
-    ],
-    "excludedRepositories": [
-      "xheavy0/ThreadOS",
-      "xheavy0/Threadforge-Rust",
-      "xheavy0/ThreadSpace"
     ]
   },
   "releases": [
@@ -788,36 +788,36 @@
     },
     {
       "repository": "xheavy0/ThreadBoard",
-      "tag_name": "threadboard-v0.1.0",
-      "body": "First release of Threadboard, the Thread desktop client for GitHub.\n\n## Highlights\n\n- **Repositories:** overview with CI, releases and stars; code browser with README; issues with detail view; Actions with logs and manual runs; Projects, Insights, Security and quality, Copilot agent tasks, and repository Settings.\n- **Pull requests:** create, review inline, approve or request changes, and merge (merge, squash, rebase, auto-merge) without leaving the app.\n- **Home:** contribution calendar, popular repositories, review queue, inbox, and a releases feed across your repositories.\n- **Accounts:** several accounts side by side with GitHub, GitLab, Bitbucket and Azure DevOps sign-in. Tokens are kept in Windows Credential Manager.\n- **Desktop:** native notifications, tray icon, and a Ctrl+K command palette.\n\n## Downloads\n\n- `Threadboard_0.1.0_x64-setup.exe`: Windows installer (recommended)\n- `Threadboard_0.1.0_x64_en-US.msi`: MSI installer\n- `Threadboard-0.1.0-win-x64.zip`: portable build for Thread Toolbox\n\nThe installers aren't code-signed yet, so Windows SmartScreen may warn on first run: choose **More info → Run anyway**.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-14T19:37:21Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadboard-v0.1.0",
+      "tag_name": "threadboard-v0.2.0",
+      "body": "CI traces on the Actions page.\n\n## Highlights\n\n- **Run waterfall:** an expanded run shows its jobs and steps as time bars on one axis. The runner queue wait is shown separately from execution. Clicking a step opens that step's log.\n- **Failure reasons:** failed runs open with a summary. Check-run annotations are listed as `path:line` with their level, and each one links to the failing step's log.\n- **CI insights:** with one workflow selected, the Insights view shows the p50/p95 run duration trend, failure rate, slowest jobs and steps, and queue time. It shows how many API requests it used and how much rate limit is left. When data is partial, it says so and offers Retry.\n\n## Notes\n\n- Everything comes from the GitHub API with your existing token. No new dependencies.\n- GitHub job logs have no step markers, so log lines are assigned to steps by timestamp. A line exactly on a step boundary can land in the next step.\n\n## Downloads\n\n- `Threadboard_0.2.0_x64-setup.exe`: installer\n- `Threadboard_0.2.0_x64_en-US.msi`: MSI installer\n- `Threadboard-0.2.0-win-x64.zip`: portable `threadboard.exe`\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-18T08:56:52Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadboard-v0.2.0",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
-          "name": "Threadboard-0.1.0-win-x64.zip",
-          "size": 5754754,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.1.0/Threadboard-0.1.0-win-x64.zip",
-          "digest": "sha256:c62bb1ac22fdf87c11dc1d4c151b48ff9c6535da668320e1b216986a8ea90f8d"
+          "name": "Threadboard-0.2.0-win-x64.zip",
+          "size": 5763550,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.0/Threadboard-0.2.0-win-x64.zip",
+          "digest": "sha256:b4dd9762df7359cc7634aec12d41e3b54eeaa5b16881291b59353f9a2e699f6e"
         },
         {
-          "name": "Threadboard_0.1.0_x64-setup.exe",
-          "size": 4295220,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.1.0/Threadboard_0.1.0_x64-setup.exe",
-          "digest": "sha256:6b7ac96c2a27fce1eb94016c16a452f96e4a8a7bb2ec21b545c082b07dacd961"
+          "name": "Threadboard_0.2.0_x64-setup.exe",
+          "size": 4305745,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.0/Threadboard_0.2.0_x64-setup.exe",
+          "digest": "sha256:acc08f85174d10f6c1f11aba074968b8fc3d9f19ab9f51274e9321f9777bbe0a"
         },
         {
-          "name": "Threadboard_0.1.0_x64_en-US.msi",
-          "size": 6057984,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.1.0/Threadboard_0.1.0_x64_en-US.msi",
-          "digest": "sha256:c0fef9460393e8da33b3e7b8ece6c9df1be39b50c1d9b36ae76fac12d8cbbe77"
+          "name": "Threadboard_0.2.0_x64_en-US.msi",
+          "size": 6066176,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.0/Threadboard_0.2.0_x64_en-US.msi",
+          "digest": "sha256:f7a3a74bd282bee6070527254f383e9f98daaa36be355008b43f776bf3e2a3eb"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 387,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.1.0/toolbox-manifest.json",
-          "digest": "sha256:6bea815897dcbd5e3f2e08603642f7f39e0af37f6ab74a6e47286f0726ac9b5f"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.0/toolbox-manifest.json",
+          "digest": "sha256:7224dd9c3291cfe10dfa847bc54dff3cfd13064a1a9ff691264c8f4131fae3f7"
         }
       ]
     }
