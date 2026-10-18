@@ -214,6 +214,18 @@
       "name": "ThreadBoard",
       "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
       "category": "desktop"
+    },
+    {
+      "repository": "xheavy0/ThreadFactory",
+      "releaseRepository": "xheavy0/Thread-Releases",
+      "name": "ThreadFactory",
+      "description": "ThreadFactory - live board and agent timeline for Thread Factory jobs",
+      "category": "desktop",
+      "appUserModelId": "com.threadfactory.desktop",
+      "logo": {
+        "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/d09f7d09188fb430a77cb87e799fb4228a5111992ffd59fae5ce676dd0b65afe.png",
+        "sha256": "d09f7d09188fb430a77cb87e799fb4228a5111992ffd59fae5ce676dd0b65afe"
+      }
     }
   ],
   "excludedRepositories": [
