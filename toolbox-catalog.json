@@ -88,12 +88,14 @@
       "repository": "xheavy0/ThreadCalendar",
       "releaseRepository": "xheavy0/Thread-Releases",
       "logo": {
-        "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a4f626bac878e77b8b814014a38fdb1ca7e66af80ba742ca7bcfef7259f30ac8.png",
-        "sha256": "a4f626bac878e77b8b814014a38fdb1ca7e66af80ba742ca7bcfef7259f30ac8"
+        "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a.png",
+        "sha256": "4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a"
       },
-      "name": "ThreadCalendar",
-      "description": "Calendar, plans, and reminders connected to Threadnote.",
-      "category": "desktop"
+      "name": "Threadline",
+      "description": "Calendar, precise project timelines, and reminders connected to ThreadNote.",
+      "category": "desktop",
+      "appUserModelId": "com.threadcalendar.app",
+      "shortcutIcon": "resources/icon.ico"
     },
     {
       "repository": "xheavy0/ThreadAura",
