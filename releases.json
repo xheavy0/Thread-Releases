@@ -796,36 +796,36 @@
     },
     {
       "repository": "xheavy0/ThreadCalendar",
-      "tag_name": "threadcalendar-v2.1.1",
-      "body": "# Threadline 2.1.1\n\nThreadCalendar is now **Threadline**, with the TL logo and a native Rust/Tauri application.\n\n- Replace Electron and the Node data service with an in-process Rust engine. SQLite, document indexes, reminders, Google OAuth and Google/ICS synchronization run without Node. Node remains a frontend build tool only.\n- Add precise second, minute, hour, day and week project timelines. Grid lines, task boundaries and the current-time marker share one time coordinate.\n- Fix the one-pixel minor-grid offset and retain the true boundaries of short intervals. Only zero-duration entries use a diamond marker.\n- Preserve seconds and milliseconds when moving or resizing tasks, including at different interface zoom levels. Retain the revision from gesture start to reject concurrent edits.\n- Keep all-day movement symmetric and align day/week subdivisions with real local hours and midnights across daylight-saving changes.\n- Preserve the existing ThreadNote database schema, rich-text content, reminders, settings and encrypted calendar connections. No manual data transfer is needed.\n\n## Downloads\n\n- `Threadline-2.1.1-setup.exe`: Windows x64 installer, approximately 4.9 MiB.\n- `Threadline-2.1.1-win32-x64.zip` and `toolbox-manifest.json`: portable package for ThreadBox.\n- `SHA256SUMS.txt`: SHA-256 checksums for the installer, ZIP and manifest.\n\nClose previous ThreadCalendar/Threadline versions from the tray before upgrading. Existing settings remain in `%APPDATA%/threadcalendar`; the shared ThreadNote database stays at its existing location. Windows WebView2 is required. The installer is unsigned.\n\n## Validation\n\n50 frontend tests; 27 Rust tests; 32 timeline checks in each of seven time zones; TypeScript, Windows x64 build and package verification. Browser checks covered all five timeline scales, both resize handles, keyboard movement, millisecond persistence and interface zoom at 75%, 100% and 150%. The Toolbox ZIP is extracted and verified byte-for-byte against the built Rust executable and resources.\n\nGoogle synchronization was tested with a mock provider. Native desktop UI and real-account sign-in were not launched during verification.\n",
-      "published_at": "2026-10-19T13:40:20Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadcalendar-v2.1.1",
+      "tag_name": "threadcalendar-v2.1.2",
+      "body": "# Threadline 2.1.2\n\n- Replace system date/time controls with an app-themed calendar and 24-hour clock, including editable seconds and milliseconds. Start, end and custom reminders share the same picker.\n- Keep date/time popovers visible at the app's minimum window size. Support keyboard date navigation, month/year selection, clearing dates and exact local-time validation.\n- Use app-themed menus for calendars, reminders, workspaces, language and connected calendars.\n- Add a direct Appearance button, Light/Dark/System theme previews and an interactive calendar/time preview. Appearance controls and colour pickers now follow the active palette.\n- Preserve existing database paths, preferences and native Rust runtime.\n\nDownloads: use the Windows setup installer, or update through ThreadBox using the portable package. The installed application runs on Rust/Tauri without Node. Existing database locations and desktop preferences are retained.\n",
+      "published_at": "2026-10-19T17:19:14Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadcalendar-v2.1.2",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 278,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.1/SHA256SUMS.txt",
-          "digest": "sha256:6f60e6bf4afd0f81c0bc07c197bef93bd1087e5f567457113466a52cd858803e"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.2/SHA256SUMS.txt",
+          "digest": "sha256:d62ba51d8d48627d6528d56fe6a3c324f34f6414d49bfc33e5743d43378834fc"
         },
         {
-          "name": "Threadline-2.1.1-setup.exe",
-          "size": 5105520,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.1/Threadline-2.1.1-setup.exe",
-          "digest": "sha256:eee368de58a52cb035fe3b64aa1e09da951e608a015f525e779a36e1ab951f8a"
+          "name": "Threadline-2.1.2-setup.exe",
+          "size": 5110154,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.2/Threadline-2.1.2-setup.exe",
+          "digest": "sha256:ddfcb258bc202a453f739fce558a492cdf1adad896f79e1c9d9638c1d9a28290"
         },
         {
-          "name": "Threadline-2.1.1-win32-x64.zip",
-          "size": 7022666,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.1/Threadline-2.1.1-win32-x64.zip",
-          "digest": "sha256:cfd1ad4dbeb830024bceabcb791a5dc31894c424bee86aec58200b35a3a556c7"
+          "name": "Threadline-2.1.2-win32-x64.zip",
+          "size": 7023636,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.2/Threadline-2.1.2-win32-x64.zip",
+          "digest": "sha256:3fb6bcd310aac1a05421a375a13809b40a80ad6950da523994879ae62effac66"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 361,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.1/toolbox-manifest.json",
-          "digest": "sha256:8a9fe73b8acd91f903cf3254dca3904083fb062b1460c72dd01a7870a9a6ea0a"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.2/toolbox-manifest.json",
+          "digest": "sha256:796b7e209aeadae05ca918ea858492158ea6a39c371f84f9796f6a0fb718cf09"
         }
       ]
     }
