@@ -228,6 +228,17 @@
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/d09f7d09188fb430a77cb87e799fb4228a5111992ffd59fae5ce676dd0b65afe.png",
         "sha256": "d09f7d09188fb430a77cb87e799fb4228a5111992ffd59fae5ce676dd0b65afe"
       }
+    },
+    {
+      "repository": "xheavy0/Threadcord",
+      "releaseRepository": "xheavy0/Thread-Releases",
+      "name": "Threadcord",
+      "description": "",
+      "category": "project",
+      "logo": {
+        "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/8df252980d4198905f7e66629a6cbae5f939344c9b7102865429ec4c0806bc56.png",
+        "sha256": "8df252980d4198905f7e66629a6cbae5f939344c9b7102865429ec4c0806bc56"
+      }
     }
   ],
   "excludedRepositories": [
