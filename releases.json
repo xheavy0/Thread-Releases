@@ -90,8 +90,8 @@
         "repository": "xheavy0/ThreadCalendar",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a.png",
-          "sha256": "4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e16168af44a7af7b4328103c1c0e0cc9a7b3cf780bb5f83aa42275ae5fe7e654.png",
+          "sha256": "e16168af44a7af7b4328103c1c0e0cc9a7b3cf780bb5f83aa42275ae5fe7e654"
         },
         "name": "Threadline",
         "description": "Calendar, precise project timelines, and reminders connected to ThreadNote.",
@@ -527,47 +527,6 @@
       ]
     },
     {
-      "repository": "xheavy0/ThreadCalendar",
-      "tag_name": "threadcalendar-v1.2.3",
-      "body": "ThreadCalendar 1.2.3 applies the approved Thread Space TC logo consistently across the app and Windows installer.\n\n- Replace the legacy calendar startup artwork with the same TC vector used in the title bar, with a short CSS entrance and a 2.6-second automatic dismissal. Skip, Escape and reduced-motion support remain available.\n- Set explicit installer and uninstaller icons. Window, system tray and reminder notifications continue to use the same multi-resolution TC icon.\n- Remove the unused Lottie player, artwork and associated license files.\n- Add `npm run verify:package`, including entry-point checks for window, tray and notification icons in normal/background startup and development/packaged modes using mocked Electron and isolated databases.\n\nValidation: 52 tests passed; TypeScript and Windows x64 installer build passed; startup and title-bar logos checked in the browser on light and dark themes. All 10 icon sizes matched in the app, installer and extracted uninstaller executables. Native Windows UI was not launched during verification.\n\nDownload `ThreadCalendar-1.2.3-setup.exe` to install or update. SHA-256 checksums are included in `SHA256SUMS.txt`.\n",
-      "published_at": "2026-10-13T15:17:11Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadcalendar-v1.2.3",
-      "draft": false,
-      "prerelease": false,
-      "assets": [
-        {
-          "name": "SHA256SUMS.txt",
-          "size": 205,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/SHA256SUMS.txt",
-          "digest": "sha256:3a604d6863afb164032d646e515b4d1d394e61bda0f3d50dd0c9836eb268b36c"
-        },
-        {
-          "name": "ThreadCalendar-1.2.3-setup.exe",
-          "size": 113607596,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/ThreadCalendar-1.2.3-setup.exe",
-          "digest": "sha256:cbae0abd49ef3d6daee4eeb4747f90bd87cc48e3306f2a6e2c6eb585a26b13a8"
-        },
-        {
-          "name": "ThreadCalendar-1.2.3-setup.exe.blockmap",
-          "size": 119291,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/ThreadCalendar-1.2.3-setup.exe.blockmap",
-          "digest": "sha256:28fcd949d22a9941f73449633159b7e97cf99fa2dd0ee4412ba8dc21052b08a7"
-        },
-        {
-          "name": "ThreadCalendar-1.2.3-win32-x64.zip",
-          "size": 165006957,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/ThreadCalendar-1.2.3-win32-x64.zip",
-          "digest": "sha256:e78c0c6147dd0817c01a8e7d2f21263d3d9d1db3a4c02b31069ea6be22fda687"
-        },
-        {
-          "name": "toolbox-manifest.json",
-          "size": 353,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v1.2.3/toolbox-manifest.json",
-          "digest": "sha256:33e345903fc5f2fb13f4bf495608cd576315a42879935b37261e972b419ff4ee"
-        }
-      ]
-    },
-    {
       "repository": "xheavy0/ThreadAura",
       "tag_name": "threadaura-v0.1.0",
       "body": "ThreadAura 0.1.0 is the first Windows x64 release of the local live-wallpaper studio.\n\n### Included\n\n- Image/video library, favorites, portable projects and file-based gallery sharing.\n- Independent displays, span/duplicate, playlists, schedules, tray controls and optional startup/session restore.\n- Scene layers, keyframes, particles, audio response, local depth parallax and silent WebM export.\n- Puppet Warp, OBJ/FBX/GLB, custom GLSL, isolated JavaScript and self-contained HTML wallpapers.\n- Optional now-playing information, Razer Chroma and Corsair iCUE integrations.\n- AI website workflows, saved ChatGPT requests and optional native OpenAI API generation.\n\n### Gaming memory saving\n\n**Settings → Desktop playback → Free wallpaper memory while gaming** defaults on. Fullscreen or configured foreground-app rules close wallpaper renderers on all displays. They return after two stable seconds, preserving playlist position, countdown, Shuffle history and manual Pause. Videos and scene animations restart. Studio and native scene/playlist snapshots remain allocated.\n\n### Downloads\n\n- `ThreadAura_0.1.0_x64-setup.exe`: Windows installer.\n- `ThreadAura-0.1.0-win32-x64.zip`: portable application, also used by ThreadBox.\n- `toolbox-manifest.json`: verified ThreadBox package metadata.\n- `SHA256SUMS`: SHA-256 checksums for the installer, ZIP and manifest.\n\nRequires Windows 10/11 x64 and Microsoft WebView2. Local depth assets are embedded; no model download is required after installation. AI website services and the optional API have their own account requirements and limits.\n\n### Validation and current limits\n\n139 frontend tests, 57 Rust tests, Clippy and production Windows NSIS packaging passed. Browser settings verification passed. The application and installer were not launched during these checks; native Windows playback, hardware integrations and actual gaming RAM/VRAM savings remain manually unverified.\n\nSteam Workshop, Wallpaper Engine scene-package compatibility, Android and screensavers are not included.\n",
@@ -832,6 +791,41 @@
           "size": 387,
           "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.0/toolbox-manifest.json",
           "digest": "sha256:7224dd9c3291cfe10dfa847bc54dff3cfd13064a1a9ff691264c8f4131fae3f7"
+        }
+      ]
+    },
+    {
+      "repository": "xheavy0/ThreadCalendar",
+      "tag_name": "threadcalendar-v2.1.1",
+      "body": "# Threadline 2.1.1\n\nThreadCalendar is now **Threadline**, with the TL logo and a native Rust/Tauri application.\n\n- Replace Electron and the Node data service with an in-process Rust engine. SQLite, document indexes, reminders, Google OAuth and Google/ICS synchronization run without Node. Node remains a frontend build tool only.\n- Add precise second, minute, hour, day and week project timelines. Grid lines, task boundaries and the current-time marker share one time coordinate.\n- Fix the one-pixel minor-grid offset and retain the true boundaries of short intervals. Only zero-duration entries use a diamond marker.\n- Preserve seconds and milliseconds when moving or resizing tasks, including at different interface zoom levels. Retain the revision from gesture start to reject concurrent edits.\n- Keep all-day movement symmetric and align day/week subdivisions with real local hours and midnights across daylight-saving changes.\n- Preserve the existing ThreadNote database schema, rich-text content, reminders, settings and encrypted calendar connections. No manual data transfer is needed.\n\n## Downloads\n\n- `Threadline-2.1.1-setup.exe`: Windows x64 installer, approximately 4.9 MiB.\n- `Threadline-2.1.1-win32-x64.zip` and `toolbox-manifest.json`: portable package for ThreadBox.\n- `SHA256SUMS.txt`: SHA-256 checksums for the installer, ZIP and manifest.\n\nClose previous ThreadCalendar/Threadline versions from the tray before upgrading. Existing settings remain in `%APPDATA%/threadcalendar`; the shared ThreadNote database stays at its existing location. Windows WebView2 is required. The installer is unsigned.\n\n## Validation\n\n50 frontend tests; 27 Rust tests; 32 timeline checks in each of seven time zones; TypeScript, Windows x64 build and package verification. Browser checks covered all five timeline scales, both resize handles, keyboard movement, millisecond persistence and interface zoom at 75%, 100% and 150%. The Toolbox ZIP is extracted and verified byte-for-byte against the built Rust executable and resources.\n\nGoogle synchronization was tested with a mock provider. Native desktop UI and real-account sign-in were not launched during verification.\n",
+      "published_at": "2026-10-19T13:40:20Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadcalendar-v2.1.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 278,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.1/SHA256SUMS.txt",
+          "digest": "sha256:6f60e6bf4afd0f81c0bc07c197bef93bd1087e5f567457113466a52cd858803e"
+        },
+        {
+          "name": "Threadline-2.1.1-setup.exe",
+          "size": 5105520,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.1/Threadline-2.1.1-setup.exe",
+          "digest": "sha256:eee368de58a52cb035fe3b64aa1e09da951e608a015f525e779a36e1ab951f8a"
+        },
+        {
+          "name": "Threadline-2.1.1-win32-x64.zip",
+          "size": 7022666,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.1/Threadline-2.1.1-win32-x64.zip",
+          "digest": "sha256:cfd1ad4dbeb830024bceabcb791a5dc31894c424bee86aec58200b35a3a556c7"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 361,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadcalendar-v2.1.1/toolbox-manifest.json",
+          "digest": "sha256:8a9fe73b8acd91f903cf3254dca3904083fb062b1460c72dd01a7870a9a6ea0a"
         }
       ]
     }
