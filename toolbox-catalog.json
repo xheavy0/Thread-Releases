@@ -87,15 +87,15 @@
     {
       "repository": "xheavy0/ThreadCalendar",
       "releaseRepository": "xheavy0/Thread-Releases",
+      "appUserModelId": "com.threadcalendar.app",
+      "shortcutIcon": "resources/icon.ico",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a.png",
         "sha256": "4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a"
       },
       "name": "Threadline",
       "description": "Calendar, precise project timelines, and reminders connected to ThreadNote.",
-      "category": "desktop",
-      "appUserModelId": "com.threadcalendar.app",
-      "shortcutIcon": "resources/icon.ico"
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/ThreadAura",
@@ -220,38 +220,38 @@
     {
       "repository": "xheavy0/ThreadFactory",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "ThreadFactory",
-      "description": "ThreadFactory - live board and agent timeline for Thread Factory jobs",
-      "category": "desktop",
       "appUserModelId": "com.threadfactory.desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/d09f7d09188fb430a77cb87e799fb4228a5111992ffd59fae5ce676dd0b65afe.png",
         "sha256": "d09f7d09188fb430a77cb87e799fb4228a5111992ffd59fae5ce676dd0b65afe"
-      }
+      },
+      "name": "ThreadFactory",
+      "description": "ThreadFactory - live board and agent timeline for Thread Factory jobs",
+      "category": "desktop"
     },
     {
       "repository": "xheavy0/Threadcord",
       "releaseRepository": "xheavy0/Thread-Releases",
-      "name": "Threadcord",
-      "description": "",
-      "category": "project",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/8df252980d4198905f7e66629a6cbae5f939344c9b7102865429ec4c0806bc56.png",
         "sha256": "8df252980d4198905f7e66629a6cbae5f939344c9b7102865429ec4c0806bc56"
-      }
+      },
+      "name": "Threadcord",
+      "description": "",
+      "category": "project"
     },
     {
       "repository": "xheavy0/Threadflow",
-      "name": "Threadflow",
+      "releaseRepository": "xheavy0/Thread-Releases",
       "appUserModelId": "com.threadflow.app",
       "shortcutIcon": "resources/icon.ico",
-      "category": "desktop",
-      "description": "Trace data through local code: calls, requests, events, reads and writes with source evidence.",
-      "releaseRepository": "xheavy0/Thread-Releases",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/65aa448889ae059dece3621eb4274151a1de5fb9ec7a46b080599531d73d78fb.png",
         "sha256": "65aa448889ae059dece3621eb4274151a1de5fb9ec7a46b080599531d73d78fb"
-      }
+      },
+      "name": "Threadflow",
+      "description": "Trace data through local code: calls, requests, events, reads and writes with source evidence.",
+      "category": "desktop"
     }
   ],
   "excludedRepositories": [
