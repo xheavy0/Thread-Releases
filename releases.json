@@ -587,36 +587,36 @@
     },
     {
       "repository": "xheavy0/ThreadAura",
-      "tag_name": "threadaura-v0.1.0",
-      "body": "ThreadAura 0.1.0 is the first Windows x64 release of the local live-wallpaper studio.\n\n### Included\n\n- Image/video library, favorites, portable projects and file-based gallery sharing.\n- Independent displays, span/duplicate, playlists, schedules, tray controls and optional startup/session restore.\n- Scene layers, keyframes, particles, audio response, local depth parallax and silent WebM export.\n- Puppet Warp, OBJ/FBX/GLB, custom GLSL, isolated JavaScript and self-contained HTML wallpapers.\n- Optional now-playing information, Razer Chroma and Corsair iCUE integrations.\n- AI website workflows, saved ChatGPT requests and optional native OpenAI API generation.\n\n### Gaming memory saving\n\n**Settings → Desktop playback → Free wallpaper memory while gaming** defaults on. Fullscreen or configured foreground-app rules close wallpaper renderers on all displays. They return after two stable seconds, preserving playlist position, countdown, Shuffle history and manual Pause. Videos and scene animations restart. Studio and native scene/playlist snapshots remain allocated.\n\n### Downloads\n\n- `ThreadAura_0.1.0_x64-setup.exe`: Windows installer.\n- `ThreadAura-0.1.0-win32-x64.zip`: portable application, also used by ThreadBox.\n- `toolbox-manifest.json`: verified ThreadBox package metadata.\n- `SHA256SUMS`: SHA-256 checksums for the installer, ZIP and manifest.\n\nRequires Windows 10/11 x64 and Microsoft WebView2. Local depth assets are embedded; no model download is required after installation. AI website services and the optional API have their own account requirements and limits.\n\n### Validation and current limits\n\n139 frontend tests, 57 Rust tests, Clippy and production Windows NSIS packaging passed. Browser settings verification passed. The application and installer were not launched during these checks; native Windows playback, hardware integrations and actual gaming RAM/VRAM savings remain manually unverified.\n\nSteam Workshop, Wallpaper Engine scene-package compatibility, Android and screensavers are not included.\n",
-      "published_at": "2026-10-13T15:50:42Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaura-v0.1.0",
+      "tag_name": "threadaura-v0.1.1",
+      "body": "ThreadAura 0.1.1 is a security maintenance release for the Windows x64 live-wallpaper studio. It contains dependency updates only; there are no feature changes.\n\n### Security updates\n\n- `zip` crate 4 → 9.0.5 (RUSTSEC-2026-0367, RUSTSEC-2026-0368, RUSTSEC-2026-0369). ThreadAura does not call `extract()`, so it was not exploitable, but the crate is updated.\n- `rustls` 0.23.46 (RUSTSEC-2026-0346, RUSTSEC-2026-0347, RUSTSEC-2026-0348, RUSTSEC-2026-0349).\n- `rustls-webpki` 0.103.16 and `webpki-roots` 1.0.10 (RUSTSEC-2026-0381, RUSTSEC-2026-0382).\n- Build tool `vite` 7.3.7.\n\n### Downloads\n\n- `ThreadAura_0.1.1_x64-setup.exe`: Windows installer.\n- `ThreadAura-0.1.1-win32-x64.zip`: portable application, also used by ThreadBox.\n- `toolbox-manifest.json`: verified ThreadBox package metadata.\n- `SHA256SUMS`: SHA-256 checksums for the installer, ZIP and manifest.\n\nRequires Windows 10/11 x64 and Microsoft WebView2. Local depth assets are embedded; no model download is required after installation. AI website services and the optional API have their own account requirements and limits.\n\n### Validation and current limits\n\n139 frontend tests, 57 Rust tests, Clippy with warnings as errors and production Windows NSIS packaging passed. The application and installer were not launched during these checks; native Windows playback, hardware integrations and actual gaming RAM/VRAM savings remain manually unverified.\n\nSteam Workshop, Wallpaper Engine scene-package compatibility, Android and screensavers are not included.\n",
+      "published_at": "2026-10-22T19:11:36Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadaura-v0.1.1",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS",
           "size": 282,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.0/SHA256SUMS",
-          "digest": "sha256:56c55427b8b8a95dce467137e666cfdad66595c601090c482fc3a2bec0432e08"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.1/SHA256SUMS",
+          "digest": "sha256:bbf758181bccc3e4cbf7f32c21c331abc8a15aa4683dd0137a423a32436bfe44"
         },
         {
-          "name": "ThreadAura-0.1.0-win32-x64.zip",
-          "size": 34658012,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.0/ThreadAura-0.1.0-win32-x64.zip",
-          "digest": "sha256:4019873a399226c09e1648a600a9b67468dbfc138cadd6733dcb7396505ea90b"
+          "name": "ThreadAura-0.1.1-win32-x64.zip",
+          "size": 34670994,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.1/ThreadAura-0.1.1-win32-x64.zip",
+          "digest": "sha256:1de43becb011a70745adf9c8a86600c74f3dbadf4255282de46b32a72a2a73c2"
         },
         {
-          "name": "ThreadAura_0.1.0_x64-setup.exe",
-          "size": 33373439,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.0/ThreadAura_0.1.0_x64-setup.exe",
-          "digest": "sha256:adbd44f05476da65605dc8947f31d9e9fae15661de17968a2112cb8af6f91e01"
+          "name": "ThreadAura_0.1.1_x64-setup.exe",
+          "size": 33406899,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.1/ThreadAura_0.1.1_x64-setup.exe",
+          "digest": "sha256:b43f400b255872322871086f8311bf8c624886deaf208d90d06e4d4390c189b6"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 364,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.0/toolbox-manifest.json",
-          "digest": "sha256:5ae15c10a4901e6406dd27f7676dfb245a7c7ea00d612d785fa41a523caebac0"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadaura-v0.1.1/toolbox-manifest.json",
+          "digest": "sha256:44f07f97ddb3990917771fa02a2049ace8664aeb6a32247bc1018781f3506751"
         }
       ]
     },
