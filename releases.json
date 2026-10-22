@@ -773,48 +773,48 @@
     },
     {
       "repository": "xheavy0/ThreadLibrary",
-      "tag_name": "threadlibrary-v0.1.1",
-      "body": "# ThreadLibrary 0.1.1\n\nFixes the Windows startup failure after installing ThreadLibrary 0.1.0. The installer and Toolbox ZIP now include the local server's required production dependencies, including Express.\n\n- Install or update through Thread Toolbox, or use `ThreadLibrary-Setup-0.1.1.exe`.\n- Existing registered projects and transfer history remain in the per-user profile.\n- The package includes Node and all 1,014 library resources; no source checkout or separate Node installation is required.\n\nValidation: 25 unit/runtime tests, TypeScript and the production build passed. The shipped HTTP service and MCP handshake/search passed outside the source checkout with a fresh profile. All 17,173 installer/ZIP payload files and 2,652 reference blobs were verified. The desktop UI and installer were not executed during verification.\n",
-      "published_at": "2026-10-17T09:40:05Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadlibrary-v0.1.1",
+      "tag_name": "threadlibrary-v0.1.2",
+      "body": "# ThreadLibrary 0.1.2\n\nSecurity maintenance release. It updates the bundled Node.js runtime to 24.22.1 and the yauzl release-verification dependency to 3.2.1 (GHSA-gmq8-994r-jv83). There are no feature changes.\n\n- Install or update through Thread Toolbox, or use `ThreadLibrary-Setup-0.1.2.exe`.\n- Existing registered projects and transfer history remain in the per-user profile.\n- The package includes Node 24.22.1 and all 1,014 library resources; no source checkout or separate Node installation is required.\n\nValidation: 25 unit/runtime tests, TypeScript and the production build passed. The shipped HTTP service and MCP handshake/search passed outside the source checkout with a fresh profile. All 17,173 installer/ZIP payload files and 2,652 reference blobs were verified. The desktop UI and installer were not executed during verification.\n",
+      "published_at": "2026-10-22T19:50:00Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadlibrary-v0.1.2",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 355,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/latest.yml",
-          "digest": "sha256:27729333e243bd22453fed939df6baa16322ccfe3253fc247c17cd3d8f57d321"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/latest.yml",
+          "digest": "sha256:c06de7d0f960459d5ca9f5efbca8aa921e709d347c77aa571eaaff991b99fd02"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 466,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/SHA256SUMS.txt",
-          "digest": "sha256:aca4dd164018463a103c2d261e563d5cfb211a952a337ff121f5ca9feedd2f7f"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/SHA256SUMS.txt",
+          "digest": "sha256:7ea1bbcd135a231bb075b1277b454369653d06625715a70a77736ca90cf28128"
         },
         {
-          "name": "ThreadLibrary-0.1.1-win32-x64.zip",
-          "size": 224584227,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/ThreadLibrary-0.1.1-win32-x64.zip",
-          "digest": "sha256:37eb3cbe18a806f93d057ac75509ad521d69222914d881f688fd411d825c1511"
+          "name": "ThreadLibrary-0.1.2-win32-x64.zip",
+          "size": 225080081,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/ThreadLibrary-0.1.2-win32-x64.zip",
+          "digest": "sha256:c3875bd8044b9c3faca62dc3e010962881182367a874d72c27a7d8b821ed40fe"
         },
         {
-          "name": "ThreadLibrary-Setup-0.1.1.exe",
-          "size": 163849698,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/ThreadLibrary-Setup-0.1.1.exe",
-          "digest": "sha256:e9bf02373bdaa3485e9fa39b721ef07f7e4adc9754feeb9ae0b24236459d260b"
+          "name": "ThreadLibrary-Setup-0.1.2.exe",
+          "size": 164157057,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/ThreadLibrary-Setup-0.1.2.exe",
+          "digest": "sha256:4b12032af4b0a92d00e759091f20fce593237bd086bf194651ce0a18d03a1984"
         },
         {
-          "name": "ThreadLibrary-Setup-0.1.1.exe.blockmap",
-          "size": 171505,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/ThreadLibrary-Setup-0.1.1.exe.blockmap",
-          "digest": "sha256:ab1ec7e49776787146f8ebaf394470566278d2c7c28e48aad90a3a975f7c1b92"
+          "name": "ThreadLibrary-Setup-0.1.2.exe.blockmap",
+          "size": 171537,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/ThreadLibrary-Setup-0.1.2.exe.blockmap",
+          "digest": "sha256:8bda2235ee2b4eb11dfdfe6858fe57242830f87138e733db7b2da8f7c24122cd"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 348,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.1/toolbox-manifest.json",
-          "digest": "sha256:d786f1f5020667b3a27ed74f3efb6386c2a4566d15763d37f1014a96707904b5"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/toolbox-manifest.json",
+          "digest": "sha256:5ea4e8c52845fba9197c6a60a23f93d7ad1c4785f07d1b94ae8fbbadbdfff032"
         }
       ]
     },
