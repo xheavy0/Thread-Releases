@@ -470,48 +470,48 @@
     },
     {
       "repository": "xheavy0/ThreadVoice",
-      "tag_name": "threadvoice-v0.1.1",
-      "body": "# ThreadVoice v0.1.1\n\nWindows x64 maintenance release with the Thread Space brand update and corrected startup navigation.\n\n## Changes\n\n- Adopted the approved Thread Space v1.0 **TV** monogram and **#7548F6** violet palette in the\n  control panel, floating widget, startup screen, window/tray icons, setup and uninstaller.\n- Replaced the old glow and waveform artwork with a transparent geometric mark; updated startup\n  animation artwork and removed decorative sparks, preserving the 4.4-second intro, Skip intro and\n  reduced-motion behavior.\n- Startup now opens **Home**, including when the API key is missing or the keyboard hook is unavailable.\n  Settings remains available through explicit navigation.\n- Added a vector master and reproducible PNG/ICO exports, resource checks and focused startup regressions.\n- Removed obsolete brand artwork from incremental builds.\n\n## Install or update\n\nDownload **ThreadVoice-Setup-0.1.1.exe** and run the installer. It installs for the current user and\ncreates desktop and Start menu shortcuts. Node.js is bundled. Installing over v0.1.0 preserves settings\nand history. Configure your OpenAI API key in **Settings → Connection** if needed.\n\nThe installer is unsigned. Dictation and voice conversations require an internet connection and your\nown paid OpenAI API access. Uninstalling preserves settings and history.\n\n## Validation\n\n- All 155 automated tests passed, including startup and animation regression coverage.\n- TypeScript type checking and generated brand-resource checks passed.\n- A fresh Windows x64 NSIS installer was built successfully; emitted and packaged brand-resource\n  checks passed. The packaged app contains version 0.1.1 and the corrected Home startup route.\n- Installer/app executable versions, update-metadata file size and SHA-512 checksum were verified.\n  Release assets include the installer, blockmap, update metadata and `SHA256SUMS.txt`.\n\nFull interactive UI verification remains incomplete because the agent's in-app browser timed out.\nNo desktop UI was automated.\n\nBuilt from commit: 8343ba4499fd04306839a205fc70edce61e3040b\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-10T18:41:56Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadvoice-v0.1.1",
+      "tag_name": "threadvoice-v0.1.2",
+      "body": "# ThreadVoice v0.1.2\n\nWindows x64 security maintenance release that updates Electron and the installer toolchain.\n\n## Changes\n\n- Updated Electron from 28.3.3 to **44.9.3** and electron-builder from 24.13.3 to **26.15.3**.\n  This resolves the security advisories reported against the old Electron runtime and against the\n  build toolchain (tar, app-builder-lib, builder-util-runtime and extract-zip).\n- Moved clipboard paste and restore to the asynchronous clipboard API that Electron 44 requires.\n  Dictated text is written, pasted and the previous clipboard contents are put back with awaited\n  calls, and the clipboard snapshot now uses `clipboard.read()` / `ClipboardItem`.\n- No other dependencies or features changed.\n\n## Install or update\n\nDownload **ThreadVoice-Setup-0.1.2.exe** and run the installer. It installs for the current user and\ncreates desktop and Start menu shortcuts. Node.js is bundled. Installing over v0.1.1 preserves settings\nand history. Configure your OpenAI API key in **Settings → Connection** if needed.\n\nThe installer is unsigned. Dictation and voice conversations require an internet connection and your\nown paid OpenAI API access. Uninstalling preserves settings and history.\n\n## Validation\n\n- All 155 automated tests passed.\n- TypeScript type checking and generated brand-resource checks passed.\n- A fresh Windows x64 NSIS installer was built successfully with electron-builder 26.15.3; emitted and\n  packaged brand-resource checks passed. The packaged app contains version 0.1.2, Electron 44.9.3,\n  koffi 3.3.0 and the unpacked `uiohook-napi` 1.5.5 native module.\n- Installer/app executable versions, update-metadata file size and SHA-512 checksum were verified.\n  Release assets include the installer, blockmap, update metadata and `SHA256SUMS.txt`.\n\nVerification was static only: the app and installer were not launched. In particular, the clipboard\nrestore after dictation was not exercised in the live app, and neither was the handling of files\ncopied in Explorer. No desktop UI was automated.\n\nBuilt from commit: 0a2e8bf5b82d207df21b3cff2a48eb3c82eff032\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-22T19:06:35Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadvoice-v0.1.2",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
-          "size": 350,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.1/latest.yml",
-          "digest": "sha256:21a5b8a9cbcb208262650981f1c550509d32965c3eadbee43c06cefbcea184de"
+          "size": 351,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.2/latest.yml",
+          "digest": "sha256:41966437820553d7bf64bac0207137faec97ce1cd31c35ccb7e69224ec03503d"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 274,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.1/SHA256SUMS.txt",
-          "digest": "sha256:d51f7208975c653e7686ead8f5bbb8f2d21df6a61408f0396cd764d62670a3df"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.2/SHA256SUMS.txt",
+          "digest": "sha256:8a2cb8ce55670f4d84097ef0677bcd40219295f48dd94ee3a02ef94607fd345d"
         },
         {
-          "name": "ThreadVoice-0.1.1-win32-x64.zip",
-          "size": 112019416,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.1/ThreadVoice-0.1.1-win32-x64.zip",
-          "digest": "sha256:3972962b9c81cb2f82d92948e095038fd8b67f01bec1162c5d655fc6a9585564"
+          "name": "ThreadVoice-0.1.2-win32-x64.zip",
+          "size": 164010617,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.2/ThreadVoice-0.1.2-win32-x64.zip",
+          "digest": "sha256:4f4df06bba370af9b682f89da1a8eaea8d9a66b42815b30aea092b1c27806318"
         },
         {
-          "name": "ThreadVoice-Setup-0.1.1.exe",
-          "size": 77717591,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.1/ThreadVoice-Setup-0.1.1.exe",
-          "digest": "sha256:860de97a9ae0060d00bf5dd64d030162ea71ae7864a0e94fe74f34215a0e6d56"
+          "name": "ThreadVoice-Setup-0.1.2.exe",
+          "size": 113257093,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.2/ThreadVoice-Setup-0.1.2.exe",
+          "digest": "sha256:e65b842db6cafa72cee315bbf4afa708d2e2ebfbd19a0574d858f20350f5150b"
         },
         {
-          "name": "ThreadVoice-Setup-0.1.1.exe.blockmap",
-          "size": 82327,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.1/ThreadVoice-Setup-0.1.1.exe.blockmap",
-          "digest": "sha256:7d924fd36b31ac33128507d6c0b60ecbd35c95501044cf98544c53dd89e17f1f"
+          "name": "ThreadVoice-Setup-0.1.2.exe.blockmap",
+          "size": 119693,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.2/ThreadVoice-Setup-0.1.2.exe.blockmap",
+          "digest": "sha256:d9f0316f09ab15f7b9184d864fed3e9b241825ed71cc5ff55d8dc47bbb2605a8"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 333,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.1/toolbox-manifest.json",
-          "digest": "sha256:8fcadb28f7f8e9db8992fc7ed9de1a5c2d0868f7869c0d85690383ca871d2a95"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadvoice-v0.1.2/toolbox-manifest.json",
+          "digest": "sha256:c6ac929eb79309fd25e8294e6e7e390459e2e66b2cf0a2e5c4bde65be0c03b89"
         }
       ]
     },
