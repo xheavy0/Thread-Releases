@@ -820,36 +820,36 @@
     },
     {
       "repository": "xheavy0/ThreadBoard",
-      "tag_name": "threadboard-v0.2.0",
-      "body": "CI traces on the Actions page.\n\n## Highlights\n\n- **Run waterfall:** an expanded run shows its jobs and steps as time bars on one axis. The runner queue wait is shown separately from execution. Clicking a step opens that step's log.\n- **Failure reasons:** failed runs open with a summary. Check-run annotations are listed as `path:line` with their level, and each one links to the failing step's log.\n- **CI insights:** with one workflow selected, the Insights view shows the p50/p95 run duration trend, failure rate, slowest jobs and steps, and queue time. It shows how many API requests it used and how much rate limit is left. When data is partial, it says so and offers Retry.\n\n## Notes\n\n- Everything comes from the GitHub API with your existing token. No new dependencies.\n- GitHub job logs have no step markers, so log lines are assigned to steps by timestamp. A line exactly on a step boundary can land in the next step.\n\n## Downloads\n\n- `Threadboard_0.2.0_x64-setup.exe`: installer\n- `Threadboard_0.2.0_x64_en-US.msi`: MSI installer\n- `Threadboard-0.2.0-win-x64.zip`: portable `threadboard.exe`\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-18T08:56:52Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadboard-v0.2.0",
+      "tag_name": "threadboard-v0.2.1",
+      "body": "A security maintenance release: updates two TLS dependencies to pick up fixes for distrusted emSign certificate intermediates.\n\n## Highlights\n\n- **rustls-webpki 0.103.16:** certificate verification now rejects certificate paths that contain the distrusted emSign intermediate public keys (RUSTSEC-2026-0382).\n- **webpki-roots 1.0.10:** the bundled root store no longer includes `emSign ECC Root CA - G3` (RUSTSEC-2026-0381).\n\n## Notes\n\n- No feature changes. The only differences from 0.2.0 are the dependency updates above.\n- The installers are unsigned.\n\n## Downloads\n\n- `Threadboard_0.2.1_x64-setup.exe`: installer\n- `Threadboard_0.2.1_x64_en-US.msi`: MSI installer\n- `Threadboard-0.2.1-win-x64.zip`: portable `threadboard.exe`\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-22T19:32:09Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadboard-v0.2.1",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
-          "name": "Threadboard-0.2.0-win-x64.zip",
-          "size": 5763550,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.0/Threadboard-0.2.0-win-x64.zip",
-          "digest": "sha256:b4dd9762df7359cc7634aec12d41e3b54eeaa5b16881291b59353f9a2e699f6e"
+          "name": "Threadboard-0.2.1-win-x64.zip",
+          "size": 5763906,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.1/Threadboard-0.2.1-win-x64.zip",
+          "digest": "sha256:76156aed9534e4b25a4b99de63a9713a9dedd9ad9a3d29d24d82d53df04d4075"
         },
         {
-          "name": "Threadboard_0.2.0_x64-setup.exe",
-          "size": 4305745,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.0/Threadboard_0.2.0_x64-setup.exe",
-          "digest": "sha256:acc08f85174d10f6c1f11aba074968b8fc3d9f19ab9f51274e9321f9777bbe0a"
+          "name": "Threadboard_0.2.1_x64-setup.exe",
+          "size": 4304765,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.1/Threadboard_0.2.1_x64-setup.exe",
+          "digest": "sha256:35d9538383438787c69f5e41887af10416a14685dca46e711553d7612f0e6612"
         },
         {
-          "name": "Threadboard_0.2.0_x64_en-US.msi",
+          "name": "Threadboard_0.2.1_x64_en-US.msi",
           "size": 6066176,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.0/Threadboard_0.2.0_x64_en-US.msi",
-          "digest": "sha256:f7a3a74bd282bee6070527254f383e9f98daaa36be355008b43f776bf3e2a3eb"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.1/Threadboard_0.2.1_x64_en-US.msi",
+          "digest": "sha256:68da09d1a840ecaf2090bcccdbee7ef95002b6f123cc4d64b28d1b14643b1279"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 387,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.0/toolbox-manifest.json",
-          "digest": "sha256:7224dd9c3291cfe10dfa847bc54dff3cfd13064a1a9ff691264c8f4131fae3f7"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.2.1/toolbox-manifest.json",
+          "digest": "sha256:385c4c1d42ff87dc2ed36acdaf99229126b59b76373fae7e97c5c11e6d285df2"
         }
       ]
     },
