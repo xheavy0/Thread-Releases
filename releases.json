@@ -1,6 +1,11 @@
 {
   "schemaVersion": 1,
   "catalog": {
+    "excludedRepositories": [
+      "xheavy0/ThreadOS",
+      "xheavy0/Threadforge-Rust",
+      "xheavy0/ThreadSpace"
+    ],
     "schemaVersion": 1,
     "apps": [
       {
@@ -9,8 +14,8 @@
         "appUserModelId": "com.threadforge.app",
         "shortcutIcon": "resources/icon.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974.png",
-          "sha256": "caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf.png",
+          "sha256": "cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf"
         },
         "name": "Threadforge",
         "description": "Code editor and workspace for AI agents.",
@@ -21,8 +26,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "dev.threadmap.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891.png",
-          "sha256": "9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0.png",
+          "sha256": "45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0"
         },
         "name": "ThreadMap",
         "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
@@ -32,8 +37,8 @@
         "repository": "xheavy0/Threadnote",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec.png",
-          "sha256": "e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4.png",
+          "sha256": "242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4"
         },
         "name": "Threadnote",
         "description": "Your notes, ideas, and personal knowledge space.",
@@ -43,8 +48,8 @@
         "repository": "xheavy0/Threadshot",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16.png",
-          "sha256": "688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775.png",
+          "sha256": "ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775"
         },
         "name": "Threadshot",
         "description": "Capture your screen and annotate images.",
@@ -55,8 +60,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadstorage.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282.png",
-          "sha256": "ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789.png",
+          "sha256": "baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789"
         },
         "name": "ThreadStorage",
         "description": "Your files and cloud storage in one place.",
@@ -67,8 +72,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadforge.threadvoice",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee.png",
-          "sha256": "847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a.png",
+          "sha256": "5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a"
         },
         "name": "ThreadVoice",
         "description": "Voice-to-text dictation across Windows apps.",
@@ -92,8 +97,8 @@
         "appUserModelId": "com.threadcalendar.app",
         "shortcutIcon": "resources/icon.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a.png",
-          "sha256": "4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e16168af44a7af7b4328103c1c0e0cc9a7b3cf780bb5f83aa42275ae5fe7e654.png",
+          "sha256": "e16168af44a7af7b4328103c1c0e0cc9a7b3cf780bb5f83aa42275ae5fe7e654"
         },
         "name": "Threadline",
         "description": "Calendar, precise project timelines, and reminders connected to ThreadNote.",
@@ -104,8 +109,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadaura.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9.png",
-          "sha256": "25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179.png",
+          "sha256": "aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179"
         },
         "name": "ThreadAura",
         "description": "Wallpapers, animations, and a scene editor.",
@@ -129,8 +134,8 @@
         "appUserModelId": "com.threaduninstal.desktop",
         "shortcutIcon": "assets/app.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234.png",
-          "sha256": "bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545.png",
+          "sha256": "60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545"
         },
         "name": "Threaduninstal",
         "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
@@ -140,8 +145,8 @@
         "repository": "xheavy0/ThreadMail",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3.png",
-          "sha256": "5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34.png",
+          "sha256": "84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34"
         },
         "name": "ThreadMail",
         "description": "A unified inbox for managing your email.",
@@ -152,8 +157,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadplan.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693.png",
-          "sha256": "a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b.png",
+          "sha256": "f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b"
         },
         "name": "Threadplan",
         "description": "Tasks, habits, and plans for Windows and Android.",
@@ -212,8 +217,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadboard.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38.png",
-          "sha256": "6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62.png",
+          "sha256": "51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62"
         },
         "name": "ThreadBoard",
         "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
@@ -255,64 +260,59 @@
         "description": "Trace data through local code: calls, requests, events, reads and writes with source evidence.",
         "category": "desktop"
       }
-    ],
-    "excludedRepositories": [
-      "xheavy0/ThreadOS",
-      "xheavy0/Threadforge-Rust",
-      "xheavy0/ThreadSpace"
     ]
   },
   "releases": [
     {
       "repository": "xheavy0/Threadforge",
-      "tag_name": "threadforge-v1.0.24",
-      "body": "Threadforge 1.0.24 is smaller and more focused. Several tools now live in the separate ThreadFactory desktop app, and the in-app browser is gone.\n\n- **Links open in Comet.** The in-app Browser, Visual Fix and the Preview pane are removed. Web links and agents' `open_browser` requests open in Comet, or in the default browser when Comet is not installed. Comet starts with a minimal environment.\n- **Updates.** The \"Browser & Updates\" settings page is now \"Updates\". Self-update works as before, and the daily-check switch sits on the same row as its label.\n- **Moved to ThreadFactory.** Security Station, the Database explorer, the project file tree, Canvas and the task Kanban board are now in ThreadFactory. Threadforge keeps the Progression view and the Agent sidebar; the Dashboard has three tabs: Status, Progression and Chat.\n- **Forge bridge.** A local, token-protected HTTP API lets ThreadFactory read workspaces, agent file activity and tasks. It can also send text to a coding agent, open a file or focus a pane, run, retry or stop team tasks and plans, and accept or reject proposed changes. ThreadFactory asks for confirmation before it runs, stops or removes a task or applies a proposed change.\n- **Provider icon.** The Hermes Agent provider uses its official artwork.\n\nOld data from the removed features stays on disk and is not migrated or deleted: browser profile and saved passwords, Security Station runs, saved database connections and Canvas history.\n\nThe installer is about half the size of 1.0.23. Windows x64 NSIS installer with matching updater and checksum assets. Installed provider and UI acceptance follows the owner's manual testing.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-17T18:35:39Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.24",
+      "tag_name": "threadforge-v1.0.25",
+      "body": "Threadforge 1.0.25 is a maintenance release. Its dependencies have no known vulnerabilities, and the last traces of the Ultragravity name are gone.\n\n- **No known vulnerabilities.** VulnWatch and npm audit report no findings for this release. Dependencies are updated within their ranges where possible; the build tools move to Vite 6 and Vitest 4, and the unused uuid and Tailwind CSS packages are removed. The interface itself does not change.\n- **Mobile pairing certificate.** The certificate for phone pairing is now created with Node's built-in crypto instead of node-forge. It has the same contents. Already paired phones keep working with their saved certificate.\n- **Threadforge name everywhere.** Remaining Ultragravity names in storage keys, events and styles are replaced. Saved settings move to the new keys once, automatically. The unused VS Code extension experiment and the old previous-product profile copy are removed.\n\nWindows x64 NSIS installer with matching updater and checksum assets. Installed provider and UI acceptance follows the owner's manual testing.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-10-22T17:30:39Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadforge-v1.0.25",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 354,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.24/latest.yml",
-          "digest": "sha256:f27762c74262c9c15dc5a461b4eb048bca1d940063eaf6dbbe15673ddbc673d1"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.25/latest.yml",
+          "digest": "sha256:35622d90f948e505ff107e4b2b048ad7e449ddd3f2cfb04a313cf24816d0f97b"
         },
         {
           "name": "SHA256SUMS.txt",
           "size": 366,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.24/SHA256SUMS.txt",
-          "digest": "sha256:eb44a97f91a906b21772b17837e6a63180df6640c9daca60243fee04a6936610"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.25/SHA256SUMS.txt",
+          "digest": "sha256:5ef369973f873e1f7a0b82bb7da427c67f9f8ccf7bcb57ce314a8a16fa41db9d"
         },
         {
-          "name": "Threadforge-1.0.24-win32-x64.zip",
-          "size": 386288432,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.24/Threadforge-1.0.24-win32-x64.zip",
-          "digest": "sha256:66db371741cd77581f65a2ebeb0aeffd9137462095c120b7f394de9ffba3bf69"
+          "name": "Threadforge-1.0.25-win32-x64.zip",
+          "size": 265141822,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.25/Threadforge-1.0.25-win32-x64.zip",
+          "digest": "sha256:b5fbf5c2de57f185b8c53e3b50c2298afe7ec2a86270423147b19e82144805dd"
         },
         {
-          "name": "Threadforge-Setup-1.0.24.exe",
-          "size": 267997150,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.24/Threadforge-Setup-1.0.24.exe",
-          "digest": "sha256:9cd754fd29f147eb7ba6ed1ddb1d0c3254f5daeca1b0a4a2352e901070f04cc1"
+          "name": "Threadforge-Setup-1.0.25.exe",
+          "size": 186997323,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.25/Threadforge-Setup-1.0.25.exe",
+          "digest": "sha256:7c21b21c8fe2c9017de2e584ac29d9549b4f47faf9fadd66f24951d7a1427fa5"
         },
         {
-          "name": "Threadforge-Setup-1.0.24.exe.blockmap",
-          "size": 269526,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.24/Threadforge-Setup-1.0.24.exe.blockmap",
-          "digest": "sha256:a6bbb7a781bb5994cb52c762a4a5ec7565c5d02aeea6d7d58c722805c08a8d8c"
+          "name": "Threadforge-Setup-1.0.25.exe.blockmap",
+          "size": 194776,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.25/Threadforge-Setup-1.0.25.exe.blockmap",
+          "digest": "sha256:4f6062a88f06a508aea60fd37df71d5e8382eee8856228ed6f48acd4c11480d2"
         },
         {
           "name": "threadforge-update.json",
           "size": 408,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.24/threadforge-update.json",
-          "digest": "sha256:5aa559c3567844134937acdf32638b8a4f757299c93237d14898dda7c7469d46"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.25/threadforge-update.json",
+          "digest": "sha256:d699e6d1f3cbcafd957dbf807286bfed0ec31856c750961827a31a591a1ca5bd"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 330,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.24/toolbox-manifest.json",
-          "digest": "sha256:852a5ab9cccbaeae92fc7390cc1103ed14d29dbf961b4adf1ca52b44530f2fd5"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadforge-v1.0.25/toolbox-manifest.json",
+          "digest": "sha256:213dddeb3e97c1e129d9b3a75e77f09ebd9b498b7ce2d6b22f7741cfafa8530b"
         }
       ]
     },
