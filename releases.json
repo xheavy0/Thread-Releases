@@ -1,6 +1,11 @@
 {
   "schemaVersion": 1,
   "catalog": {
+    "excludedRepositories": [
+      "xheavy0/ThreadOS",
+      "xheavy0/Threadforge-Rust",
+      "xheavy0/ThreadSpace"
+    ],
     "schemaVersion": 1,
     "apps": [
       {
@@ -9,8 +14,8 @@
         "appUserModelId": "com.threadforge.app",
         "shortcutIcon": "resources/icon.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974.png",
-          "sha256": "caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf.png",
+          "sha256": "cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf"
         },
         "name": "Threadforge",
         "description": "Code editor and workspace for AI agents.",
@@ -21,8 +26,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "dev.threadmap.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891.png",
-          "sha256": "9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0.png",
+          "sha256": "45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0"
         },
         "name": "ThreadMap",
         "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
@@ -32,8 +37,8 @@
         "repository": "xheavy0/Threadnote",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec.png",
-          "sha256": "e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4.png",
+          "sha256": "242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4"
         },
         "name": "Threadnote",
         "description": "Your notes, ideas, and personal knowledge space.",
@@ -43,8 +48,8 @@
         "repository": "xheavy0/Threadshot",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16.png",
-          "sha256": "688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775.png",
+          "sha256": "ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775"
         },
         "name": "Threadshot",
         "description": "Capture your screen and annotate images.",
@@ -55,8 +60,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadstorage.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282.png",
-          "sha256": "ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789.png",
+          "sha256": "baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789"
         },
         "name": "ThreadStorage",
         "description": "Your files and cloud storage in one place.",
@@ -67,8 +72,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadforge.threadvoice",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee.png",
-          "sha256": "847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a.png",
+          "sha256": "5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a"
         },
         "name": "ThreadVoice",
         "description": "Voice-to-text dictation across Windows apps.",
@@ -92,8 +97,8 @@
         "appUserModelId": "com.threadcalendar.app",
         "shortcutIcon": "resources/icon.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a.png",
-          "sha256": "4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e16168af44a7af7b4328103c1c0e0cc9a7b3cf780bb5f83aa42275ae5fe7e654.png",
+          "sha256": "e16168af44a7af7b4328103c1c0e0cc9a7b3cf780bb5f83aa42275ae5fe7e654"
         },
         "name": "Threadline",
         "description": "Calendar, precise project timelines, and reminders connected to ThreadNote.",
@@ -104,8 +109,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadaura.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9.png",
-          "sha256": "25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179.png",
+          "sha256": "aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179"
         },
         "name": "ThreadAura",
         "description": "Wallpapers, animations, and a scene editor.",
@@ -129,8 +134,8 @@
         "appUserModelId": "com.threaduninstal.desktop",
         "shortcutIcon": "assets/app.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234.png",
-          "sha256": "bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545.png",
+          "sha256": "60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545"
         },
         "name": "Threaduninstal",
         "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
@@ -140,8 +145,8 @@
         "repository": "xheavy0/ThreadMail",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3.png",
-          "sha256": "5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34.png",
+          "sha256": "84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34"
         },
         "name": "ThreadMail",
         "description": "A unified inbox for managing your email.",
@@ -152,8 +157,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadplan.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693.png",
-          "sha256": "a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b.png",
+          "sha256": "f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b"
         },
         "name": "Threadplan",
         "description": "Tasks, habits, and plans for Windows and Android.",
@@ -212,8 +217,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadboard.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38.png",
-          "sha256": "6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62.png",
+          "sha256": "51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62"
         },
         "name": "ThreadBoard",
         "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
@@ -259,19 +264,14 @@
         "repository": "xheavy0/ThreadWatch",
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.vulnwatch.app",
-        "name": "VulnWatch",
-        "description": "Local vulnerability dashboard: matches your projects' lockfiles against OSV and GitHub advisories, rated with CVSS, EPSS and CISA KEV.",
-        "category": "desktop",
         "logo": {
           "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/adfaef4cbcd0bcb908572826feef2a0640face62916f08ac31e3d22559aa8991.png",
           "sha256": "adfaef4cbcd0bcb908572826feef2a0640face62916f08ac31e3d22559aa8991"
-        }
+        },
+        "name": "VulnWatch",
+        "description": "Local vulnerability dashboard: matches your projects' lockfiles against OSV and GitHub advisories, rated with CVSS, EPSS and CISA KEV.",
+        "category": "desktop"
       }
-    ],
-    "excludedRepositories": [
-      "xheavy0/ThreadOS",
-      "xheavy0/Threadforge-Rust",
-      "xheavy0/ThreadSpace"
     ]
   },
   "releases": [
@@ -920,36 +920,36 @@
     },
     {
       "repository": "xheavy0/ThreadWatch",
-      "tag_name": "threadwatch-v0.1.1",
-      "body": "# VulnWatch 0.1.1\n\nVulnWatch is a local vulnerability dashboard. It reads the lockfiles in your project folders (npm, Cargo, Go, Python venvs), matches the exact versions against OSV and GitHub advisories, rates them with CVSS, EPSS and CISA KEV, and opens Claude Code or Codex in the project to fix them. Nothing leaves your machine except the package versions sent to OSV and GitHub.\n\n## What's new in 0.1.1\n\nFindings are now rated by whether the code actually ships:\n\n- **One row per issue.** Linked OSV records (a GitHub advisory and its RUSTSEC or GO twin) merge into one finding.\n- **Build tools.** npm packages that only Expo CLI, Metro or the React Native CLI pull in are marked \"build tools only\".\n- **Other platforms.** Cargo crates that no target platform compiles are marked \"other platforms only\". VulnWatch asks `cargo metadata --filter-platform` (default target: Windows x64) and caches the answer.\n- **Unused Go packages.** A Go advisory counts only where one of the affected packages is imported, checked with `go list -deps` across the usual targets.\n- Findings that never build or are never imported drop to **Later**. The Open page switch is now **Not shipped**: turn it off to see only what reaches your apps.\n\n## Windows downloads\n\n- **VulnWatch-0.1.1-windows-x64-setup.exe**: Windows x64 installer.\n- **VulnWatch-0.1.1-win32-x64.zip**: portable app (a single `vulnwatch.exe`). Install it through Thread Toolbox with `toolbox-manifest.json`, or extract and run it.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nNeeds the Microsoft Edge WebView2 runtime (included in Windows 10 and 11). The platform and Go checks use `cargo` and `go` when they are installed. Without them, all crates and Go modules count as shipped.\n\n## Validation\n\n13 Rust unit tests and the TypeScript type check passed. A full scan of 41 local projects (4,319 package versions) produced 8 findings: none in Fix now, and none left when \"Not shipped\" is turned off. The same code, built as 0.1.0, was installed over an existing copy and started on Windows 11.\n",
-      "published_at": "2026-10-23T11:53:21Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadwatch-v0.1.1",
+      "tag_name": "threadwatch-v0.1.2",
+      "body": "# VulnWatch 0.1.2\n\nVulnWatch is a local vulnerability dashboard. It reads the lockfiles in your project folders (npm, Cargo, Go, Python venvs), matches the exact versions against OSV and GitHub advisories, rates them with CVSS, EPSS and CISA KEV, and opens Claude Code or Codex in the project to fix them.\n\n## What's new in 0.1.2\n\n**Accept for now.** Some vulnerabilities have no fix yet and never reach your apps. You can now set them aside with a note:\n\n- Open a vulnerability and choose **Accept for now**. VulnWatch suggests a note from what it knows, for example \"Build tools only; no fixed version yet.\"\n- Accepted vulnerabilities leave Open, the project counts, the tray count and new-finding notices. They are listed with your note on the new **Accepted** page.\n- An accepted vulnerability **comes back by itself** when a fixed version is released that wasn't there when you accepted it, when its severity changes, or when its priority rises (it starts shipping in an app, or CISA lists it as exploited). It shows a \"Back\" badge in Open, and VulnWatch sends a notification.\n- From its panel you can accept it again or move it back to Open at any time.\n\nAccepted vulnerabilities are stored in your VulnWatch settings, on this computer only.\n\n## Windows downloads\n\n- **VulnWatch-0.1.2-windows-x64-setup.exe**: Windows x64 installer.\n- **VulnWatch-0.1.2-win32-x64.zip**: portable app (a single `vulnwatch.exe`). Install it through Thread Toolbox with `toolbox-manifest.json`, or extract and run it.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nNeeds the Microsoft Edge WebView2 runtime (included in Windows 10 and 11).\n\n## Validation\n\n18 Rust unit tests passed, 3 of them new for the accept rule, and the TypeScript type check passed. The accept, restore and come-back flows were checked in the browser UI against a real scan of 41 projects. The installer was installed and started on Windows 11.\n",
+      "published_at": "2026-10-23T13:51:01Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadwatch-v0.1.2",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 288,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.1/SHA256SUMS.txt",
-          "digest": "sha256:dfec7f28e95f4724f293f45e7552e5da4094861a46af2dd65985c3d42b6e7796"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.2/SHA256SUMS.txt",
+          "digest": "sha256:5e2639a28fe55328a861c17f9996c3610539a2eede8f06f82d253daa9459e687"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 417,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.1/toolbox-manifest.json",
-          "digest": "sha256:824c38d2837ae0e96054c56569766a2b14ef1302f503b93ba346a086718275dd"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.2/toolbox-manifest.json",
+          "digest": "sha256:0c0cb769274402f7a6f1080d287b8e6a184b1146dc7e7de305655d4312f34fa8"
         },
         {
-          "name": "VulnWatch-0.1.1-win32-x64.zip",
-          "size": 5361637,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.1/VulnWatch-0.1.1-win32-x64.zip",
-          "digest": "sha256:34b1cb1ca533246333cf16d5d36921e6e974f2e3b323286a663da782fa57b567"
+          "name": "VulnWatch-0.1.2-win32-x64.zip",
+          "size": 5398848,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.2/VulnWatch-0.1.2-win32-x64.zip",
+          "digest": "sha256:5e5fdf245eb586685c1f5b5a1ab576c7b59bb594a22b37719492e2a31afc6c9d"
         },
         {
-          "name": "VulnWatch-0.1.1-windows-x64-setup.exe",
-          "size": 3897219,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.1/VulnWatch-0.1.1-windows-x64-setup.exe",
-          "digest": "sha256:1dc2d7455ac069b0cc4fcc3102155f44200442a4719543c971a60d9d44a2b9e0"
+          "name": "VulnWatch-0.1.2-windows-x64-setup.exe",
+          "size": 3918460,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.2/VulnWatch-0.1.2-windows-x64-setup.exe",
+          "digest": "sha256:481cb8b2535417941de97b90e99d8df716f76dfc3793cae7456dc3d1c11ab8da"
         }
       ]
     }
