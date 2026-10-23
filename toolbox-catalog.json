@@ -257,13 +257,13 @@
       "repository": "xheavy0/ThreadWatch",
       "releaseRepository": "xheavy0/Thread-Releases",
       "appUserModelId": "com.vulnwatch.app",
-      "name": "VulnWatch",
-      "description": "Local vulnerability dashboard: matches your projects' lockfiles against OSV and GitHub advisories, rated with CVSS, EPSS and CISA KEV.",
-      "category": "desktop",
       "logo": {
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/adfaef4cbcd0bcb908572826feef2a0640face62916f08ac31e3d22559aa8991.png",
         "sha256": "adfaef4cbcd0bcb908572826feef2a0640face62916f08ac31e3d22559aa8991"
-      }
+      },
+      "name": "VulnWatch",
+      "description": "Local vulnerability dashboard: matches your projects' lockfiles against OSV and GitHub advisories, rated with CVSS, EPSS and CISA KEV.",
+      "category": "desktop"
     }
   ],
   "excludedRepositories": [
