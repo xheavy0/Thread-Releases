@@ -259,6 +259,14 @@
         "name": "Threadflow",
         "description": "Trace data through local code: calls, requests, events, reads and writes with source evidence.",
         "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/ThreadWatch",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "appUserModelId": "com.vulnwatch.app",
+        "name": "VulnWatch",
+        "description": "Local vulnerability dashboard: matches your projects' lockfiles against OSV and GitHub advisories, rated with CVSS, EPSS and CISA KEV.",
+        "category": "desktop"
       }
     ]
   },
@@ -903,6 +911,41 @@
           "size": 343,
           "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadflow-v0.1.1/toolbox-manifest.json",
           "digest": "sha256:094db36b20bb51dcdf2cf132efcef5459151f97a41924237f51611485544ede8"
+        }
+      ]
+    },
+    {
+      "repository": "xheavy0/ThreadWatch",
+      "tag_name": "threadwatch-v0.1.1",
+      "body": "# VulnWatch 0.1.1\n\nVulnWatch is a local vulnerability dashboard. It reads the lockfiles in your project folders (npm, Cargo, Go, Python venvs), matches the exact versions against OSV and GitHub advisories, rates them with CVSS, EPSS and CISA KEV, and opens Claude Code or Codex in the project to fix them. Nothing leaves your machine except the package versions sent to OSV and GitHub.\n\n## What's new in 0.1.1\n\nFindings are now rated by whether the code actually ships:\n\n- **One row per issue.** Linked OSV records (a GitHub advisory and its RUSTSEC or GO twin) merge into one finding.\n- **Build tools.** npm packages that only Expo CLI, Metro or the React Native CLI pull in are marked \"build tools only\".\n- **Other platforms.** Cargo crates that no target platform compiles are marked \"other platforms only\". VulnWatch asks `cargo metadata --filter-platform` (default target: Windows x64) and caches the answer.\n- **Unused Go packages.** A Go advisory counts only where one of the affected packages is imported, checked with `go list -deps` across the usual targets.\n- Findings that never build or are never imported drop to **Later**. The Open page switch is now **Not shipped**: turn it off to see only what reaches your apps.\n\n## Windows downloads\n\n- **VulnWatch-0.1.1-windows-x64-setup.exe**: Windows x64 installer.\n- **VulnWatch-0.1.1-win32-x64.zip**: portable app (a single `vulnwatch.exe`). Install it through Thread Toolbox with `toolbox-manifest.json`, or extract and run it.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nNeeds the Microsoft Edge WebView2 runtime (included in Windows 10 and 11). The platform and Go checks use `cargo` and `go` when they are installed. Without them, all crates and Go modules count as shipped.\n\n## Validation\n\n13 Rust unit tests and the TypeScript type check passed. A full scan of 41 local projects (4,319 package versions) produced 8 findings: none in Fix now, and none left when \"Not shipped\" is turned off. The same code, built as 0.1.0, was installed over an existing copy and started on Windows 11.\n",
+      "published_at": "2026-10-23T11:53:21Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadwatch-v0.1.1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 288,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.1/SHA256SUMS.txt",
+          "digest": "sha256:dfec7f28e95f4724f293f45e7552e5da4094861a46af2dd65985c3d42b6e7796"
+        },
+        {
+          "name": "toolbox-manifest.json",
+          "size": 417,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.1/toolbox-manifest.json",
+          "digest": "sha256:824c38d2837ae0e96054c56569766a2b14ef1302f503b93ba346a086718275dd"
+        },
+        {
+          "name": "VulnWatch-0.1.1-win32-x64.zip",
+          "size": 5361637,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.1/VulnWatch-0.1.1-win32-x64.zip",
+          "digest": "sha256:34b1cb1ca533246333cf16d5d36921e6e974f2e3b323286a663da782fa57b567"
+        },
+        {
+          "name": "VulnWatch-0.1.1-windows-x64-setup.exe",
+          "size": 3897219,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.1/VulnWatch-0.1.1-windows-x64-setup.exe",
+          "digest": "sha256:1dc2d7455ac069b0cc4fcc3102155f44200442a4719543c971a60d9d44a2b9e0"
         }
       ]
     }
