@@ -266,6 +266,19 @@
         "name": "VulnWatch",
         "description": "Local vulnerability dashboard: matches your projects' lockfiles against OSV and GitHub advisories, rated with CVSS, EPSS and CISA KEV.",
         "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/ThreadAgentFlow",
+        "name": "ThreadAgentFlow",
+        "appUserModelId": "com.threadagentflow.desktop",
+        "shortcutIcon": "icon.ico",
+        "category": "desktop",
+        "description": "Build visual workflows and chat with AI agents, tools and persistent memory.",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ff5ba24584372eee827a5f249a56d39ec33d003fb04488dd780d87a83f5a1987.png",
+          "sha256": "ff5ba24584372eee827a5f249a56d39ec33d003fb04488dd780d87a83f5a1987"
+        }
       }
     ],
     "excludedRepositories": [
