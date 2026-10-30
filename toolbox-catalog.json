@@ -277,6 +277,18 @@
       "name": "ThreadAgentFlow",
       "description": "Build visual workflows and chat with AI agents, tools and persistent memory.",
       "category": "desktop"
+    },
+    {
+      "repository": "xheavy0/ThreadMonitor",
+      "releaseRepository": "xheavy0/Thread-Releases",
+      "name": "ThreadMonitor",
+      "description": "Local Windows hardware monitor built with Rust, Tauri and React, with live temperatures and GPU-rendered metrics.",
+      "category": "desktop",
+      "appUserModelId": "dev.threadmonitor.desktop",
+      "logo": {
+        "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/457cbce39412722438fac1e564431d20aa331b9d1d235788b459e737ced53759.png",
+        "sha256": "457cbce39412722438fac1e564431d20aa331b9d1d235788b459e737ced53759"
+      }
     }
   ],
   "excludedRepositories": [
