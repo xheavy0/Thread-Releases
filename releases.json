@@ -384,54 +384,54 @@
     },
     {
       "repository": "xheavy0/Threadnote",
-      "tag_name": "threadnote-v0.1.2",
-      "body": "# ThreadNote 0.1.2\n\nThreadNote 0.1.2 is a security maintenance release. It moves Electron and\nseveral dependencies to versions that fix published advisories. Application\ncode, data formats and settings are unchanged.\n\n## Changes\n\n- Updated Electron from 44.4.3 to 44.9.3. This fixes GHSA-x562-297c-g43g, where a\n  pointer-lock permission was attributed to the wrong frame (moderate; fixed in\n  Electron 44.5.0).\n- Updated the MCP SDK (`@modelcontextprotocol/sdk`) from 1.30.0 to 1.32.1, which\n  fixes five advisories, including GHSA-46jr-4wx8-v453 and GHSA-6qxp-vccf-f47h.\n- Updated `ip-address`, a transitive dependency of the MCP SDK, from 10.7.3 to\n  10.7.4 (GHSA-rxp7-6hxx-x8q5).\n- Updated `source-map-js` from 1.2.1 to 1.2.2 (GHSA-68fv-2mgg-jv7q). It is used\n  by build tooling only.\n- Updated Vite to 7.3.7 and Vitest to 5.0.5, with their lockfile dependencies.\n  These are development tools and are not shipped in the packages.\n\n## Downloads\n\n- **Threadnote-0.1.2-setup.exe**: Windows x64 installer.\n- **Threadnote-0.1.2-portable.exe**: standalone Windows x64 executable.\n- **SHA256SUMS.txt**: SHA-256 checksums for the binaries and installer metadata.\n\nInstalled builds keep notes under `%APPDATA%/threadnote/` by default. Portable\nbuilds use `ThreadnoteData` beside the executable. Settings → Data can select\nanother location. These builds use the project's existing unsigned configuration.\n\n## Validation\n\n- 528 tests passed across 58 test files; ESLint, TypeScript and production builds\n  passed.\n- The packaged version is 0.1.2 and the packaged runtime is Electron 44.9.3. The\n  packages contain MCP SDK 1.32.1 and ip-address 10.7.4.\n- All 19 production build/migration files and the runtime ICO match their\n  sources; old smoke-test outputs are excluded.\n- Application, installer and portable executable resources contain all seven TN\n  icon frames and report product version 0.1.2.0.\n- The installer and portable packages embed identical application files.\n  Installer metadata size/SHA-512 and downloadable SHA-256 checksums are verified.\n\nNative desktop UI checks are excluded by the browser-only verification policy.\n\nSource commit: 58a8a54712735d05e9610c1dd032fe1a18075868.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-22T19:38:55Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadnote-v0.1.2",
+      "tag_name": "threadnote-v0.1.3",
+      "body": "# ThreadNote 0.1.3\n\nThreadNote 0.1.3 is a bug-fix release based on a full audit of the code. It fixes\nabout 100 bugs, several of which could lose data, and limits which links the app\nopens. Data formats and settings are unchanged, and no migration runs.\n\n## Data safety\n\n- Text typed shortly before quitting is now saved. The database used to close\n  before the editor's last autosave arrived.\n- A page restored from the trash while its parent is still in the trash now moves\n  to the top level. Before, it disappeared and Empty Trash deleted it.\n- Empty Trash no longer stops with an error when it contains database rows.\n  Deleting a page, row or database now also removes its search entries and\n  attached files.\n- Renaming, starring or changing the icon of the open page no longer causes a\n  \"Save failed\" conflict on the next keystroke.\n- The editor picks up changes made elsewhere (for example a to-do ticked in My\n  tasks) instead of saving the old text over them.\n- Markdown and HTML export keep images and toggle blocks. Sibling pages with the\n  same title no longer overwrite each other. Markdown import finds images with\n  encoded paths.\n\n## Dates and tasks\n\n- Due dates in tasks, the calendar, the timeline and reminder notifications no\n  longer appear one day early.\n- On the month scale, the timeline no longer skips a month from the 31st.\n  Calendar drags across a daylight-saving change keep the end date.\n- Pressing Escape in the task panel title now discards the edit.\n- Tasks and projects from the trash, or from another workspace after a quick\n  switch, no longer appear in My tasks or the calendar.\n\n## Databases\n\n- Cards dragged on a board land where they are dropped. A multi-select card\n  moves to its new column instead of staying in both.\n- Changing a property between select and multi-select keeps its options.\n- A newly added filter no longer hides every row before a value is chosen.\n- Dragging table column headers reorders the columns.\n- Trashed rows no longer show in database views.\n\n## Editor and interface\n\n- Keyboard block selection, Backspace on the first list item, and the slash,\n  mention, tag and emoji menus work reliably. Slash and emoji menus no longer\n  open inside code.\n- Pasting from Word, Excel or OneNote inserts the text instead of a picture of it.\n- Page links show the new name after a rename.\n- Buttons stay disabled while saving, so a double click no longer creates two\n  pages or workspaces.\n- The font size setting now applies. An invalid pasted theme is rejected instead\n  of crashing the app.\n- Typing `?` or using Ctrl+B for bold no longer opens the shortcuts dialog or\n  collapses the sidebar.\n- Sidebar drag and drop lands in the right place. Tabs close or step back when\n  their page goes to the trash.\n\n## Security\n\n- Only http, https and mailto links, plus the app's own attachment files, open\n  outside the app. Links that would launch other programs are refused. No window\n  can navigate away from the app.\n\n## Downloads\n\n- **Threadnote-0.1.3-setup.exe**: Windows x64 installer.\n- **Threadnote-0.1.3-portable.exe**: standalone Windows x64 executable.\n- **SHA256SUMS.txt**: SHA-256 checksums for the binaries and installer metadata.\n\nInstalled builds keep notes under `%APPDATA%/threadnote/` by default. Portable\nbuilds use `ThreadnoteData` beside the executable. Settings → Data can select\nanother location. These builds use the project's existing unsigned configuration.\n\n## Validation\n\n- 662 tests passed across 82 test files. ESLint, TypeScript and the production\n  build passed.\n- The isolated layout smoke test passed against the production build.\n\nSource commit: 4081c36b2a0329f0cab6e0e35cc26d5522e2df76.\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
+      "published_at": "2026-11-05T09:23:10Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadnote-v0.1.3",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "latest.yml",
           "size": 349,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.2/latest.yml",
-          "digest": "sha256:2b81dab36fd5ecb1da9663bb8795589c178c19d6596f7014888f38d30bd8a477"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.3/latest.yml",
+          "digest": "sha256:eecb2c1fc1fd6243d5f0f5728c468abfca2df0852b9a3b4e62855b623f234eda"
         },
         {
           "name": "SHA256SUMS.txt",
-          "size": 372,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.2/SHA256SUMS.txt",
-          "digest": "sha256:834a31064f4638bedfc4a8d4f012c0fd288ea98ce0038830dc98b6b427772f8c"
+          "size": 368,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.3/SHA256SUMS.txt",
+          "digest": "sha256:c5bd3fb0a39594b38e304ead0e74d7b199159b7e15e80c1d750ea9639a31de1b"
         },
         {
-          "name": "Threadnote-0.1.2-portable.exe",
-          "size": 104137638,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.2/Threadnote-0.1.2-portable.exe",
-          "digest": "sha256:c57aaa391ae0b5e206160acd10a0a62f591a1669d92c7d886e2af28d69789d78"
+          "name": "Threadnote-0.1.3-portable.exe",
+          "size": 117064548,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.3/Threadnote-0.1.3-portable.exe",
+          "digest": "sha256:8688e9d149e64a979292f0190866b6cff406a2e5ba87607d769a0fb7f06a1709"
         },
         {
-          "name": "Threadnote-0.1.2-setup.exe",
-          "size": 117301779,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.2/Threadnote-0.1.2-setup.exe",
-          "digest": "sha256:dbf4f030aca8b57a43f143cbdbd459c8e22c95ce2545beef8de42a608bbd6206"
+          "name": "Threadnote-0.1.3-setup.exe",
+          "size": 117307673,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.3/Threadnote-0.1.3-setup.exe",
+          "digest": "sha256:7b1df657f7f0f5dac3c7495b1eeccda6489c47f96bf3381d562bc9d50fce95ee"
         },
         {
-          "name": "Threadnote-0.1.2-setup.exe.blockmap",
-          "size": 122815,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.2/Threadnote-0.1.2-setup.exe.blockmap",
-          "digest": "sha256:dc67970768f00b9636aa8bf58d229295014bc60239b7f0fd1b0ad743eec77f57"
+          "name": "Threadnote-0.1.3-setup.exe.blockmap",
+          "size": 122936,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.3/Threadnote-0.1.3-setup.exe.blockmap",
+          "digest": "sha256:eb264bd3896e98a44d5e0bdd3297308f2fcaf55e48b280d92c23fd5f97daf37a"
         },
         {
-          "name": "Threadnote-0.1.2-win32-x64.zip",
-          "size": 175223593,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.2/Threadnote-0.1.2-win32-x64.zip",
-          "digest": "sha256:2fbd12aa06cfc20b1fe06d91148b1f77fe7a74e1e939122a329c461ca878d062"
+          "name": "Threadnote-0.1.3-win32-x64.zip",
+          "size": 170772132,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.3/Threadnote-0.1.3-win32-x64.zip",
+          "digest": "sha256:61f9e65775555524d0b7485bc208b19d9424b4f6ff96ed553403455469b1b208"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 334,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.2/toolbox-manifest.json",
-          "digest": "sha256:37fa869bef2ec32eb2840f7df9e73754808284a8bf3afa19577b2d4c24d6ab86"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadnote-v0.1.3/toolbox-manifest.json",
+          "digest": "sha256:578bbd9f2b2f8f43e41d5209b2b18b323ce3711195978489db01f3d610c88389"
         }
       ]
     },
