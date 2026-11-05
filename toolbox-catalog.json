@@ -289,6 +289,19 @@
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/457cbce39412722438fac1e564431d20aa331b9d1d235788b459e737ced53759.png",
         "sha256": "457cbce39412722438fac1e564431d20aa331b9d1d235788b459e737ced53759"
       }
+    },
+    {
+      "repository": "xheavy0/ThreadFolio",
+      "releaseRepository": "xheavy0/Thread-Releases",
+      "appUserModelId": "com.threadfolio.app",
+      "shortcutIcon": "assets/app.ico",
+      "logo": {
+        "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/463554e6dbf750ed1545700b4832fbedba81dabca3accb55f5e3fb24655ceeaa.png",
+        "sha256": "463554e6dbf750ed1545700b4832fbedba81dabca3accb55f5e3fb24655ceeaa"
+      },
+      "name": "Thread Folio",
+      "description": "View, edit, sign, convert and compress PDFs — Georgian and English, works offline.",
+      "category": "desktop"
     }
   ],
   "excludedRepositories": [
