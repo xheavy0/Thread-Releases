@@ -296,11 +296,11 @@
       "appUserModelId": "com.threadfolio.app",
       "shortcutIcon": "assets/app.ico",
       "logo": {
-        "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/463554e6dbf750ed1545700b4832fbedba81dabca3accb55f5e3fb24655ceeaa.png",
-        "sha256": "463554e6dbf750ed1545700b4832fbedba81dabca3accb55f5e3fb24655ceeaa"
+        "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a8531c9dc7235ceb27751ad0fd17958af4d556c2bbdaf4b1ce87d1302aeaf1e2.png",
+        "sha256": "a8531c9dc7235ceb27751ad0fd17958af4d556c2bbdaf4b1ce87d1302aeaf1e2"
       },
       "name": "Thread Folio",
-      "description": "View, edit, sign, convert and compress PDFs — Georgian and English, works offline.",
+      "description": "PDF viewer and document converter",
       "category": "desktop"
     }
   ],
