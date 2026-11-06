@@ -1028,36 +1028,36 @@
     },
     {
       "repository": "xheavy0/ThreadFolio",
-      "tag_name": "threadfolio-v0.4.0",
-      "body": "# Thread Folio 0.4.0\n\nFirst public release of Thread Folio, the PDF app of the Thread ecosystem. View, edit, sign, convert and compress PDFs. The interface is in Georgian and English, and everything runs on your computer without an internet connection (except the optional AI tools).\n\n## Download\n\n- **Thread Toolbox:** install and update Thread Folio from the Toolbox catalog.\n- **Installer:** `ThreadFolio-v0.4.0-setup.exe`\n- **Portable:** `ThreadFolio-v0.4.0.zip`, unzip and run `ThreadFolio.exe`.\n\nRequires Windows 10 or 11 (64-bit) with Microsoft Edge WebView2, which Windows 11 already includes.\n\n## Highlights\n\n- **Viewer:** several PDFs in tabs, thumbnails, zoom, rotate, print, text selection, password-protected files, a hand tool (H / Space) and accessibility page colours.\n- **Editing:**\n  - Change existing text and add text.\n  - Comments, replace and insert text, text boxes, callouts and file attachments. Comments and attachments are saved as real PDF annotations.\n  - Highlight, underline and strikethrough.\n  - Pen, lines, arrows, rectangles, circles, polygons, clouds, connected lines and stamps.\n  - Check, cross, dot, circle and cross-out marks, and an eraser.\n  - Redaction that turns the page into an image, so hidden text is really gone.\n- **E-Sign:** draw, type or upload a signature. Add a signature block with name, organization and date, initials or a date stamp.\n- **Create PDF:** from a single file, by combining files, as separate files or as a portfolio, from the scanner, a web page, the clipboard or a blank page.\n- **35 tools:**\n  - **Organize:** merge, split, remove, extract and organize pages, scan.\n  - **Optimize:** compress, repair, OCR in Georgian and English.\n  - **To PDF:** Word, Excel, PowerPoint, HTML and images.\n  - **From PDF:** JPG/PNG, Word, PowerPoint, Excel, PDF/A and Markdown.\n  - **Edit:** rotate, page numbers, watermark, crop, forms.\n  - **Security:** protect (AES-256), unlock, compare.\n  - **AI:** summary and translate.\n  - **Images:** image converter.\n- **Windows integration:** right-click \"Convert to PDF\" and \"Combine into PDF\" in Explorer, and set Thread Folio as the default PDF app. Both are under Preferences → Windows integration.\n- **Preferences:** language, theme, accent colour, page display, editing defaults, identity and more.\n\n## Notes\n\n- Word, Excel, PowerPoint and HTML to PDF use Microsoft Office if it is installed, otherwise LibreOffice. All other tools need neither.\n- The AI tools need your own Anthropic API key (Preferences → AI tools).\n- The app is not code-signed yet. Windows SmartScreen may warn on first launch: choose \"More info\" → \"Run anyway\".\n\nVerify downloads with `SHA256SUMS.txt`.\n",
-      "published_at": "2026-11-05T13:37:56Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadfolio-v0.4.0",
+      "tag_name": "threadfolio-v0.5.0",
+      "body": "# Thread Folio 0.5.0\n\nThread Folio can now sign PDFs with the Georgian electronic signature (ID.ge). This release also fixes two problems reported in 0.4.0.\n\n## Download\n\n- **Thread Toolbox:** update Thread Folio from the Toolbox catalog.\n- **Installer:** `ThreadFolio-v0.5.0-setup.exe`\n- **Portable:** `ThreadFolio-v0.5.0.zip`, unzip and run `ThreadFolio.exe`.\n\nRequires Windows 10 or 11 (64-bit) with Microsoft Edge WebView2, which Windows 11 already includes.\n\n## New: digital signatures with ID.ge\n\nE-Sign menu → **Digital signature (ID card)**.\n\n- Sign with your Georgian ID card. You need a card reader and the ID.ge card software from [id.ge/download](https://id.ge/download/). Windows asks for the PIN.\n- Any other certificate in Windows works too, and you can import a `.pfx` / `.p12` file.\n- The signature can be visible (click on the page to place it) or invisible.\n- An optional trusted timestamp comes from the Georgian state timestamp service (tsa.cra.ge).\n- The format is PAdES (ETSI.CAdES.detached, SHA-256), the same standard ID.ge uses. Each signature is added to the end of the file, so earlier signatures stay valid.\n- The signed copy is saved as a new file.\n- **Check signatures** shows for each signature:\n  - whether it is valid;\n  - who signed;\n  - the certificate chain (the official Georgian GEO Root CA certificates are built in);\n  - the verified time;\n  - whether the document changed after signing.\n\n## Fixes\n\n- **Tabs:** documents from the last session no longer reopen when the app starts. You can turn this back on in Preferences → General. Opening a PDF from Explorer now opens only that file.\n- **Default PDF app:** the installer now registers Thread Folio with Windows, so it appears in \"Open with\" and in Settings → Default apps. Use Preferences → Windows integration → **Make default**, then click **Set default** in the Windows window that opens. Uninstalling removes the registration.\n\n## Notes\n\n- To see Georgian signatures as valid in Adobe Reader, install the ID.ge root certificates (PSDA Cert Installer, id.ge/download).\n- Editing a signed PDF in Thread Folio and saving it creates a copy without a valid signature.\n- The app is not code-signed yet. Windows SmartScreen may warn on first launch: choose \"More info\" → \"Run anyway\".\n\nVerify downloads with `SHA256SUMS.txt`.\n",
+      "published_at": "2026-11-06T07:55:37Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadfolio-v0.5.0",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 184,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.4.0/SHA256SUMS.txt",
-          "digest": "sha256:d902b4c0a2b722a7fc210f542b8bd81b8620e552b3860e4d09a059e5e9a2c1a2"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.0/SHA256SUMS.txt",
+          "digest": "sha256:cc92b322b0fcf71d00e5ff020d417a6bd5fac49c48d76d8d77f45cc158230bc4"
         },
         {
-          "name": "ThreadFolio-v0.4.0-setup.exe",
-          "size": 14894404,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.4.0/ThreadFolio-v0.4.0-setup.exe",
-          "digest": "sha256:b797b6543f8112a41ff584c76dd7cc709afb6422460ecbe0394471109aa279d6"
+          "name": "ThreadFolio-v0.5.0-setup.exe",
+          "size": 15032522,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.0/ThreadFolio-v0.5.0-setup.exe",
+          "digest": "sha256:429de883f34fb8886a49152217eac61ec2ffb3496104e853896a5e348abf8bd4"
         },
         {
-          "name": "ThreadFolio-v0.4.0.zip",
-          "size": 15938254,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.4.0/ThreadFolio-v0.4.0.zip",
-          "digest": "sha256:675e1626abf351448ed6133a2d4a963fffd442271fe9b2095d010df28ffa736e"
+          "name": "ThreadFolio-v0.5.0.zip",
+          "size": 16094816,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.0/ThreadFolio-v0.5.0.zip",
+          "digest": "sha256:f9ec622b6123b3796de56f3bd087452a0228c14ada6d9b1f52af8aa106db8c28"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 365,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.4.0/toolbox-manifest.json",
-          "digest": "sha256:beb152fbb094955a75889800c2c94df4099ca3985619bb46ac1aeded7b57e787"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.0/toolbox-manifest.json",
+          "digest": "sha256:5d07b4efd44ef776aa321b7ebc280a97a7c109fce438130c81608888f18e3aee"
         }
       ]
     }
