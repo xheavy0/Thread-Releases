@@ -37,7 +37,8 @@
         },
         "name": "Threadnote",
         "description": "Your notes, ideas, and personal knowledge space.",
-        "category": "desktop"
+        "category": "desktop",
+        "appUserModelId": "com.threadnote.app"
       },
       {
         "repository": "xheavy0/Threadshot",
