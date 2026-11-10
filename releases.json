@@ -305,6 +305,17 @@
         "name": "Thread Folio",
         "description": "PDF viewer and document converter",
         "category": "desktop"
+      },
+      {
+        "repository": "xheavy0/Threadscan",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "Threadscan",
+        "description": "Threadscan: offline AI vulnerability scanner with a reproducer-based verification gate. Part of the Thread ecosystem.",
+        "category": "project",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ea8402b666a1b59add265916380c6c45e65948a3ac3fa8f7a249a3f5f34d5f68.png",
+          "sha256": "ea8402b666a1b59add265916380c6c45e65948a3ac3fa8f7a249a3f5f34d5f68"
+        }
       }
     ],
     "excludedRepositories": [
