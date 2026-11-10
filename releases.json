@@ -1040,36 +1040,36 @@
     },
     {
       "repository": "xheavy0/ThreadFolio",
-      "tag_name": "threadfolio-v0.5.2",
-      "body": "# Thread Folio 0.5.2\n\nTwo editor fixes: placed marks move again, and redaction really hides the text.\n\n## Download\n\n- **Thread Toolbox:** update Thread Folio from the Toolbox catalog.\n- **Installer:** `ThreadFolio-v0.5.2-setup.exe`\n- **Portable:** `ThreadFolio-v0.5.2.zip`, unzip and run `ThreadFolio.exe`.\n\nRequires Windows 10 or 11 (64-bit) with Microsoft Edge WebView2, which Windows 11 already includes.\n\n## What's fixed\n\n- **Moving marks and drawings:** after placing a ✗ or ✓, a shape (line, arrow, rectangle, ellipse) or a pen drawing, it could not be selected or dragged. Now a click selects it and you can move it; small ✗ / ✓ marks are also easier to grab.\n- **Redaction:** the redact tool used a light blur, and text under it could still be read. It now covers the area with grey squares that are not taken from the page, so nothing underneath can be read or recovered. What you see on screen is exactly what is saved.\n\n## Notes\n\n- Pages with a redaction are still saved as images, so their text can no longer be selected or searched.\n- The app is not code-signed yet. Windows SmartScreen may warn on first launch: choose \"More info\" → \"Run anyway\".\n\nVerify downloads with `SHA256SUMS.txt`.\n",
-      "published_at": "2026-11-10T11:14:36Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadfolio-v0.5.2",
+      "tag_name": "threadfolio-v0.5.3",
+      "body": "# Thread Folio 0.5.3\n\nSee your document while you use a tool, compare the result before you keep it, and save the way you expect.\n\n## Download\n\n- **Thread Toolbox:** update Thread Folio from the Toolbox catalog.\n- **Installer:** `ThreadFolio-v0.5.3-setup.exe`\n- **Portable:** `ThreadFolio-v0.5.3.zip`, unzip and run `ThreadFolio.exe`.\n\nRequires Windows 10 or 11 (64-bit) with Microsoft Edge WebView2, which Windows 11 already includes.\n\n## What's new\n\n- **Document preview in every tool:** the PDF is shown beside the tool's settings (below them in a narrow window), with page arrows and zoom up to 400%.\n- **Before / after:** after compressing, rotating, adding a watermark and so on, switch between **Original** and **Result** at the same page, zoom and spot, with both file sizes and the change in %. Easy to judge how much quality compression costs. **Compare** shows the old and new versions the same way.\n- **Tools use the open document:** open a tool from Home, search or any menu and the PDF you have open is already loaded.\n- **Save and Save As:** **Save** (Ctrl+S) writes your changes into the open file; **Save as** (Ctrl+Shift+S) picks a new name or folder. Digitally signed PDFs always go through Save as, so the signed original stays intact.\n- **Closing with unsaved changes** now offers **Save** or **Don't save**.\n- **Right-click menu in Explorer:** select files → **Combine into PDF** or **Convert to PDF**. It is now on by default (Windows 11: under \"Show more options\"); turn it off in Preferences → Windows integration.\n- **Edit menu** grouped like the toolbar, with icons. **Add text** now sits with **Edit text** and **Redact**, near the top of the toolbar.\n\n## Fixed\n\n- The document no longer flickers endlessly when the window is about half the screen wide.\n\n## Notes\n\n- The app is not code-signed yet. Windows SmartScreen may warn on first launch: choose \"More info\" → \"Run anyway\".\n\nVerify downloads with `SHA256SUMS.txt`.\n",
+      "published_at": "2026-11-10T12:50:49Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadfolio-v0.5.3",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 184,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.2/SHA256SUMS.txt",
-          "digest": "sha256:8007570293752f8923ef17fa561df893673f475baeac51bc219cdf0ba34ca31e"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.3/SHA256SUMS.txt",
+          "digest": "sha256:fe30496ded75a4463fde411dc78f6a1a06302ad26eba7d9176252d7176993641"
         },
         {
-          "name": "ThreadFolio-v0.5.2-setup.exe",
-          "size": 15037109,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.2/ThreadFolio-v0.5.2-setup.exe",
-          "digest": "sha256:f0adbee146a553a2e3be4cad250001005c718571933102d92c78a64a12b27b54"
+          "name": "ThreadFolio-v0.5.3-setup.exe",
+          "size": 15040034,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.3/ThreadFolio-v0.5.3-setup.exe",
+          "digest": "sha256:b3eb3ac5de0dcb04b13c70971f57b2a70ff2ad1bc283fb5e5378080ade7e55bf"
         },
         {
-          "name": "ThreadFolio-v0.5.2.zip",
-          "size": 16118163,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.2/ThreadFolio-v0.5.2.zip",
-          "digest": "sha256:d8046c40badfe486411227590d768d6462491ae72447f8bad5918264e9668f5a"
+          "name": "ThreadFolio-v0.5.3.zip",
+          "size": 16123016,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.3/ThreadFolio-v0.5.3.zip",
+          "digest": "sha256:0e56e0c1fa87226d725fbe3a079be69ffdfe6b347be6f1f8008aacc4e0bd37e7"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 365,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.2/toolbox-manifest.json",
-          "digest": "sha256:da8fbb07127de4904eae4a31254521cfa5352159e0609a6627382830d13614a0"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.3/toolbox-manifest.json",
+          "digest": "sha256:d440194f4d108d108b320c94ce87934dac9a6fa84c3e7e0b004d0a90ef1977da"
         }
       ]
     }
