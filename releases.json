@@ -1,6 +1,11 @@
 {
   "schemaVersion": 1,
   "catalog": {
+    "excludedRepositories": [
+      "xheavy0/ThreadOS",
+      "xheavy0/Threadforge-Rust",
+      "xheavy0/ThreadSpace"
+    ],
     "schemaVersion": 1,
     "apps": [
       {
@@ -8,10 +13,6 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadforge.app",
         "shortcutIcon": "resources/icon.ico",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974.png",
-          "sha256": "caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974"
-        },
         "name": "Threadforge",
         "description": "Code editor and workspace for AI agents.",
         "category": "desktop"
@@ -20,10 +21,6 @@
         "repository": "xheavy0/Threadmap",
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "dev.threadmap.desktop",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891.png",
-          "sha256": "9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891"
-        },
         "name": "ThreadMap",
         "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
         "category": "desktop"
@@ -31,22 +28,13 @@
       {
         "repository": "xheavy0/Threadnote",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec.png",
-          "sha256": "e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec"
-        },
         "name": "Threadnote",
         "description": "Your notes, ideas, and personal knowledge space.",
-        "category": "desktop",
-        "appUserModelId": "com.threadnote.app"
+        "category": "desktop"
       },
       {
         "repository": "xheavy0/Threadshot",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16.png",
-          "sha256": "688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16"
-        },
         "name": "Threadshot",
         "description": "Capture your screen and annotate images.",
         "category": "desktop"
@@ -54,11 +42,6 @@
       {
         "repository": "xheavy0/Threadstorage",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadstorage.desktop",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282.png",
-          "sha256": "ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282"
-        },
         "name": "ThreadStorage",
         "description": "Your files and cloud storage in one place.",
         "category": "desktop"
@@ -66,11 +49,6 @@
       {
         "repository": "xheavy0/ThreadVoice",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadforge.threadvoice",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee.png",
-          "sha256": "847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee"
-        },
         "name": "ThreadVoice",
         "description": "Voice-to-text dictation across Windows apps.",
         "category": "desktop"
@@ -78,11 +56,6 @@
       {
         "repository": "xheavy0/ThreadAccount",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadaccount.desktop",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/f2ae1f1741de5d61d09470847b4fd1e2d09a916273f55b0dab8476d0d6443a1d.png",
-          "sha256": "f2ae1f1741de5d61d09470847b4fd1e2d09a916273f55b0dab8476d0d6443a1d"
-        },
         "name": "ThreadAccount",
         "description": "Track Codex and Claude accounts, usage limits, and token analytics.",
         "category": "desktop"
@@ -90,24 +63,13 @@
       {
         "repository": "xheavy0/ThreadCalendar",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadcalendar.app",
-        "shortcutIcon": "resources/icon.ico",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a.png",
-          "sha256": "4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a"
-        },
-        "name": "Threadline",
-        "description": "Calendar, precise project timelines, and reminders connected to ThreadNote.",
+        "name": "ThreadCalendar",
+        "description": "Calendar, plans, and reminders connected to Threadnote.",
         "category": "desktop"
       },
       {
         "repository": "xheavy0/ThreadAura",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadaura.app",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9.png",
-          "sha256": "25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9"
-        },
         "name": "ThreadAura",
         "description": "Wallpapers, animations, and a scene editor.",
         "category": "desktop"
@@ -116,10 +78,6 @@
         "repository": "xheavy0/Threadlendar",
         "releaseRepository": "xheavy0/Thread-Releases",
         "publishReleases": false,
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/97c23135e4ca3b83107fabfcb75f2647bc085af301bd9fc4210d4f3a2d6fb64c.png",
-          "sha256": "97c23135e4ca3b83107fabfcb75f2647bc085af301bd9fc4210d4f3a2d6fb64c"
-        },
         "name": "Threadlendar",
         "description": "A Windows dock for your apps and files.",
         "category": "desktop"
@@ -127,12 +85,7 @@
       {
         "repository": "xheavy0/Threaduninstal",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threaduninstal.desktop",
         "shortcutIcon": "assets/app.ico",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234.png",
-          "sha256": "bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234"
-        },
         "name": "Threaduninstal",
         "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
         "category": "desktop"
@@ -140,10 +93,6 @@
       {
         "repository": "xheavy0/ThreadMail",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3.png",
-          "sha256": "5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3"
-        },
         "name": "ThreadMail",
         "description": "A unified inbox for managing your email.",
         "category": "web"
@@ -151,11 +100,6 @@
       {
         "repository": "xheavy0/Threadplan",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadplan.desktop",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693.png",
-          "sha256": "a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693"
-        },
         "name": "Threadplan",
         "description": "Tasks, habits, and plans for Windows and Android.",
         "category": "desktop"
@@ -163,10 +107,6 @@
       {
         "repository": "xheavy0/ThreadforgeMobile",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/1882f7ee44267eecaf52e765e4d80e42e921e7de97b67fc8a4f38fe54043b9af.png",
-          "sha256": "1882f7ee44267eecaf52e765e4d80e42e921e7de97b67fc8a4f38fe54043b9af"
-        },
         "name": "Threadforge Mobile",
         "description": "The Threadforge mobile app.",
         "category": "mobile"
@@ -174,11 +114,6 @@
       {
         "repository": "xheavy0/ThreadstorageAndroid",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadstorage.android",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/28db234725b90dcf31a8caff35e4ba44b3e731f82e13afe25e74cba2756524e7.png",
-          "sha256": "28db234725b90dcf31a8caff35e4ba44b3e731f82e13afe25e74cba2756524e7"
-        },
         "name": "ThreadStorage Android",
         "description": "The ThreadStorage app for Android.",
         "category": "mobile"
@@ -186,153 +121,10 @@
       {
         "repository": "xheavy0/ThreadstorageIOS",
         "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadstorage.ios",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/196beb278e30068f80682bf0834b726c663b7011a97b3d4f9d7b16bac48032b4.png",
-          "sha256": "196beb278e30068f80682bf0834b726c663b7011a97b3d4f9d7b16bac48032b4"
-        },
         "name": "ThreadStorage iOS",
         "description": "The ThreadStorage app for iOS.",
         "category": "mobile"
-      },
-      {
-        "repository": "xheavy0/ThreadLibrary",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadlibrary.app",
-        "shortcutIcon": "resources/icon.ico",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/698147181060eaab3c12749cebd6f49a5ce9ad60a169b24abaad9b86f441389a.png",
-          "sha256": "698147181060eaab3c12749cebd6f49a5ce9ad60a169b24abaad9b86f441389a"
-        },
-        "name": "ThreadLibrary",
-        "description": "Design systems, prompts and skills for your coding agents.",
-        "category": "desktop"
-      },
-      {
-        "repository": "xheavy0/ThreadBoard",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadboard.app",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38.png",
-          "sha256": "6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38"
-        },
-        "name": "ThreadBoard",
-        "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
-        "category": "desktop"
-      },
-      {
-        "repository": "xheavy0/ThreadFactory",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadfactory.desktop",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/d09f7d09188fb430a77cb87e799fb4228a5111992ffd59fae5ce676dd0b65afe.png",
-          "sha256": "d09f7d09188fb430a77cb87e799fb4228a5111992ffd59fae5ce676dd0b65afe"
-        },
-        "name": "ThreadFactory",
-        "description": "ThreadFactory - live board and agent timeline for Thread Factory jobs",
-        "category": "desktop"
-      },
-      {
-        "repository": "xheavy0/Threadcord",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/8df252980d4198905f7e66629a6cbae5f939344c9b7102865429ec4c0806bc56.png",
-          "sha256": "8df252980d4198905f7e66629a6cbae5f939344c9b7102865429ec4c0806bc56"
-        },
-        "name": "Threadcord",
-        "description": "",
-        "category": "project"
-      },
-      {
-        "repository": "xheavy0/Threadflow",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadflow.app",
-        "shortcutIcon": "resources/icon.ico",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/65aa448889ae059dece3621eb4274151a1de5fb9ec7a46b080599531d73d78fb.png",
-          "sha256": "65aa448889ae059dece3621eb4274151a1de5fb9ec7a46b080599531d73d78fb"
-        },
-        "name": "Threadflow",
-        "description": "Trace data through local code: calls, requests, events, reads and writes with source evidence.",
-        "category": "desktop"
-      },
-      {
-        "repository": "xheavy0/ThreadWatch",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.vulnwatch.app",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/adfaef4cbcd0bcb908572826feef2a0640face62916f08ac31e3d22559aa8991.png",
-          "sha256": "adfaef4cbcd0bcb908572826feef2a0640face62916f08ac31e3d22559aa8991"
-        },
-        "name": "VulnWatch",
-        "description": "Local vulnerability dashboard: matches your projects' lockfiles against OSV and GitHub advisories, rated with CVSS, EPSS and CISA KEV.",
-        "category": "desktop"
-      },
-      {
-        "repository": "xheavy0/ThreadAgentFlow",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadagentflow.desktop",
-        "shortcutIcon": "icon.ico",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ff5ba24584372eee827a5f249a56d39ec33d003fb04488dd780d87a83f5a1987.png",
-          "sha256": "ff5ba24584372eee827a5f249a56d39ec33d003fb04488dd780d87a83f5a1987"
-        },
-        "name": "ThreadAgentFlow",
-        "description": "Build visual workflows and chat with AI agents, tools and persistent memory.",
-        "category": "desktop"
-      },
-      {
-        "repository": "xheavy0/ThreadMonitor",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "name": "ThreadMonitor",
-        "description": "Local Windows hardware monitor built with Rust, Tauri and React, with live temperatures and GPU-rendered metrics.",
-        "category": "desktop",
-        "appUserModelId": "dev.threadmonitor.desktop",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/457cbce39412722438fac1e564431d20aa331b9d1d235788b459e737ced53759.png",
-          "sha256": "457cbce39412722438fac1e564431d20aa331b9d1d235788b459e737ced53759"
-        }
-      },
-      {
-        "repository": "xheavy0/ThreadFolio",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "appUserModelId": "com.threadfolio.app",
-        "shortcutIcon": "assets/app.ico",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a8531c9dc7235ceb27751ad0fd17958af4d556c2bbdaf4b1ce87d1302aeaf1e2.png",
-          "sha256": "a8531c9dc7235ceb27751ad0fd17958af4d556c2bbdaf4b1ce87d1302aeaf1e2"
-        },
-        "name": "Thread Folio",
-        "description": "PDF viewer and document converter",
-        "category": "desktop"
-      },
-      {
-        "repository": "xheavy0/Threadscan",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "name": "Threadscan",
-        "description": "Standalone AI vulnerability scanner: builds a target in Docker, scans it offline with Claude, keeps only findings whose reproducer runs.",
-        "category": "project",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ea8402b666a1b59add265916380c6c45e65948a3ac3fa8f7a249a3f5f34d5f68.png",
-          "sha256": "ea8402b666a1b59add265916380c6c45e65948a3ac3fa8f7a249a3f5f34d5f68"
-        }
-      },
-      {
-        "repository": "xheavy0/Threadscan-private-old",
-        "releaseRepository": "xheavy0/Thread-Releases",
-        "name": "Threadscan-private-old",
-        "description": "Threadscan: offline AI vulnerability scanner with a reproducer-based verification gate. Part of the Thread ecosystem.",
-        "category": "project",
-        "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a21d8690abc114d3a59ae9086d368cdaf2a6249892806d3a993594265a700d0a.png",
-          "sha256": "a21d8690abc114d3a59ae9086d368cdaf2a6249892806d3a993594265a700d0a"
-        }
       }
-    ],
-    "excludedRepositories": [
-      "xheavy0/ThreadOS",
-      "xheavy0/Threadforge-Rust",
-      "xheavy0/ThreadSpace"
     ]
   },
   "releases": [
@@ -847,240 +639,6 @@
           "size": 39858827,
           "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadstorageios-v0.1.0-iphone-preview/ThreadStorage_0.1.0_iphone-unsigned.ipa",
           "digest": "sha256:82a6b02d817b0d75489eb7ca746c8b46d08c94f04ef425428c9b2879303560a3"
-        }
-      ]
-    },
-    {
-      "repository": "xheavy0/ThreadLibrary",
-      "tag_name": "threadlibrary-v0.1.2",
-      "body": "# ThreadLibrary 0.1.2\n\nSecurity maintenance release. It updates the bundled Node.js runtime to 24.22.1 and the yauzl release-verification dependency to 3.2.1 (GHSA-gmq8-994r-jv83). There are no feature changes.\n\n- Install or update through Thread Toolbox, or use `ThreadLibrary-Setup-0.1.2.exe`.\n- Existing registered projects and transfer history remain in the per-user profile.\n- The package includes Node 24.22.1 and all 1,014 library resources; no source checkout or separate Node installation is required.\n\nValidation: 25 unit/runtime tests, TypeScript and the production build passed. The shipped HTTP service and MCP handshake/search passed outside the source checkout with a fresh profile. All 17,173 installer/ZIP payload files and 2,652 reference blobs were verified. The desktop UI and installer were not executed during verification.\n",
-      "published_at": "2026-10-22T19:50:00Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadlibrary-v0.1.2",
-      "draft": false,
-      "prerelease": false,
-      "assets": [
-        {
-          "name": "latest.yml",
-          "size": 355,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/latest.yml",
-          "digest": "sha256:c06de7d0f960459d5ca9f5efbca8aa921e709d347c77aa571eaaff991b99fd02"
-        },
-        {
-          "name": "SHA256SUMS.txt",
-          "size": 466,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/SHA256SUMS.txt",
-          "digest": "sha256:7ea1bbcd135a231bb075b1277b454369653d06625715a70a77736ca90cf28128"
-        },
-        {
-          "name": "ThreadLibrary-0.1.2-win32-x64.zip",
-          "size": 225080081,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/ThreadLibrary-0.1.2-win32-x64.zip",
-          "digest": "sha256:c3875bd8044b9c3faca62dc3e010962881182367a874d72c27a7d8b821ed40fe"
-        },
-        {
-          "name": "ThreadLibrary-Setup-0.1.2.exe",
-          "size": 164157057,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/ThreadLibrary-Setup-0.1.2.exe",
-          "digest": "sha256:4b12032af4b0a92d00e759091f20fce593237bd086bf194651ce0a18d03a1984"
-        },
-        {
-          "name": "ThreadLibrary-Setup-0.1.2.exe.blockmap",
-          "size": 171537,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/ThreadLibrary-Setup-0.1.2.exe.blockmap",
-          "digest": "sha256:8bda2235ee2b4eb11dfdfe6858fe57242830f87138e733db7b2da8f7c24122cd"
-        },
-        {
-          "name": "toolbox-manifest.json",
-          "size": 348,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadlibrary-v0.1.2/toolbox-manifest.json",
-          "digest": "sha256:5ea4e8c52845fba9197c6a60a23f93d7ad1c4785f07d1b94ae8fbbadbdfff032"
-        }
-      ]
-    },
-    {
-      "repository": "xheavy0/ThreadBoard",
-      "tag_name": "threadboard-v0.3.0",
-      "body": "Failing workflows across all your repositories, right on Home.\n\n## Highlights\n\n- **Failing workflows panel:** Home lists every workflow whose latest run on the default branch failed, across the repositories you own or collaborate on. Each row shows the failed jobs, the repository, the branch or tag, the run number and the commit. It also shows how many runs failed in a row, or that a newer run is already going.\n- **Straight to the reason:** clicking a row opens that repository's Actions tab with the workflow selected and the failed run expanded, so the failure summary and annotations are visible right away.\n- **Quick actions:** hover a row to re-run the failed jobs or open the run on GitHub.\n\n## Notes\n\n- The panel refreshes every 2 minutes while Home is open. It only checks repositories that have a `.github/workflows` folder, and uses about 90 GraphQL points per hour.\n- Cancelled and skipped runs are ignored, and so are disabled workflows. A workflow counts as failing when its newest successful or failed run failed.\n- Failures on pull request branches are not listed here; they show on the pull request rows as before.\n- The installers are unsigned.\n\n## Downloads\n\n- `Threadboard_0.3.0_x64-setup.exe`: installer\n- `Threadboard_0.3.0_x64_en-US.msi`: MSI installer\n- `Threadboard-0.3.0-win-x64.zip`: portable `threadboard.exe`\n\n\n## Thread Toolbox\n\nThe Toolbox ZIP contains the application payload from the original release above, without rebuilding or running it. Install it through Thread Toolbox; the original downloads are also retained.\n",
-      "published_at": "2026-10-24T13:47:01Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadboard-v0.3.0",
-      "draft": false,
-      "prerelease": false,
-      "assets": [
-        {
-          "name": "Threadboard-0.3.0-win-x64.zip",
-          "size": 5765865,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.3.0/Threadboard-0.3.0-win-x64.zip",
-          "digest": "sha256:947e3789c137c82056ded8c964375aedd33c301b0382972fbbcb29800cfb91ce"
-        },
-        {
-          "name": "Threadboard_0.3.0_x64-setup.exe",
-          "size": 4305992,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.3.0/Threadboard_0.3.0_x64-setup.exe",
-          "digest": "sha256:d75fea3296b9ee18c33a1b535077e6a575a17a0a6571c60c124f87dca2c30ed8"
-        },
-        {
-          "name": "Threadboard_0.3.0_x64_en-US.msi",
-          "size": 6070272,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.3.0/Threadboard_0.3.0_x64_en-US.msi",
-          "digest": "sha256:74a1b05b951bc7578d2e3062d45f35b67eefecbe93c1c4d6a964f8237787218b"
-        },
-        {
-          "name": "toolbox-manifest.json",
-          "size": 387,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadboard-v0.3.0/toolbox-manifest.json",
-          "digest": "sha256:3afeeb5739a3af645796f39d5e8f083f43ed0bc12e5bd6ab56b476f78c36ffb0"
-        }
-      ]
-    },
-    {
-      "repository": "xheavy0/Threadflow",
-      "tag_name": "threadflow-v0.1.1",
-      "body": "# Threadflow 0.1.1\n\nSecurity maintenance release. Threadflow now runs on Electron 44.9.3 (was 44.4.3), which fixes GHSA-x562-297c-g43g: pointer lock permission requests could be attributed to the wrong frame. Features, data format and saved repository scans are unchanged.\n\n## Windows downloads\n\n- **Threadflow-Setup-0.1.1.exe** — Windows x64 installer. Node.js is bundled.\n- **Threadflow-0.1.1-win32-x64.zip** — complete portable application. Extract all files and start Threadflow.exe, or install it through ThreadBox using toolbox-manifest.json.\n- **Threadflow-logo.svg / Threadflow-logo.png** — the teal TF mark from the Thread Space icon family.\n- **SHA256SUMS.txt** — checksums for the downloads.\n\n## Validation\n\nEight application tests and the production build passed. The packaged ASAR backend passed the Node-based smoke checks (clean profile, loopback access controls, scanning, frontend assets, restart persistence and Windows icon), and the packaged executable reports Electron 44.9.3. A VulnWatch scan shows no remaining findings for Threadflow. Desktop UI and installer execution were not performed. The Windows executable is not code-signed.\n",
-      "published_at": "2026-10-23T08:52:35Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadflow-v0.1.1",
-      "draft": false,
-      "prerelease": false,
-      "assets": [
-        {
-          "name": "SHA256SUMS.txt",
-          "size": 450,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadflow-v0.1.1/SHA256SUMS.txt",
-          "digest": "sha256:555483a3320dd15feff32f49ac6bd07172781b36c6064b7794b71dc9d90e6387"
-        },
-        {
-          "name": "Threadflow-0.1.1-win32-x64.zip",
-          "size": 164601002,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadflow-v0.1.1/Threadflow-0.1.1-win32-x64.zip",
-          "digest": "sha256:a4177cf6fd1a0cbaf788ac592e85ab6e8b07f6ff6800a80dda2a8a1e30ff3b85"
-        },
-        {
-          "name": "Threadflow-logo.png",
-          "size": 45057,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadflow-v0.1.1/Threadflow-logo.png",
-          "digest": "sha256:30702f0236c84f391b2ac2f64e65989337af71edd2e7165a04f62a7c26c7b470"
-        },
-        {
-          "name": "Threadflow-logo.svg",
-          "size": 1426,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadflow-v0.1.1/Threadflow-logo.svg",
-          "digest": "sha256:38bf82a97b2a29cc374bf198126d137b8fdcf2db6be5b3b71cefdea80682afb0"
-        },
-        {
-          "name": "Threadflow-Setup-0.1.1.exe",
-          "size": 113908714,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadflow-v0.1.1/Threadflow-Setup-0.1.1.exe",
-          "digest": "sha256:aede530a439a38f36ed783c198ba679da998ec0da4ab201deb9c20d5e0e6e8e5"
-        },
-        {
-          "name": "toolbox-manifest.json",
-          "size": 343,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadflow-v0.1.1/toolbox-manifest.json",
-          "digest": "sha256:094db36b20bb51dcdf2cf132efcef5459151f97a41924237f51611485544ede8"
-        }
-      ]
-    },
-    {
-      "repository": "xheavy0/ThreadWatch",
-      "tag_name": "threadwatch-v0.1.2",
-      "body": "# VulnWatch 0.1.2\n\nVulnWatch is a local vulnerability dashboard. It reads the lockfiles in your project folders (npm, Cargo, Go, Python venvs), matches the exact versions against OSV and GitHub advisories, rates them with CVSS, EPSS and CISA KEV, and opens Claude Code or Codex in the project to fix them.\n\n## What's new in 0.1.2\n\n**Accept for now.** Some vulnerabilities have no fix yet and never reach your apps. You can now set them aside with a note:\n\n- Open a vulnerability and choose **Accept for now**. VulnWatch suggests a note from what it knows, for example \"Build tools only; no fixed version yet.\"\n- Accepted vulnerabilities leave Open, the project counts, the tray count and new-finding notices. They are listed with your note on the new **Accepted** page.\n- An accepted vulnerability **comes back by itself** when a fixed version is released that wasn't there when you accepted it, when its severity changes, or when its priority rises (it starts shipping in an app, or CISA lists it as exploited). It shows a \"Back\" badge in Open, and VulnWatch sends a notification.\n- From its panel you can accept it again or move it back to Open at any time.\n\nAccepted vulnerabilities are stored in your VulnWatch settings, on this computer only.\n\n## Windows downloads\n\n- **VulnWatch-0.1.2-windows-x64-setup.exe**: Windows x64 installer.\n- **VulnWatch-0.1.2-win32-x64.zip**: portable app (a single `vulnwatch.exe`). Install it through Thread Toolbox with `toolbox-manifest.json`, or extract and run it.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nNeeds the Microsoft Edge WebView2 runtime (included in Windows 10 and 11).\n\n## Validation\n\n18 Rust unit tests passed, 3 of them new for the accept rule, and the TypeScript type check passed. The accept, restore and come-back flows were checked in the browser UI against a real scan of 41 projects. The installer was installed and started on Windows 11.\n",
-      "published_at": "2026-10-23T13:51:01Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadwatch-v0.1.2",
-      "draft": false,
-      "prerelease": false,
-      "assets": [
-        {
-          "name": "SHA256SUMS.txt",
-          "size": 288,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.2/SHA256SUMS.txt",
-          "digest": "sha256:5e2639a28fe55328a861c17f9996c3610539a2eede8f06f82d253daa9459e687"
-        },
-        {
-          "name": "toolbox-manifest.json",
-          "size": 417,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.2/toolbox-manifest.json",
-          "digest": "sha256:0c0cb769274402f7a6f1080d287b8e6a184b1146dc7e7de305655d4312f34fa8"
-        },
-        {
-          "name": "VulnWatch-0.1.2-win32-x64.zip",
-          "size": 5398848,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.2/VulnWatch-0.1.2-win32-x64.zip",
-          "digest": "sha256:5e5fdf245eb586685c1f5b5a1ab576c7b59bb594a22b37719492e2a31afc6c9d"
-        },
-        {
-          "name": "VulnWatch-0.1.2-windows-x64-setup.exe",
-          "size": 3918460,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadwatch-v0.1.2/VulnWatch-0.1.2-windows-x64-setup.exe",
-          "digest": "sha256:481cb8b2535417941de97b90e99d8df716f76dfc3793cae7456dc3d1c11ab8da"
-        }
-      ]
-    },
-    {
-      "repository": "xheavy0/ThreadAgentFlow",
-      "tag_name": "threadagentflow-v0.1.0",
-      "body": "ThreadAgentFlow's first Windows desktop release, built with Tauri 2 and Rust.\n\n- Visual workflow editor with branches, loops, schedules, local webhooks, waits and execution history.\n- OpenAI and Anthropic through API keys or installed official Codex/Claude subscription clients.\n- AI agents with calculator, knowledge and HTTP tools; persistent conversation memory.\n- Direct agent chat, Chat Trigger workflows and live response streaming.\n- Durable local execution, encrypted credential vault and conversation storage.\n- Thread ecosystem branding across the app, executable and installer.\n\n**Windows x64:** download `ThreadAgentFlow_0.1.0_x64-setup.exe`. The installer includes\nthe Node runtime and can install WebView2. Official Codex/Claude clients and sign-in\nare needed only for subscription mode.\n\n**ThreadBox:** the `win32-x64.zip` and `toolbox-manifest.json` provide a complete\nportable package. Direct ZIP use requires WebView2 already installed. Keep the\n`runtime` folder beside `threadagentflow.exe`.\n\nData is kept in `%APPDATA%\\com.threadagentflow.desktop`, separate from installation\nfiles. Close the app before backing up that entire folder, including `vault.key`.\n\nThe installer is unsigned. Windows x64 is the supported platform. The app is a\nlocal workflow system and does not provide full n8n compatibility or its complete\nintegration catalog. Closing the app stops schedules until it is reopened.\n\nChecksums for all downloads are provided in `SHA256SUMS.txt`.\n",
-      "published_at": "2026-10-23T17:38:58Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadagentflow-v0.1.0",
-      "draft": false,
-      "prerelease": false,
-      "assets": [
-        {
-          "name": "SHA256SUMS.txt",
-          "size": 292,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadagentflow-v0.1.0/SHA256SUMS.txt",
-          "digest": "sha256:8d2b05e85303c85a004852e0676a58c133e0df7ade6a45c269d727a3e79fb912"
-        },
-        {
-          "name": "ThreadAgentFlow-0.1.0-win32-x64.zip",
-          "size": 39824004,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadagentflow-v0.1.0/ThreadAgentFlow-0.1.0-win32-x64.zip",
-          "digest": "sha256:9e4998ef73b69ec27068f4f77041f49514c07380e7bd613b06bedb82d158ef46"
-        },
-        {
-          "name": "ThreadAgentFlow_0.1.0_x64-setup.exe",
-          "size": 26272668,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadagentflow-v0.1.0/ThreadAgentFlow_0.1.0_x64-setup.exe",
-          "digest": "sha256:8b89060ab3b40951b074318ddab54077bec01cd3d937318204d7cac400b2c1ce"
-        },
-        {
-          "name": "toolbox-manifest.json",
-          "size": 377,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadagentflow-v0.1.0/toolbox-manifest.json",
-          "digest": "sha256:73851e231885d3b931dd7c4f7497efbc95acbce70206ad4bf9b268e131ae59a7"
-        }
-      ]
-    },
-    {
-      "repository": "xheavy0/ThreadFolio",
-      "tag_name": "threadfolio-v0.5.3",
-      "body": "# Thread Folio 0.5.3\n\nSee your document while you use a tool, compare the result before you keep it, and save the way you expect.\n\n## Download\n\n- **Thread Toolbox:** update Thread Folio from the Toolbox catalog.\n- **Installer:** `ThreadFolio-v0.5.3-setup.exe`\n- **Portable:** `ThreadFolio-v0.5.3.zip`, unzip and run `ThreadFolio.exe`.\n\nRequires Windows 10 or 11 (64-bit) with Microsoft Edge WebView2, which Windows 11 already includes.\n\n## What's new\n\n- **Document preview in every tool:** the PDF is shown beside the tool's settings (below them in a narrow window), with page arrows and zoom up to 400%.\n- **Before / after:** after compressing, rotating, adding a watermark and so on, switch between **Original** and **Result** at the same page, zoom and spot, with both file sizes and the change in %. Easy to judge how much quality compression costs. **Compare** shows the old and new versions the same way.\n- **Tools use the open document:** open a tool from Home, search or any menu and the PDF you have open is already loaded.\n- **Save and Save As:** **Save** (Ctrl+S) writes your changes into the open file; **Save as** (Ctrl+Shift+S) picks a new name or folder. Digitally signed PDFs always go through Save as, so the signed original stays intact.\n- **Closing with unsaved changes** now offers **Save** or **Don't save**.\n- **Right-click menu in Explorer:** select files → **Combine into PDF** or **Convert to PDF**. It is now on by default (Windows 11: under \"Show more options\"); turn it off in Preferences → Windows integration.\n- **Edit menu** grouped like the toolbar, with icons. **Add text** now sits with **Edit text** and **Redact**, near the top of the toolbar.\n\n## Fixed\n\n- The document no longer flickers endlessly when the window is about half the screen wide.\n\n## Notes\n\n- The app is not code-signed yet. Windows SmartScreen may warn on first launch: choose \"More info\" → \"Run anyway\".\n\nVerify downloads with `SHA256SUMS.txt`.\n",
-      "published_at": "2026-11-10T12:50:49Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadfolio-v0.5.3",
-      "draft": false,
-      "prerelease": false,
-      "assets": [
-        {
-          "name": "SHA256SUMS.txt",
-          "size": 184,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.3/SHA256SUMS.txt",
-          "digest": "sha256:fe30496ded75a4463fde411dc78f6a1a06302ad26eba7d9176252d7176993641"
-        },
-        {
-          "name": "ThreadFolio-v0.5.3-setup.exe",
-          "size": 15040034,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.3/ThreadFolio-v0.5.3-setup.exe",
-          "digest": "sha256:b3eb3ac5de0dcb04b13c70971f57b2a70ff2ad1bc283fb5e5378080ade7e55bf"
-        },
-        {
-          "name": "ThreadFolio-v0.5.3.zip",
-          "size": 16123016,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.3/ThreadFolio-v0.5.3.zip",
-          "digest": "sha256:0e56e0c1fa87226d725fbe3a079be69ffdfe6b347be6f1f8008aacc4e0bd37e7"
-        },
-        {
-          "name": "toolbox-manifest.json",
-          "size": 365,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.3/toolbox-manifest.json",
-          "digest": "sha256:d440194f4d108d108b320c94ce87934dac9a6fa84c3e7e0b004d0a90ef1977da"
         }
       ]
     }
