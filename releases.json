@@ -943,36 +943,36 @@
     },
     {
       "repository": "xheavy0/ThreadFolio",
-      "tag_name": "threadfolio-v0.5.5",
-      "body": "# Thread Folio 0.5.5\n\nRead a page before you combine it.\n\n## Download\n\n- **Thread Toolbox:** update Thread Folio from the Toolbox catalog.\n- **Installer:** `ThreadFolio-v0.5.5-setup.exe`\n- **Portable:** `ThreadFolio-v0.5.5.zip`, unzip and run `ThreadFolio.exe`.\n\nRequires Windows 10 or 11 (64-bit) with Microsoft Edge WebView2, which Windows 11 already includes.\n\n## What's new\n\n- **Page preview in Combine and Organize:** double-click a page, press **Space**, or use the **eye** button on it to open the page large and read it.\n- Move between pages with the arrows, **← / →** or the mouse wheel; the file name and \"3 of 8\" show where you are.\n- Zoom from 25% to 400% (also **Ctrl + wheel**); click the percentage to switch between fit and real size.\n- **Rotate** and **delete** right from the preview; **Ctrl+Z** undoes. **Esc** or a click beside the page closes it.\n\n## Notes\n\n- The app is not code-signed yet. Windows SmartScreen may warn on first launch: choose \"More info\" → \"Run anyway\".\n\nVerify downloads with `SHA256SUMS.txt`.\n",
-      "published_at": "2026-11-12T08:30:36Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadfolio-v0.5.5",
+      "tag_name": "threadfolio-v0.5.6",
+      "body": "# Thread Folio 0.5.6\n\nCombine Word and Markdown files into one PDF.\n\n## Download\n\n- **Thread Toolbox:** update Thread Folio from the Toolbox catalog.\n- **Installer:** `ThreadFolio-v0.5.6-setup.exe`\n- **Portable:** `ThreadFolio-v0.5.6.zip`, unzip and run `ThreadFolio.exe`.\n\nRequires Windows 10 or 11 (64-bit) with Microsoft Edge WebView2, which Windows 11 already includes.\n\n## What's new\n\n- **Markdown to PDF:** `.md` and `.markdown` files now have **Convert to PDF** and **Combine into PDF** in the Explorer right-click menu, and can be added in the Combine window and on the Create page.\n- Headings, bold and italic, lists, tables, quotes, code blocks and images (also relative paths such as `img/a.png`) come out as a clean, readable page, Georgian included. The conversion goes through Microsoft Word, like HTML files.\n\n## Fixed\n\n- Selecting a Word file together with a Markdown file hid **Combine into PDF** in Explorer. Existing menus are updated on the first start.\n\n## Notes\n\n- Markdown and Office files need Microsoft Word installed for the conversion.\n- The app is not code-signed yet. Windows SmartScreen may warn on first launch: choose \"More info\" → \"Run anyway\".\n\nVerify downloads with `SHA256SUMS.txt`.\n",
+      "published_at": "2026-11-12T09:41:52Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadfolio-v0.5.6",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 184,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.5/SHA256SUMS.txt",
-          "digest": "sha256:51c6d24db266365de60f669fac22f197c908a35785e16915a6b9b9d629eb4002"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.6/SHA256SUMS.txt",
+          "digest": "sha256:5cad3aad4feeada474a7e6b2e3360713b3c6175ebe5c0cc79342dd5d0f9fb7f0"
         },
         {
-          "name": "ThreadFolio-v0.5.5-setup.exe",
-          "size": 15037658,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.5/ThreadFolio-v0.5.5-setup.exe",
-          "digest": "sha256:273b7f505e5be8b2a530cd4bdb815b1f7f1a91cd5a30471e1774066b56a1b358"
+          "name": "ThreadFolio-v0.5.6-setup.exe",
+          "size": 15058155,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.6/ThreadFolio-v0.5.6-setup.exe",
+          "digest": "sha256:122d044567fa2613369037b742369e1e484703e910f60ea243ab6bf998212505"
         },
         {
-          "name": "ThreadFolio-v0.5.5.zip",
-          "size": 16105361,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.5/ThreadFolio-v0.5.5.zip",
-          "digest": "sha256:e88bcc25d7d9a5b47e6386ee7f7a1a6b6a3a73be27193d4e221fcd39fd0cbc65"
+          "name": "ThreadFolio-v0.5.6.zip",
+          "size": 16116785,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.6/ThreadFolio-v0.5.6.zip",
+          "digest": "sha256:cb358015c645c59e33ccec131b10be65f6555e599f900f7d3a4cfbf07672f7a5"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 365,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.5/toolbox-manifest.json",
-          "digest": "sha256:8f1cf3371551c2dd8995980eb2adc88dbc43d114fa11b2040e1ef1c5191f2154"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadfolio-v0.5.6/toolbox-manifest.json",
+          "digest": "sha256:e4ab988951c17fa074d315cbbc8584d18584281373b79d6ae02f35ba8841ea0e"
         }
       ]
     }
