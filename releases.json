@@ -327,6 +327,18 @@
           "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a21d8690abc114d3a59ae9086d368cdaf2a6249892806d3a993594265a700d0a.png",
           "sha256": "a21d8690abc114d3a59ae9086d368cdaf2a6249892806d3a993594265a700d0a"
         }
+      },
+      {
+        "repository": "xheavy0/ThreadDock",
+        "releaseRepository": "xheavy0/Thread-Releases",
+        "name": "ThreadDock",
+        "description": "A widget dock for Windows 11 (Tauri + React)",
+        "category": "desktop",
+        "appUserModelId": "com.threaddock.app",
+        "logo": {
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/1ca0614c5233788b6d98a5259e43633886d207a29832da799faa40b0b10da488.png",
+          "sha256": "1ca0614c5233788b6d98a5259e43633886d207a29832da799faa40b0b10da488"
+        }
       }
     ],
     "excludedRepositories": [
