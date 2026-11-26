@@ -337,6 +337,18 @@
         "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/1ca0614c5233788b6d98a5259e43633886d207a29832da799faa40b0b10da488.png",
         "sha256": "1ca0614c5233788b6d98a5259e43633886d207a29832da799faa40b0b10da488"
       }
+    },
+    {
+      "repository": "xheavy0/ThreadPlay",
+      "name": "ThreadPlay",
+      "appUserModelId": "com.threadplay.app",
+      "category": "desktop",
+      "description": "Skinnable local music player: tags, covers and synced lyrics, sound-reactive turntable, playlists and imports from YouTube, Spotify and Apple Music links.",
+      "releaseRepository": "xheavy0/Thread-Releases",
+      "logo": {
+        "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/561740ef3a9270dbdef9f842b41d7caa485a4e2d6913bf8f651ec6954af9b6b6.png",
+        "sha256": "561740ef3a9270dbdef9f842b41d7caa485a4e2d6913bf8f651ec6954af9b6b6"
+      }
     }
   ],
   "excludedRepositories": [
