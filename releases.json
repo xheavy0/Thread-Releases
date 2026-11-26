@@ -1110,36 +1110,36 @@
     },
     {
       "repository": "xheavy0/ThreadPlay",
-      "tag_name": "threadplay-v1.0.0",
-      "body": "# ThreadPlay 1.0.0\n\nThreadPlay is a skinnable local music player for Windows. It reads every tag, cover and lyric in your files, shows synced lyrics, and animates a sound-reactive turntable. It can also import playlists from YouTube, YouTube Music, Spotify and Apple Music links.\n\n## Highlights\n\n- **Your files, fully read.**\n  - Plays MP3, FLAC, OGG/Opus, M4A/AAC, WAV and WebM. WMA, ALAC and AIFF are converted through Windows Media Foundation.\n  - Shows all tags, embedded covers and lyrics. Untagged folders are treated as albums.\n- **Synced lyrics.**\n  - The lyrics clock accounts for audio-output latency, and each song can have its own offset.\n  - Missing lyrics are looked up on LRCLIB.\n- **Spotify-style library.** Home, album, artist and playlist pages and a sidebar library. You can give albums and playlists your own covers.\n- **Playlists.** Rename, merge, reorder, duplicate, and import or export M3U files.\n- **Import page.**\n  - Paste a YouTube, YouTube Music, Spotify or Apple Music link and choose the songs.\n  - Pick the drive or folder to save to on the same page. You can also add local files, folders and M3U playlists there.\n  - Songs are matched on YouTube, downloaded with yt-dlp (fetched on first use) and tagged.\n- **Visuals.** Vinyl turntable, spectrum and beat-driven glow. The Home hero shows the album cover with a full-width spectrum.\n- **Skins.** Midnight, A-Side and Golden Hour, written in plain CSS.\n- **Playback.**\n  - Crossfade, Sound Check, 10-band equalizer, sleep timer and radio.\n  - Widget mode, taskbar thumbnail buttons and media keys.\n- **Windows integration.**\n  - The installer registers ThreadPlay for Open with and Default apps, with an audio-file icon of its own and \"Play with ThreadPlay\" on folders.\n  - To make ThreadPlay the default player, choose it in Settings → Apps → Default apps. Windows asks you to confirm this once.\n\n## Light on your PC\n\nMeasured on the installed app (CPU as % of one core, private RAM), before and after this release's optimization pass:\n\n| Screen | CPU before | CPU after | RAM before | RAM after |\n| --- | --- | --- | --- | --- |\n| Idle | 3.3% | 0% | 545 MB | 421 MB |\n| Now Playing | 174% | 47% | 621 MB | 463 MB |\n| Home | 114% | 32% | 497 MB | 438 MB |\n| Widget | 53% | 4% | 430 MB | 382 MB |\n| Minimized | 93% | 2% | 492 MB | 336 MB |\n\nThe changes behind these numbers:\n- Visuals run at 30 Hz, and reactive styles are written only when their values change.\n- Animations use only transform and opacity, so the compositor handles them.\n- Covers are served as cached 360 px thumbnails.\n- The WebView stops rendering while the window is minimized.\n\n## Windows downloads\n\n- **ThreadPlay-1.0.0-windows-x64-setup.exe**: Windows x64 installer. Installs per user, with file associations.\n- **ThreadPlay-1.0.0-win32-x64.zip**: portable app (a single `threadplay.exe`). Install it through Thread Toolbox with `toolbox-manifest.json`, or extract it and run it. The portable app doesn't register file associations.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nThreadPlay needs the Microsoft Edge WebView2 runtime, which Windows 10 and 11 include.\n",
-      "published_at": "2026-11-26T08:50:03Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadplay-v1.0.0",
+      "tag_name": "threadplay-v1.0.1",
+      "body": "# ThreadPlay 1.0.1\n\nThreadPlay now works with music on network drives and shares (NAS, home server).\n\n## What's new in 1.0.1\n\n- **Play from network shares.** Files opened from `\\\\server\\share\\…` paths now play. Before, they were added to the library but could not be played.\n- **Network drives in the download picker.**\n  - Mapped network drives (for example `Z:` → `\\\\nas\\Music`) appear next to your local drives on the Import page and in Settings → Downloads, with their share name.\n  - A drive that is offline is shown as \"not connected\", and the picker no longer waits for it.\n  - If your download folder is on an offline drive, a warning says so.\n- **Offline drives keep their songs.**\n  - When ThreadPlay starts, it no longer removes songs from your library or Liked Songs because their NAS is off or their USB drive is unplugged.\n  - Songs are removed only when their drive is reachable and the file is really gone.\n- **No freezes on slow shares.** Folder scans, the drive list, cover import and playlist export run in the background, so an offline share can't freeze the window.\n\n## Windows downloads\n\n- **ThreadPlay-1.0.1-windows-x64-setup.exe**: Windows x64 installer. It installs per user with file associations and updates 1.0.0 in place.\n- **ThreadPlay-1.0.1-win32-x64.zip**: the portable app, a single `threadplay.exe`. Install it through Thread Toolbox with `toolbox-manifest.json`, or extract it and run it.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nThreadPlay needs the Microsoft Edge WebView2 runtime. Windows 10 and 11 include it.\n\n## Validation\n\n- Rust unit tests passed, covering the share-path decoding, volume roots and offline-drive rescan. The TypeScript type check also passed.\n- In the installed app:\n  - A `\\\\localhost\\…` share path streamed and was ready to play.\n  - Three offline mapped drives appeared as not connected within 1.5 s.\n  - A rescan kept the offline drive's songs and reported only the file that was really gone.\n",
+      "published_at": "2026-11-26T09:12:39Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadplay-v1.0.1",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 290,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.0/SHA256SUMS.txt",
-          "digest": "sha256:f29fdc96aa83741c2f370111ae8a49b3b3e67168fcdde5b0b4300e8b4e557de0"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.1/SHA256SUMS.txt",
+          "digest": "sha256:db2e43fccedf935e56f9ed2faaecfc85d1ca17803b7967f111993d34ed25ada6"
         },
         {
-          "name": "ThreadPlay-1.0.0-win32-x64.zip",
-          "size": 4233344,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.0/ThreadPlay-1.0.0-win32-x64.zip",
-          "digest": "sha256:50cf23afe9bc3983566382398f659aab4197f0b54a89d35f6ed13bd15dc79db5"
+          "name": "ThreadPlay-1.0.1-win32-x64.zip",
+          "size": 4267853,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.1/ThreadPlay-1.0.1-win32-x64.zip",
+          "digest": "sha256:9e120460c06446e24a71c1d43b109f52692b9f5f649bea473f53f8d2681c6b7b"
         },
         {
-          "name": "ThreadPlay-1.0.0-windows-x64-setup.exe",
-          "size": 3304902,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.0/ThreadPlay-1.0.0-windows-x64-setup.exe",
-          "digest": "sha256:3d50ff0285bf683cdfc95e1a6fb63310c8c7fc19d4359c70f77ddd560b3aaea5"
+          "name": "ThreadPlay-1.0.1-windows-x64-setup.exe",
+          "size": 3324256,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.1/ThreadPlay-1.0.1-windows-x64-setup.exe",
+          "digest": "sha256:60d213934f3ce14896b6cfbd9c3921c47abeb91856262143686b53da2c39ae1b"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 314,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.0/toolbox-manifest.json",
-          "digest": "sha256:a76ada031cd4e0d50f6cf0d0a40686d926daaac033adc1c21b603cbd1cc17fa6"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.1/toolbox-manifest.json",
+          "digest": "sha256:f409badf0bdfac3f178e865cc7480b3cee5a62fb9d5b4896a741e93f997bf289"
         }
       ]
     }
