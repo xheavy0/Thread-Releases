@@ -1110,36 +1110,36 @@
     },
     {
       "repository": "xheavy0/ThreadPlay",
-      "tag_name": "threadplay-v1.0.6",
-      "body": "# ThreadPlay 1.0.6\n\nThreadPlay 1.0.6 files imported songs into their artist's real album, keeps lyrics readable in small windows, and moves Browse into Settings.\n\n## What's new in 1.0.6\n\n### Imports join their artist's album\n\n- **The real album, found online.** A song from a Spotify playlist or a YouTube video is looked up on Deezer, with iTunes as a fallback. The lookup matches artist, title and length, prefers the album over the single, and skips compilations, instrumental and karaoke versions.\n- **Artist \\ Album folders.** With \"Sort downloads into artist folders\" on, the song is saved in its artist's folder, inside the album's folder. An album folder you already have is reused.\n- **Album tags.** The file gets the album, track number, disc, year and the album's cover. In your library it joins that artist's album, even when the rest of the album isn't downloaded.\n- **Playlists only keep the list.** An imported playlist no longer becomes a fake album named after the playlist.\n- **Songs with no album found** are saved in the artist's folder as their own single.\n- **Fix earlier downloads.** **Settings → Library → Fix albums** finds songs saved under a playlist's name, a service's name or their own title. It looks up their real album and writes it, with the track number, year and cover, into the files. The files stay where they are.\n\n### Browse is in Settings\n\n- **Settings → Browse**, next to Library: your folders as a tree, genres and years, with play and shuffle for a whole folder. It is no longer in the side menu.\n\n### Fits small windows\n\n- **Lyrics wrap instead of being cut.** In Now Playing, long lines go onto two or three lines, and the text scales with the card. In a very short card only the sung line stays. Full-screen lyrics scale with the page too.\n- **The record stays clear of the lyrics.** In short windows the record shrinks, and in very short ones it hides so the title stays.\n\n### Fixes\n\n- **Browse layout.** The Browse page borrowed the Search page's big tiles and came out with huge, scattered cards. It has its own compact folder cards now.\n\n## Windows downloads\n\n- **ThreadPlay-1.0.6-windows-x64-setup.exe**: Windows x64 installer. It installs per user with file associations and updates earlier versions in place, without asking.\n- **ThreadPlay-1.0.6-win32-x64.zip**: the portable app, a single `threadplay.exe`. Install it through Thread Toolbox with `toolbox-manifest.json`, or extract it and run it.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nThreadPlay needs the Microsoft Edge WebView2 runtime. Windows 10 and 11 include it.\n\n## Validation\n\n- The TypeScript check, the Rust build and the production build all passed.\n- **Album lookup on real songs:**\n  - Doomsday → Holy Hell (track 10, 2018)\n  - Carrion → Horizons\n  - Throne → That's The Spirit\n  - Numb → Meteora (an instrumental compilation was picked before the fix)\n  - Animals → For Those That Wish To Exist\n  - Dancing Like Flames → Pain Remains\n  - A live video with no album was saved as a single.\n- **Browser preview.**\n  - Lyrics fit at 780×500, 900×620 and 1500×920, and the record never covers them.\n  - Browse works in Settings, folders included.\n  - The Browse cards are compact.\n- **Not tried yet:** a real download with the album lookup, and Fix albums on the owner's library.\n",
-      "published_at": "2026-11-27T15:00:01Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadplay-v1.0.6",
+      "tag_name": "threadplay-v1.0.7",
+      "body": "# ThreadPlay 1.0.7\n\nThreadPlay 1.0.7 shows what you're playing on Discord, fills in a whole album from one online match, finds covers in a third catalogue, and adds an A–Z rail to the Artists page.\n\n## What's new in 1.0.7\n\n### Discord status\n\n- **\"Listening to ThreadPlay\".** While music plays, your Discord profile shows the song, the artist, the album cover and a time bar, like Spotify's card. It disappears when you pause.\n- **Nothing to set up in Discord.** Discord only has to be open on the same PC. Turn it off in **Settings → App → Discord**.\n\n### Fix a whole album at once\n\n- **Fix album info.** An album with no cover, no artist or no track numbers shows a **Fix album info** button.\n- **Pick the album, ThreadPlay matches the songs.** The search for that album is already done; choose the right release. ThreadPlay pairs its track list with your files by title and length, and shows which file becomes which song before saving.\n- **One save fills every song.** Each matched song gets its title and track number. Every song gets the album, artist, year and cover.\n- **Edit album info** in an album's menu works the same way.\n\n### Covers from more places\n\n- **MusicBrainz and the Cover Art Archive** join Deezer and iTunes in the cover finder and the album search. This is the largest open music database, and it has many rare and indie releases the stores don't list.\n- **Better album search results.** The album you meant comes first: \"Linkin Park Meteora\" finds Meteora, not a tribute. Tributes, covers and karaoke albums go to the bottom.\n\n### Artists and import\n\n- **A–Z on the right.** The Artists page has a letter rail down the right edge that stays in view while you scroll. A letter jumps to its artists, the letter you're in is lit, and letters with no artists are dimmed. The sort buttons and letter headings now line up with the cards.\n- **Spotify playlists over 100 songs, explained.** The Import page shows the steps: Spotify app (not the website), click a song on its date, Ctrl+A, Ctrl+C, paste here. Pasting page text instead of links shows these steps rather than a long error.\n\n## Windows downloads\n\n- **ThreadPlay-1.0.7-windows-x64-setup.exe**: Windows x64 installer. It installs per user with file associations and updates earlier versions in place, without asking.\n- **ThreadPlay-1.0.7-win32-x64.zip**: the portable app, a single `threadplay.exe`. Install it through Thread Toolbox with `toolbox-manifest.json`, or extract it and run it.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nThreadPlay needs the Microsoft Edge WebView2 runtime. Windows 10 and 11 include it.\n\n## Validation\n\n- The TypeScript check, the Rust build and the production build all passed.\n- **Discord.** Tested against a running Discord with ThreadPlay's application: the \"Listening to\" status appeared under the name ThreadPlay and cleared again.\n- **Album search.** Returned Holy Hell (11 songs, 2018) for \"Architects Holy Hell\" and Meteora first for \"Linkin Park Meteora\". MusicBrainz results came with covers only where the Cover Art Archive has one.\n- **A–Z jumps.** In the browser preview, jumping to P, D and # landed at the top of their sections.\n- **Not tried yet in the installed app:** saving a matched album into real files, and the Discord status from inside the app itself.\n",
+      "published_at": "2026-11-27T16:48:55Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadplay-v1.0.7",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 290,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.6/SHA256SUMS.txt",
-          "digest": "sha256:d4334e4fd210729efa4857a815d6b7b8fda2dcf23d3261bbac8d6c0f7752a6b1"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.7/SHA256SUMS.txt",
+          "digest": "sha256:d4d5d92f36c5800bb16c7bf68ffb9c5dd929466bb460bedb759f0e173eefc387"
         },
         {
-          "name": "ThreadPlay-1.0.6-win32-x64.zip",
-          "size": 4867334,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.6/ThreadPlay-1.0.6-win32-x64.zip",
-          "digest": "sha256:c6d5a75fd3a572cd5f4d5768be35e8bc85cfa33b11a456a48b429d0645d19961"
+          "name": "ThreadPlay-1.0.7-win32-x64.zip",
+          "size": 4924793,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.7/ThreadPlay-1.0.7-win32-x64.zip",
+          "digest": "sha256:acaa34f17748e7b836893f81d2fa743d3b9b113eb0c96d6570d88e18c2c8a628"
         },
         {
-          "name": "ThreadPlay-1.0.6-windows-x64-setup.exe",
-          "size": 3744346,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.6/ThreadPlay-1.0.6-windows-x64-setup.exe",
-          "digest": "sha256:1baecec1d6a9fcf422f4669742d2793ecf992681a4758ac05153e8f2082ea616"
+          "name": "ThreadPlay-1.0.7-windows-x64-setup.exe",
+          "size": 3778303,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.7/ThreadPlay-1.0.7-windows-x64-setup.exe",
+          "digest": "sha256:89e17106078266d5f086ca4c46d328ec5be379835417aec0035a4723230c5898"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 314,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.6/toolbox-manifest.json",
-          "digest": "sha256:9a275493904379ad8dc134825815754a9b3f30cf9a46b920f7c33235b81e3544"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.7/toolbox-manifest.json",
+          "digest": "sha256:7d455348999f0e36b37ea0f722d1a0d84dd9c4fb3f23a912ee76cb10c45ebf9e"
         }
       ]
     }
