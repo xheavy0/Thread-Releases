@@ -1,6 +1,11 @@
 {
   "schemaVersion": 1,
   "catalog": {
+    "excludedRepositories": [
+      "xheavy0/ThreadOS",
+      "xheavy0/Threadforge-Rust",
+      "xheavy0/ThreadSpace"
+    ],
     "schemaVersion": 1,
     "apps": [
       {
@@ -9,8 +14,8 @@
         "appUserModelId": "com.threadforge.app",
         "shortcutIcon": "resources/icon.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974.png",
-          "sha256": "caf10a3cd4e23024b4b459282b5a6268a3a5eeda8b28e3e5ee460c0afcedc974"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf.png",
+          "sha256": "cf7951ff538cd9c6e81c6a216dee8f03707256d642b74ccdea1a75ecd4eb89bf"
         },
         "name": "Threadforge",
         "description": "Code editor and workspace for AI agents.",
@@ -21,8 +26,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "dev.threadmap.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891.png",
-          "sha256": "9d0b4d285573075e219a76b36ea8854bb798ef47a06b3f251292be53197e9891"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0.png",
+          "sha256": "45ded06554d041231b6d4b5e0be00dd72cb05f2c9043ab4d32c65eabd2d42ab0"
         },
         "name": "ThreadMap",
         "description": "Local architecture maps, dependency graphs, and change tracking for your codebases.",
@@ -33,8 +38,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadnote.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec.png",
-          "sha256": "e6b13ab0b9e6208155c554f3621fe8e2dd52f084ae869f1802dd0d0e5fbadcec"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4.png",
+          "sha256": "242bd75b97cc94d7d73d2f0437913ea16ed2d4b2a3d2134acdded7c2290e50a4"
         },
         "name": "Threadnote",
         "description": "Your notes, ideas, and personal knowledge space.",
@@ -44,8 +49,8 @@
         "repository": "xheavy0/Threadshot",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16.png",
-          "sha256": "688a3e91addcf392c9f11ae9b0bc36e30bffc5c84f11c5ba815b87a7771f0a16"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775.png",
+          "sha256": "ed9dfec6f24d167c3a3dcb534c1b2c1e5dafbce0d22d3de375992077129ef775"
         },
         "name": "Threadshot",
         "description": "Capture your screen and annotate images.",
@@ -56,8 +61,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadstorage.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282.png",
-          "sha256": "ce0d8471ba8be6a031daa6aaa16ee14bf2406a8030acb2707d4c77f12c33e282"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789.png",
+          "sha256": "baa75029abd1b839c91147eaea14a83eea697480971da1f65dea6d7d06aa7789"
         },
         "name": "ThreadStorage",
         "description": "Your files and cloud storage in one place.",
@@ -68,8 +73,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadforge.threadvoice",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee.png",
-          "sha256": "847ae7865851130c2646ec26bbcd99c035203e595abd572c08df670ea9c694ee"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a.png",
+          "sha256": "5700900739daa8ed0f32c75e79d404aa7c859b90882e47617c8116955f1de86a"
         },
         "name": "ThreadVoice",
         "description": "Voice-to-text dictation across Windows apps.",
@@ -93,8 +98,8 @@
         "appUserModelId": "com.threadcalendar.app",
         "shortcutIcon": "resources/icon.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a.png",
-          "sha256": "4689b4845f6c9efbebea69adbd9ee8ebf537d5d4d0a1725b504191739feb583a"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/e16168af44a7af7b4328103c1c0e0cc9a7b3cf780bb5f83aa42275ae5fe7e654.png",
+          "sha256": "e16168af44a7af7b4328103c1c0e0cc9a7b3cf780bb5f83aa42275ae5fe7e654"
         },
         "name": "Threadline",
         "description": "Calendar, precise project timelines, and reminders connected to ThreadNote.",
@@ -105,8 +110,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadaura.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9.png",
-          "sha256": "25125168c418339e61efb5f570e55d8df6931dd2e8075a57d7b9581d611003b9"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179.png",
+          "sha256": "aa682e27d330223f8712daa8f2444e40f82b558d0a963a47acbcccad3ff32179"
         },
         "name": "ThreadAura",
         "description": "Wallpapers, animations, and a scene editor.",
@@ -130,8 +135,8 @@
         "appUserModelId": "com.threaduninstal.desktop",
         "shortcutIcon": "assets/app.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234.png",
-          "sha256": "bc07608b9ad98459d4183f1b0a3553cc9b509f7637bc3154e02b1d467b5ee234"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545.png",
+          "sha256": "60f11c41f3bec4064b6296c612942e2c076c7902e91ce211494dcb1a1dfe6545"
         },
         "name": "Threaduninstal",
         "description": "Uninstall Windows apps, review leftovers, and restore cleanup backups.",
@@ -141,8 +146,8 @@
         "repository": "xheavy0/ThreadMail",
         "releaseRepository": "xheavy0/Thread-Releases",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3.png",
-          "sha256": "5778946215069f0f955e3c8d694e71799b1a52d97d12226468dce17f161d36b3"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34.png",
+          "sha256": "84ba83871ac4426303c8f04a0c7d3f32361a3ca2a07937467e92e92f1848df34"
         },
         "name": "ThreadMail",
         "description": "A unified inbox for managing your email.",
@@ -153,8 +158,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadplan.desktop",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693.png",
-          "sha256": "a314fcfe47c7696023a09b3d36de762baaa12fc611e6e6ef6ecb6a1c760ce693"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b.png",
+          "sha256": "f2eeeb4b3390719dd9c007f802ed85cb6353530a5acfc85ab4ee27a3e89a703b"
         },
         "name": "Threadplan",
         "description": "Tasks, habits, and plans for Windows and Android.",
@@ -213,8 +218,8 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadboard.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38.png",
-          "sha256": "6c348885ad8a440d48ed06c9993f39092ec13de729ae97620f027efc19d33c38"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62.png",
+          "sha256": "51460dfefc2d714e7bc5ce5df4016c9ac7f2bb131955a3d627ff968a084b0a62"
         },
         "name": "ThreadBoard",
         "description": "A desktop GitHub client for repositories, pull requests, issues and Actions, with multiple accounts.",
@@ -274,8 +279,8 @@
         "appUserModelId": "com.threadagentflow.desktop",
         "shortcutIcon": "icon.ico",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/ff5ba24584372eee827a5f249a56d39ec33d003fb04488dd780d87a83f5a1987.png",
-          "sha256": "ff5ba24584372eee827a5f249a56d39ec33d003fb04488dd780d87a83f5a1987"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/2abf3729e5d86b966f4cc69ec7d1232d0e4a59b1aebb43401b4563d9d8d6076c.png",
+          "sha256": "2abf3729e5d86b966f4cc69ec7d1232d0e4a59b1aebb43401b4563d9d8d6076c"
         },
         "name": "ThreadAgentFlow",
         "description": "Build visual workflows and chat with AI agents, tools and persistent memory.",
@@ -345,18 +350,13 @@
         "releaseRepository": "xheavy0/Thread-Releases",
         "appUserModelId": "com.threadplay.app",
         "logo": {
-          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/561740ef3a9270dbdef9f842b41d7caa485a4e2d6913bf8f651ec6954af9b6b6.png",
-          "sha256": "561740ef3a9270dbdef9f842b41d7caa485a4e2d6913bf8f651ec6954af9b6b6"
+          "url": "https://raw.githubusercontent.com/xheavy0/Thread-Releases/main/logos/8b68eb17934f9e0caeb08ed509980f605973c535b39b132b1dd41828f35613fd.png",
+          "sha256": "8b68eb17934f9e0caeb08ed509980f605973c535b39b132b1dd41828f35613fd"
         },
         "name": "ThreadPlay",
         "description": "Skinnable local music player: tags, covers and synced lyrics, sound-reactive turntable, playlists and imports from YouTube, Spotify and Apple Music links.",
         "category": "desktop"
       }
-    ],
-    "excludedRepositories": [
-      "xheavy0/ThreadOS",
-      "xheavy0/Threadforge-Rust",
-      "xheavy0/ThreadSpace"
     ]
   },
   "releases": [
@@ -1110,36 +1110,36 @@
     },
     {
       "repository": "xheavy0/ThreadPlay",
-      "tag_name": "threadplay-v1.0.4",
-      "body": "# ThreadPlay 1.0.4\n\nThreadPlay 1.0.4 finds songs you moved to another drive or folder, sorts downloads into artist folders, and fetches artist photos by itself. It also lets you remove albums, plays the next song by default and asks what the X should do.\n\n## What's new in 1.0.4\n\n### Moved songs\n\n- **Rescan finds moved songs.** Songs moved to another drive or another folder in your library are found again. Their playlists, likes, play counts and lyrics timing go with them.\n- **Missing songs.** A song whose folder is gone stays in the library, dimmed. **Settings → Library** has **Find them** and **Remove them**. Songs on a drive that isn't connected are left alone.\n\n### Library\n\n- **Remove albums.** An album's menu can remove it from Your Library, with Undo. Removed songs stay out when the folder is scanned again. The files themselves aren't deleted.\n- **Artist photos.** Artists get their photo from Deezer when the name matches exactly. Turn it off in **Settings → Library → Find artist photos**. A photo you picked yourself always wins.\n\n### Downloads\n\n- **Right artist from the video title.** A video called \"Artist - Song (Live)\" now goes to that artist, even when a fan channel uploaded it, instead of creating a new artist. Words like Live and Acoustic stay in the title; Official Video and HD are dropped.\n- **Artist folders.** Downloads are saved in the artist's folder, next to that artist's other music, instead of a folder per import. A folder name with a small typo still counts as the artist's folder. Turn it off in **Settings → Downloads**, or per import with **Save in artist folders**.\n\n### Playback and window\n\n- **Next song by default.** Repeat now starts off, so the next song plays and Autoplay carries on after the queue. A saved \"Repeat all\" is turned off once; repeat chosen again later stays.\n- **What the X does.** The X asks **Minimize to tray** or **Quit**. Tick **Don't ask again** to remember your answer. Change it anytime in **Settings → App → When you click X**. The tray icon shows whenever the X can hide ThreadPlay there.\n\n## Windows downloads\n\n- **ThreadPlay-1.0.4-windows-x64-setup.exe**: Windows x64 installer. It installs per user with file associations and updates earlier versions in place.\n- **ThreadPlay-1.0.4-win32-x64.zip**: the portable app, a single `threadplay.exe`. Install it through Thread Toolbox with `toolbox-manifest.json`, or extract it and run it.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nThreadPlay needs the Microsoft Edge WebView2 runtime. Windows 10 and 11 include it.\n\n## Validation\n\n- The TypeScript check, the Rust unit tests and the production build all passed.\n- **Moved songs.** In the installed app, 8 downloads moved into artist folders were all found again at startup, with nothing left missing.\n- **Video titles.** Unit tests cover titles with known and unknown artists, channel names and Live versions.\n- **Artist photos.** A test run fetched Deezer photos for real artists, a song credited to two artists included.\n- **Browser preview.**\n  - The X dialog: Minimize with Don't ask again saved Minimize to tray; without the tick it asked again; Esc cancelled.\n  - The one-time repeat change: \"Repeat all\" turned off, a chosen \"Repeat one\" stayed, and an earlier Close to tray became Minimize to tray.\n- **Not yet tried:** hiding to the tray from the new X dialog in the installed app.\n",
-      "published_at": "2026-11-27T11:33:51Z",
-      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadplay-v1.0.4",
+      "tag_name": "threadplay-v1.0.5",
+      "body": "# ThreadPlay 1.0.5\n\nThreadPlay 1.0.5 brings Poweramp's best features: gapless playback, ReplayGain, tone and effects, star ratings and browsing by folder, genre and year. It also adds one-click lyrics sync, a song info editor, Spotify playlists past 100 songs, better artist grouping, more visualizer control and a layout that fits narrow and portrait monitors.\n\n## What's new in 1.0.5\n\n### Playback and sound\n\n- **Gapless playback.** With crossfade off, the next song is loaded ahead and starts the moment the current one ends. Live albums and DJ mixes play without a break.\n- **ReplayGain.** Uses the loudness some files carry in their tags. Choose Off, Song or Album, with a pre-amp, in **Settings → Playback**.\n- **Fade on pause.** A short fade when you pause and resume.\n- **Long songs remember their place.** Songs over 10 minutes start where you left them.\n- **Playback speed.** 0.5× to 2×, with the pitch kept. Set it in Settings or with Shift + < and Shift + >. A badge in the player bar resets it.\n- **Tone & effects** on the Equalizer page: Bass, Treble, Balance, Stereo width and Reverb (Room or Hall).\n- **Your own EQ presets.** Save and delete them, and give an output device its own preset. The preset switches by itself when that output plays, for example when you plug in headphones.\n\n### Lyrics\n\n- **Sync in one click.** If a song's lyrics run early or late (a YouTube version that differs from the album), press **Sync** and click a line the moment it starts. The timing is kept for that song, with Undo. − / + nudge it by 0.5 s, or 0.1 s with Shift.\n\n### Library\n\n- **Browse** in the menu: your folders as a tree (play or shuffle a whole folder), plus **Genres** and **Years**. Genre and year are read from your files.\n- **Star ratings (1–5)** in Now Playing, the right panel and the song menu.\n- **New mixes on Home:** On repeat, Top rated, Recently added, Most played, Forgotten favorites and Long tracks. Each has its own page and \"Save as a playlist\".\n- **Artists.**\n  - \"A feat. B\" and \"A, B\" belong to A when A has songs of their own; band names such as \"Simon & Garfunkel\" stay whole.\n  - Case and accents no longer split an artist, and an album with a guest stays one artist's album.\n  - Artist pages show **Appears on**.\n  - The Artists page sorts A–Z (with letter headings), by plays, by song count or by newest.\n- **Edit song info** (song and album menus): title, artist, album, year, genre, numbers and lyrics are saved into the files themselves. **Find online** fills the form from iTunes and can save the cover too.\n- **Duplicate finder** in **Settings → Library**. It keeps one copy of each song and moves the other copies' plays, likes and playlist places to it. The files stay on disk.\n- **Hide from Autoplay and mixes** in the song menu.\n- **Recent searches** on the Search page.\n\n### Import\n\n- **Spotify playlists over 100 songs.** A playlist link only gives the first 100. In the Spotify app, select all the songs (Ctrl+A), copy them (Ctrl+C) and paste them into Import. ThreadPlay reads every song, picks the playlist that already has the first part, and downloads only the missing ones.\n- **\"Add to\" list.** It now offers **New playlist** (the name field is ready), **No playlist** (library only, under the artist) and your playlists. A single song no longer piles into a playlist called \"Spotify\" or \"YouTube\".\n\n### Look\n\n- **Visualizer.** Two new styles, **Dots** and **Line**. A **Shape** section works on top of every style: bar count, height, gaps, corners, motion, falling peaks and reflection.\n- **Banner photos.** On playlist, album and artist pages, **Adjust photo** lets you resize the picture and drag it into place.\n- **Narrow and portrait monitors.** Like Spotify, the right panel keeps its own column and Your Library folds into icons, instead of the panel covering the page.\n- **Scrollbars.** Thinner and fainter.\n- An optional **waveform seek bar** is in Settings → Playback; the plain bar stays the default.\n\n### Fixes\n\n- **Widget.** Minimize could open the widget off-screen (at the spot Windows uses for minimized windows). It now always opens on a screen.\n- **Installer.** Updating no longer asks \"Uninstall before installing?\". It installs over the old version and keeps your library and settings.\n\n## Windows downloads\n\n- **ThreadPlay-1.0.5-windows-x64-setup.exe**: Windows x64 installer. It installs per user with file associations and updates earlier versions in place.\n- **ThreadPlay-1.0.5-win32-x64.zip**: the portable app, a single `threadplay.exe`. Install it through Thread Toolbox with `toolbox-manifest.json`, or extract it and run it.\n- **SHA256SUMS.txt**: checksums for the downloads.\n\nThreadPlay needs the Microsoft Edge WebView2 runtime. Windows 10 and 11 include it.\n\n## Validation\n\n- The TypeScript check, the Rust unit tests and the production build all passed.\n- **Installed app.**\n  - The widget opened on screen and kept its place.\n  - The \"Add to\" list read a Spotify song and opened upward in a small window.\n  - The new installer went straight to the install location, with no \"Already Installed\" page.\n- **Browser preview.**\n  - Gapless moved into the next song without an error.\n  - Also tried and working: tap sync with Undo, speed, effects and saving a preset, ratings, Browse, the narrow layout, the visualizer shapes, the song info form, recent searches and hiding.\n- **Not tried yet in the installed app:** saving tags into a file, pasting a long Spotify list, merging duplicates, and how gapless, ReplayGain and the effects sound.\n",
+      "published_at": "2026-11-27T14:02:16Z",
+      "html_url": "https://github.com/xheavy0/Thread-Releases/releases/tag/threadplay-v1.0.5",
       "draft": false,
       "prerelease": false,
       "assets": [
         {
           "name": "SHA256SUMS.txt",
           "size": 290,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.4/SHA256SUMS.txt",
-          "digest": "sha256:bd91471d645a305523f64f8e94f15cc357b9e52a8108c8f515e72d46db711eeb"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.5/SHA256SUMS.txt",
+          "digest": "sha256:c91e332b291a5221f6f5cefef64a6243ba2bab2a2524f9604a17643e53ab104a"
         },
         {
-          "name": "ThreadPlay-1.0.4-win32-x64.zip",
-          "size": 4783928,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.4/ThreadPlay-1.0.4-win32-x64.zip",
-          "digest": "sha256:610c4643cddbd0812244a53fc7995d7777788c66eca2343c59ea668e7eded0fd"
+          "name": "ThreadPlay-1.0.5-win32-x64.zip",
+          "size": 4851987,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.5/ThreadPlay-1.0.5-win32-x64.zip",
+          "digest": "sha256:0e59d048796ef1f13bbfa71367e42cc6945accc90f30701a0affb122599c2a1d"
         },
         {
-          "name": "ThreadPlay-1.0.4-windows-x64-setup.exe",
-          "size": 3681918,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.4/ThreadPlay-1.0.4-windows-x64-setup.exe",
-          "digest": "sha256:622b0f1130b5aa412d9990d2cd1d34418729c69feedb4d0bfb94e03b3981e807"
+          "name": "ThreadPlay-1.0.5-windows-x64-setup.exe",
+          "size": 3732456,
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.5/ThreadPlay-1.0.5-windows-x64-setup.exe",
+          "digest": "sha256:5272e8e12152f6e63c3547bd9d584d9e7856bad7853afd30ef6dcd49d1a9c671"
         },
         {
           "name": "toolbox-manifest.json",
           "size": 314,
-          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.4/toolbox-manifest.json",
-          "digest": "sha256:6f1e4408c6dca829f2fd1fe6f12c7a2f6349c70abf7466ef6573a3f00b76005d"
+          "browser_download_url": "https://github.com/xheavy0/Thread-Releases/releases/download/threadplay-v1.0.5/toolbox-manifest.json",
+          "digest": "sha256:795c4cdc9f38b3c6eaa9382997e77c2601472733ce7e1603fbffe56afb598b2e"
         }
       ]
     }
